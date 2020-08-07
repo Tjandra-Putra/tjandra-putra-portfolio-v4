@@ -41,9 +41,16 @@ html {
     color: #ef4d4d;
 }
 
+.text-dark-blue {
+    color: rgb(0, 28, 85);
+}
+
+.bg-light-blue {
+    background-color: #EDF9FE !important;
+}
+
 .bg-light-red {
     background-color: #ef4d4d;
-    ;
 }
 
 .text-turqoise {
@@ -95,6 +102,7 @@ html {
     letter-spacing: -2px;
     font-weight: 600;
     line-height: 3.3rem;
+    color: rgb(0, 28, 85);
 }
 
 .project-card {
@@ -230,9 +238,20 @@ html {
 }
 
 .profile {
-    background-color: #f6f6f7;
+    /* background-color: #f6f6f7; */
     border-radius: 15px;
 }
+
+.profile h5 {
+    font-weight: 600;
+}
+
+
+
+
+
+
+
 
 /** Galaxy s5 **/
 @media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
@@ -250,9 +269,9 @@ html {
         padding-top: 6rem;
     }
 
-    .navbar-nav {
+    /* .navbar-nav {
         text-align: center;
-    }
+    } */
 
     .sub-title {
         font-size: 1.6rem;
@@ -276,9 +295,14 @@ html {
         padding-top: 6rem;
     }
 
+    #brand-tag {
+        padding-left: 1rem;
+    }
+
+    /* 
     .navbar-nav {
         text-align: center;
-    }
+    } */
 
     .sub-title {
         font-size: 2rem;
