@@ -45,7 +45,7 @@ html {
     color: rgb(0, 28, 85);
 }
 
-.bg-light-blue {
+.bg-extra-light-blue {
     background-color: #EDF9FE !important;
 }
 
@@ -239,7 +239,7 @@ html {
 
 .profile {
     /* background-color: #f6f6f7; */
-    border-radius: 15px;
+    border-radius: 25px;
 }
 
 .profile h5 {
