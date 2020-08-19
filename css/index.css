@@ -176,17 +176,32 @@ html {
 
 /* Global End */
 
+.wrapper-brand {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.15) !important;
+    border-radius: 15px;
+    background-color: rgb(35, 39, 42);
+
+}
+
 #brand-tag {
-    padding-right: 6px;
-    padding-left: 6px;
+    padding-right: 9px;
+    padding-left: 9px;
     /* background-color: #262626; */
-    background-color: #f6f6f7;
+    /* background-color: #f6f6f7; */
     /* color: #ccc; */
     line-height: 26px;
     border-radius: 4px;
     font-size: 9px;
     text-transform: uppercase;
     letter-spacing: 2px;
+    font-weight: 800;
+
+    background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, rgb(0, 255, 0) 14.28%,
+            rgb(0, 255, 255) 21.4%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
+    background-size: 600vw 600vw;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: slide 10s linear infinite forwards;
 }
 
 .navbar-brand {
@@ -211,16 +226,13 @@ html {
     letter-spacing: -1px;
 }
 
-#intro-first {
-    background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, rgb(0, 255, 0) 14.28%,
+.navbar-brand {
+    /* background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, rgb(0, 255, 0) 14.28%,
             rgb(0, 255, 255) 21.4%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
     background-size: 600vw 600vw;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    animation: slide 10s linear infinite forwards;
-
-
-    /* animation: color-change 20s infinite; */
+    animation: slide 10s linear infinite forwards; */
 }
 
 @keyframes slide {
@@ -289,7 +301,7 @@ html {
 }
 
 .self-introduction {
-    padding-top: 4.2rem;
+    padding-top: 3.2rem;
 }
 
 .intro-body {
