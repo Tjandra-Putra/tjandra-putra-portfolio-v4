@@ -124,6 +124,51 @@ html {
     font-weight: 400;
 }
 
+.badge-peach {
+    background-color: #ff9f91;
+    line-height: 22px;
+    padding: 5px 10px !important;
+    border-radius: 4px !important;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.badge-apocad {
+    background-color: #a1e5c9;
+    line-height: 22px;
+    padding: 5px 10px !important;
+    border-radius: 4px !important;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.badge-berry {
+    background-color: #8fb5f0;
+    line-height: 22px;
+    padding: 5px 10px !important;
+    border-radius: 4px !important;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.badge-grape {
+    background-color: #a39cf6;
+    line-height: 22px;
+    padding: 5px 10px !important;
+    border-radius: 4px !important;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.badge-banana {
+    background-color: #f9ce96;
+    line-height: 22px;
+    padding: 5px 10px !important;
+    border-radius: 4px !important;
+    color: #ffffff;
+    font-weight: 400;
+}
+
 .badge-dark {
     background-color: #2f3136;
     line-height: 22px;
