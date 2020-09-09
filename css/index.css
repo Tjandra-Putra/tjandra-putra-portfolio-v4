@@ -257,7 +257,8 @@ html {
 }
 
 .navbar-brand {
-    font-weight: 600;
+    font-weight: 400;
+
 }
 
 .navbar {
@@ -268,7 +269,6 @@ html {
     /* background-color: #262626; */
     border-radius: 50px;
     color: white;
-    font-weight: 600;
 }
 
 #intro-left {
@@ -354,7 +354,7 @@ html {
 }
 
 .self-introduction {
-    padding-top: 3.2rem;
+    padding-top: 6rem;
 }
 
 .intro-body {
@@ -366,6 +366,10 @@ html {
 
 .nav-link {
     font-weight: 400;
+    color: black !important;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+
 }
 
 .profile {
@@ -410,9 +414,9 @@ html {
         padding-top: 6rem;
     }
 
-    /* .navbar-nav {
+    .navbar-nav {
         text-align: center;
-    } */
+    }
 
     .sub-title {
         font-size: 1.6rem;
@@ -440,10 +444,10 @@ html {
         padding-left: 1rem;
     }
 
-    /* 
+
     .navbar-nav {
         text-align: center;
-    } */
+    }
 
     .sub-title {
         font-size: 2rem;
