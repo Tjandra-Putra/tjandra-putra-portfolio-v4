@@ -1,35 +1,44 @@
 # Quick Links
 
 
-1. https://www.gradientmagic.com/collection/lightbg - Background patterns
+#### Background patterns
+1. https://www.gradientmagic.com/collection/lightbg
 
-2. https://daneden.github.io/animate.css/ - CSS animate
+#### Animate CSS
+2. https://daneden.github.io/animate.css/ 
 
-3. https://fontawesome.com/ - Icons
+#### Icon
+3. https://fontawesome.com/
 
-4. https://www.flaticon.com/home - Icons colorful image
+#### Icon image
+4. https://www.flaticon.com/home 
 
+#### Google Fonts
 5. https://fonts.google.com/ - Fonts
 
-6. https://formspree.io/ - Forms
+#### Forms Plugin
+6. https://formspree.io/
 
-7. https://michalsnik.github.io/aos/ - AOS
+#### Animate On Scroll
+7. https://michalsnik.github.io/aos/
 
-8. https://undraw.co/illustrations - Undraw
+#### Undraw free illustrations
+8. https://undraw.co/illustrations
 
-9. https://sweetalert2.github.io/#download - Alert
+#### Sweet Alert
+9. https://sweetalert2.github.io/#download
 
-10. https://getwaves.io/ - Waves
+#### Waves
+10. https://getwaves.io/ 
 
-11. https://github.com/mattboldt/typed.js/ Type.js
+#### Type animation
+11. https://github.com/mattboldt/typed.js/ 
 
-12. https://webgradients.com/ Background gradient
+#### Background gradient
+12. https://webgradients.com/
+
+#### Background ground pattern overlay for images and more
+13. https://bansal.io/pattern-css#installation 
 
 
-###### === Top Font styles from Google Font ===
-a) font-family: 'Manrope', sans-serif;
-b) font-family: 'Roboto', sans-serif; 
-c) font-family: 'Open Sans', sans-serif;
-
-###### 
-https://guides.github.com/features/mastering-markdown/
+Markdown cheatsheet = https://guides.github.com/features/mastering-markdown/
