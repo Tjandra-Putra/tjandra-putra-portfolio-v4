@@ -4,10 +4,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Grandstander&family=Heebo:wght@100;200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Grandstander&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
 
 /* Global */
 html {
     scroll-behavior: smooth;
+}
+
+.font-poppin {
+    font-family: 'Poppins', sans-serif;
 }
 
 .font-roboto {
@@ -46,8 +52,12 @@ html {
 
 * {
     /* font-family: 'Heebo', sans-serif; */
-    font-family: 'Inter', sans-serif;
+    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
 
+.text-peach-red {
+    color: rgb(255, 44, 90) !important;
 }
 
 .text-blood-red {
@@ -64,6 +74,10 @@ html {
 
 .text-dark-blue {
     color: rgb(0, 28, 85);
+}
+
+.text-grey-black {
+    color: #000 !important;
 }
 
 .bg-extra-light-blue {
@@ -84,6 +98,19 @@ html {
 
 .bg-dust {
     background-color: #fafbfc;
+}
+
+.btn-peach-red {
+    border: 3px solid rgb(255, 44, 90) !important;
+    border-radius: 80px;
+    padding: 8px 40px !important;
+}
+
+.btn-peach-red:hover {
+    box-shadow: 0px 10px 30px rgba(255, 44, 90, 0.8);
+    cursor: pointer;
+    color: #fff !important;
+    background: rgb(255, 44, 90);
 }
 
 .btn-light-blue {
@@ -129,10 +156,15 @@ html {
 .sub-title {
     font-size: 3rem;
     letter-spacing: -2px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 3.3rem;
-    color: rgb(0, 28, 85);
+    /* color: rgb(0, 28, 85); */
+    color: #000;
 }
+
+/* hr {
+    border-bottom: 3px solid rgba(255, 44, 90, 0.5) !important
+} */
 
 .project-card {
     border-radius: 25px;
@@ -198,6 +230,7 @@ html {
     font-weight: 400;
     border-color: rgba(16, 116, 231, .5) !important;
     font-weight: 600;
+    margin-top: -6px !important;
 }
 
 .badge-banana {
@@ -260,7 +293,8 @@ html {
 }
 
 .underline {
-    box-shadow: 0 1px 0 0 rgba(16, 116, 231, 0.5) !important;
+    /* box-shadow: 0 1px 0 0 rgba(16, 116, 231, 0.5) !important; */
+    box-shadow: 0 1px 0 0 rgb(255, 44, 90) !important;
 }
 
 .underline:hover {
@@ -270,7 +304,9 @@ html {
 /* Global End */
 
 #viewMore {
-    box-shadow: 0 1px 0 0 rgba(16, 116, 231, 0.5);
+    /* box-shadow: 0 1px 0 0 rgba(16, 116, 231, 0.5); */
+    box-shadow: 0 1px 0 0 rgb(255, 44, 90) !important;
+
 }
 
 #viewMore:hover {
@@ -305,7 +341,8 @@ html {
 }
 
 .navbar-brand {
-    font-weight: 400;
+    font-weight: 600;
+    font-size: 24px;
 
 }
 
@@ -316,7 +353,7 @@ html {
 #email {
     /* background-color: #262626; */
     border-radius: 50px;
-    color: white;
+    color: #000;
 }
 
 #intro-left {
@@ -413,14 +450,16 @@ html {
 }
 
 .nav-link {
-    font-weight: 400;
-    color: black !important;
-    text-transform: uppercase;
+    font-weight: 600;
+    color: #000 !important;
+    transition: 0.4s ease-in-out;
     font-size: 0.9rem;
 }
 
 .nav-link:hover {
-    font-weight: 600;
+    /* font-weight: 600;
+    color: blue !important; */
+    border-bottom: 2px solid rgb(255, 44, 90);
 }
 
 
