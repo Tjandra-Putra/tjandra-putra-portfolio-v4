@@ -136,7 +136,8 @@ html {
 
 .project-card {
     border-radius: 25px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) !important;
+    /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) !important; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 20px 0px;
 }
 
 .row {
@@ -427,7 +428,7 @@ html {
 .profile {
     /* background-color: #f6f6f7; */
     border-radius: 25px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 20px 0px;
 }
 
 .profile h5 {
