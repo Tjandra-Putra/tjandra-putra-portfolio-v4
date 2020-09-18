@@ -156,7 +156,7 @@ html {
 .sub-title {
     font-size: 3rem;
     letter-spacing: -2px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 3.3rem;
     /* color: rgb(0, 28, 85); */
     color: #000;
@@ -165,6 +165,14 @@ html {
 /* hr {
     border-bottom: 3px solid rgba(255, 44, 90, 0.5) !important
 } */
+
+.navbar .navbar-toggler-icon {
+    background-image: url("../img/menu.png") !important;
+}
+
+.navbar .navbar-toggler {
+    border: none;
+}
 
 .project-card {
     border-radius: 25px;
@@ -449,14 +457,14 @@ html {
     max-width: 35rem;
 }
 
-.nav-link {
+.nav-item a {
     font-weight: 600;
     color: #000 !important;
-    transition: 0.4s ease-in-out;
+    transition: 0.1s ease-in-out;
     font-size: 0.9rem;
 }
 
-.nav-link:hover {
+.nav-item a:hover {
     /* font-weight: 600;
     color: blue !important; */
     border-bottom: 2px solid rgb(255, 44, 90);
@@ -468,6 +476,7 @@ html {
     /* background-color: #f6f6f7; */
     border-radius: 25px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 20px 0px;
+    /* box-shadow: 0px 10px 30px rgba(255, 44, 90, 0.8); */
 }
 
 .profile h5 {

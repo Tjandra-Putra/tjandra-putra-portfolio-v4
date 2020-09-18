@@ -29,9 +29,9 @@
 
         <nav class="navbar navbar-expand-lg navbar-light py-4 " style="border-bottom: 1px solid #f6f6f7;">
             <div class="container">
-                <a class="navbar-brand text-peach-red" href="#">Tjandra Putra</a>
+                <a class="navbar-brand text-peach-red" href="#">Tjandra.</a>
                 <div class="wrapper-brand">
-                    <div id="brand-tag">Portfolio</div>
+                    <!-- <div id="brand-tag">Portfolio</div> -->
                 </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -103,13 +103,14 @@
 
         <div class="row mb-2 pb-5">
             <div class="col-md-6">
-                <div class="sub-title">from automation to web application and more.
+                <div class="sub-title">From automation to web application and more.
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="text-gray-2" style="font-size: 20px;">These are some of the projects that I worked on.
-                    This includes school projects and personal projects. Stay tune for more projects are coming as I am
-                    constantly working on new projects.</div>
+                <div class="text-gray-2" style="font-size: 20px;">These are some of the projects that I worked on which
+                    includes school and personal projects. More projects will be coming in the future as I am
+                    continuously
+                    working on new projects.</div>
             </div>
         </div>
 
@@ -134,8 +135,9 @@
 
                     <h3 style="color:#24292e!important;font-weight:600;font-size: 20px!important;">
                         LMS Chatbot
-                        <span class="badge-blue-outline badge badge-pill float-right border">Final Year
-                            Project</span>
+                        <button class="btn badge-blue-outline badge badge-pill float-right border" data-toggle="popover"
+                            title="Accomplishments" data-content="Awarded an 'A'" data-placement="top">Final Year
+                            Project</button>
                         <hr>
 
                     </h3>
@@ -144,7 +146,6 @@
                         This is a full stack web-based learning management system (LMS) chatbot that comes with full
                         content
                         management to train/retrain the bot, upload quiz. It also comes with quiz and ranking system.
-                        You can view the list of features <a href="" class="text-peach-red">here</a>.
 
                         <!-- <a href="" data-toggle="modal"
                             data-target=".bd-example-modal-lg">here</a>. -->
@@ -212,8 +213,11 @@
 
                     <h3 style="color:#24292e!important;font-weight:600;font-size: 20px!important;">
                         Classifier
-                        <span class="badge-blue-outline badge badge-pill float-right border">Final Year
-                            Project</span>
+                        <button class="btn badge-blue-outline badge badge-pill float-right border" data-toggle="popover"
+                            title="Accomplishments" data-content="Awarded an 'A'" data-placement="top">Final Year
+                            Project</button>
+                        <!-- <span class="badge-blue-outline badge badge-pill float-right border">Final Year
+                            Project</span> -->
                         <hr>
 
                     </h3>
@@ -429,10 +433,10 @@
     <div class="container">
         <div class="row mb-2 pb-5 mt-5">
             <div class="col-md-12 text-center">
-                <div class="sub-title">web design
+                <div class="sub-title">Web Design
                 </div>
                 <div class="mt-2 text-gray-2" style="font-size: 20px;">
-                    Using popular tools and frameworks to create something out of nothing
+                    Using popular tools and frameworks to create something out of nothing.
                 </div>
             </div>
 
@@ -489,11 +493,11 @@
         </div>
     </div>
 
-    <div class="container full" id="aboutme">
+    <div class="container full">
         <div class="profile p-5 bg-dust">
             <div class="text-center">
                 <img src="./img/heart.png" alt="heart" width="30" class="img-fluid">
-                <h4 class="mt-2">Enough of projects, lets get to know more about me :)</h4>
+                <h3 class="mt-2 font-weight-bold">Enough of projects, lets get to know more about me :)</h3>
             </div>
 
             <div class="row pt-3">
@@ -642,6 +646,12 @@
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+
+    <script>
+        $(function () {
+            $('[data-toggle="popover"]').popover()
+        })
     </script>
 </body>
 
