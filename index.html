@@ -25,9 +25,9 @@
 
 <body>
 
-    <div class="introduction bg-white nav-light full-intro">
+    <div class="introduction bg-white nav-light full-intro" id="home">
 
-        <nav class="navbar navbar-expand-lg navbar-light py-4 " style="border-bottom: 1px solid #f6f6f7;">
+        <nav class="navbar navbar-expand-lg navbar-light py-4 " style="border-bottom: 1px solid #f6f6f7;" style="animation-delay:1.8s;">
             <div class="container">
                 <a class="navbar-brand text-peach-red" href="#">Tjandra.</a>
                 <div class="wrapper-brand">
@@ -78,7 +78,7 @@
                         </h2>
 
                         <div class="intro-body mx-auto">
-                            <p class="text-gray-2">Outgoing developer with a Diploma in Business
+                            <p>Outgoing developer with a Diploma in<br> Business
                                 Informatics. Seeking
                                 to
                                 leverage my
@@ -107,7 +107,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="text-gray-2" style="font-size: 20px;">These are some of the projects that I worked on which
+                <div style="font-size: 20px;">These are some of the projects that I worked on which
                     includes school and personal projects. More projects will be coming in the future as I am
                     continuously
                     working on new projects.</div>
@@ -136,7 +136,7 @@
                     <h3 style="color:#24292e!important;font-weight:600;font-size: 20px!important;">
                         LMS Chatbot
                         <button class="btn badge-blue-outline badge badge-pill float-right border" data-toggle="popover"
-                            title="Accomplishments" data-content="Awarded an 'A'" data-placement="top">Final Year
+                            title="Accomplishment" data-content="Awarded an 'A'" data-placement="top">Final Year
                             Project</button>
                         <hr>
 
@@ -214,7 +214,7 @@
                     <h3 style="color:#24292e!important;font-weight:600;font-size: 20px!important;">
                         Classifier
                         <button class="btn badge-blue-outline badge badge-pill float-right border" data-toggle="popover"
-                            title="Accomplishments" data-content="Awarded an 'A'" data-placement="top">Final Year
+                            title="Accomplishment" data-content="Awarded an 'A'" data-placement="top">Final Year
                             Project</button>
                         <!-- <span class="badge-blue-outline badge badge-pill float-right border">Final Year
                             Project</span> -->
@@ -225,8 +225,8 @@
                     <p class="text-justify text-gray">
                         This program makes use Robotic Process Automation (RPA) and Machine Learning using Python.
                         The objective is to automatically classify and sort email data in outlook mail into its own
-                        folder. You can view the system flow <a href="" data-toggle="modal"
-                            data-target=".bd-example-modal-lg text-peach-red">here</a>.
+                        folder. You can view the system flow <a href="" class="text-peach-red" data-toggle="modal"
+                            data-target=".bd-example-modal-lg">here</a>.
 
                         <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog"
                             aria-labelledby="myLargeModalLabel" aria-hidden="true">
@@ -544,7 +544,7 @@
         </div>
     </div>
 
-    <div class="container full">
+    <div class="container full" id="aboutme">
         <div class="profile p-5 bg-dust">
             <div class="text-center">
                 <img src="./img/heart.png" alt="heart" width="30" class="img-fluid">
@@ -638,22 +638,21 @@
                     <div class="sub-title"><span class="text-primary">a</span><span class="text-danger">b</span><span
                             class="text-warning">o</span><span class="text-success">u</span><span
                             class="text-info">t</span> me</div>
-                    <div class="text-grey-black py-3 text-justify font-Balsamiq "
-                        style="font-size:20px;font-weight: 100;">A passionate
+                    <div class="text-grey-black py-3 text-justify font-weight-bold font-caveat"
+                        style="font-size:25px;">A passionate
                         individual who
                         always thrive to
                         work
                         on end to end products which develop sustainable and scalable technical systems to create
-                        impact. . .
-                        <i class="fas fa-pencil-alt text-dark"></i>
+                        impact.
                     </div>
-                    <p class="text-justify text-gray font-Heebo ">I enjoy solving complex problems and provide an
+                    <p class="font-caveat" style="font-size:25px;font-weight: 300;">I enjoy solving complex problems and provide an
                         effective &
                         efficient
                         solutions. I always think
                         creatively and try to solve how some systems or features around the web work.</p>
 
-                    <p class="text-justify text-gray font-Heebo ">Nothing brings me more excitement and motivation
+                    <p class="font-caveat" style="font-size:25px;">Nothing brings me more excitement and motivation
                         than making
                         something out
                         of nothing.</p>
@@ -687,6 +686,7 @@
         </div>
     </footer>
 
+    <script src="index.js" type="text/javascript"></script>
 
     <!-- Bootstrap-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

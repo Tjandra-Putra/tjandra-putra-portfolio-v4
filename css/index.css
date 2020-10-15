@@ -5,11 +5,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Grandstander&family=Heebo:wght@100;200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Grandstander&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
 
 
 /* Global */
 html {
     scroll-behavior: smooth;
+}
+
+.font-caveat{
+    font-family: 'Caveat', cursive !important;
 }
 
 .font-poppin {
@@ -58,6 +63,10 @@ html {
 
 .text-peach-red {
     color: rgb(255, 44, 90) !important;
+}
+
+.bg-peach-red-light{
+    background-color: rgba(255, 44, 90, 0.5);
 }
 
 .text-blood-red {
@@ -155,16 +164,26 @@ html {
 
 .sub-title {
     font-size: 3rem;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
     font-weight: 600;
     line-height: 3.3rem;
     /* color: rgb(0, 28, 85); */
     color: #000;
 }
 
+
 /* hr {
     border-bottom: 3px solid rgba(255, 44, 90, 0.5) !important
 } */
+
+.navbar{
+    transition: 0.4s ease-in-out;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 90;
+}
 
 .navbar .navbar-toggler-icon {
     background-image: url("../img/menu.png") !important;
@@ -447,12 +466,12 @@ html {
 }
 
 .self-introduction {
-    padding-top: 3.5rem;
+    padding-top:8.7rem;
 }
 
 .intro-body {
     line-height: 2.5rem;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     padding-top: 2rem;
     max-width: 35rem;
 }
@@ -468,6 +487,7 @@ html {
     /* font-weight: 600;
     color: blue !important; */
     border-bottom: 2px solid rgb(255, 44, 90);
+    color: rgb(255, 44, 90) !important;
 }
 
 
@@ -509,7 +529,7 @@ html {
     }
 
     .self-introduction {
-        padding-top: 6rem;
+        padding-top: 9rem;
     }
 
     .navbar-nav {
@@ -535,7 +555,7 @@ html {
     }
 
     .self-introduction {
-        padding-top: 6rem;
+        padding-top: 11rem;
     }
 
     #brand-tag {
@@ -551,3 +571,36 @@ html {
         font-size: 2rem;
     }
 }
+
+/* iPhone x */
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+        #intro-left {
+            font-size: 2.4rem !important;
+            line-height: 3rem;
+        }
+    
+        .intro-body {
+            font-size: 1rem;
+            line-height: 1.5rem;
+        }
+    
+        .self-introduction {
+            padding-top: 14rem;
+        }
+    
+        #brand-tag {
+            padding-left: 1rem;
+        }
+    
+    
+        .navbar-nav {
+            text-align: center;
+        }
+    
+        .sub-title {
+            font-size: 2rem;
+        }
+    }
