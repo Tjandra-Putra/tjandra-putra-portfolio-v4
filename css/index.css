@@ -177,7 +177,6 @@ html {
 } */
 
 .navbar{
-    transition: 0.4s ease-in-out;
     position: fixed;
     top: 0;
     width: 100%;
@@ -484,13 +483,16 @@ html {
 }
 
 .nav-item a:hover {
-    /* font-weight: 600;
-    color: blue !important; */
     border-bottom: 2px solid rgb(255, 44, 90);
     color: rgb(255, 44, 90) !important;
 }
 
-
+.underline-magical{
+  background-image: linear-gradient(315deg, #fc9842 0%, #fe5f75 74%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 80%;
+}
 
 .profile {
     /* background-color: #f6f6f7; */
