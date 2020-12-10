@@ -14,7 +14,7 @@
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
     <!-- custom CSS -->
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <link href="https://unpkg.com/pattern.css" rel="stylesheet">
 
@@ -23,46 +23,48 @@
 
     <!-- Animate.css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-
 </head>
 
 <body>
+    <div class="introduction full-page" id="home">
+        <img src="./img/intro.png" alt="" id="intro-img">
 
-    <div class="introduction bg-white nav-light full-intro" id="home">
-
-        <nav class="navbar navbar-expand-lg navbar-light " style="border-bottom: 1px solid #f6f6f7;"
-            style="animation-delay:1.8s;">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
-                <a class="navbar-brand text-peach-red" href="#">Tjandra <i class="fas fa-signature"></i></a>
-                <div class="wrapper-brand">
-                    <!-- <div id="brand-tag">Portfolio</div> -->
-                </div>
+                <a class="navbar-brand" href="#">Tjandra <i class="fas fa-signature"></i></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto py-4">
-                        <li class="nav-item active">
-                            <a class="nav-link px-4 text-grey-black" href="#home">home <span
+                    <ul class="navbar-nav  py-3">
+                        <li class="nav-item" id="nav-left">
+                            <a class="nav-link px-4 text-white" href="#home" id="nav-left">home <span
                                     class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-4 text-grey-black" href="#project">project</a>
+                            <a class="nav-link px-4 text-white" href="#project">project</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-4 text-grey-black" href="#aboutme">profile</a>
+                            <a class="nav-link px-4 text-white" href="#aboutme">featured</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto py-3">
+                        <li class="nav-item" id="nav-right">
+                            <a class="nav-link px-4 text-dark" href="https://github.com/Tjandra-Putra" target="_blank">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-4 text-grey-black" href="https://github.com/Tjandra-Putra"
-                                target="_blank">github</a>
+                            <a class="nav-link px-4 text-dark"
+                                href="https://www.linkedin.com/in/tjandra-putra-49472917a/" target="_blank">
+                                <i class="fab fa-linkedin fa-2x"></i>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-4 text-grey-black"
-                                href="https://www.linkedin.com/in/tjandra-putra-49472917a/" target="_blank">linkedIn</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-4" href="mailto:tjandraputra2000z@gmail.com">email</a>
+                            <a class="nav-link px-4 text-dark" href="mailto:tjandraputra2000z@gmail.com">
+                                <i class="fas fa-envelope fa-2x"></i>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -70,186 +72,90 @@
         </nav>
 
         <div class="container">
-            <div class="self-introduction text-dark">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <h2 id="intro-left" class="text-grey-black animate__animated animate__zoomInDown">
-                            <span class="text-peach-red animate__backInLeft" id="intro-first">You simply</span>
-                            <br>
-                            state your needs,
-                            <br>
-                            I'm ready.
-                        </h2>
+            <div class="introduction-title">
+                <h1>From automation to web application and more.</h1>
 
-                        <div class="intro-body mx-auto animate__animated animate__fadeInUpBig">
-                            <p>Outgoing developer with a Diploma in<br> Business
-                                Informatics. Seeking
-                                to
-                                leverage my
-                                technical expertise to grow as a <span class="">developer</span>.</p>
-                        </div>
+                <h6 class="py-4">👋 Meet Tjandra Putra</h6>
 
-                        <a href="./img/Tjandra_Putra_Resume.pdf" target="_blank"
-                            class="btn px-4 btn-peach-red text-peach-red" style="font-weight: 600;">Resume</a>
+                <svg class="scroll stagger1" width="40" height="47" viewBox="0 0 40 77">
+                    <g id="scroll" transform="translate(-253 -787)">
+                        <g id="Rectangle_12" data-name="Rectangle 12" transform="translate(253 787)" fill="none"
+                            stroke="#fff" stroke-width="4">
+                            <rect width="40" height="77" rx="20" stroke="none" />
+                            <rect x="2" y="2" width="36" height="73" rx="18" fill="none" />
+                        </g>
+                        <circle class="circle" id="Ellipse_1" data-name="Ellipse 1" cx="11" cy="11" r="11"
+                            transform="translate(262 798)" fill="#fff" />
+                    </g>
+                </svg>
+            </div>
+        </div>
+    </div>
 
-                        <div class="mx-auto pt-4">
-                            <a href="#project" class="text-dark-blue"><i class="fas fa-chevron-down fa-2x"></i></a>
-                        </div>
+    <div class="featured" id="aboutme">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 featured-padding">
+                    <h6>feature project</h6>
+                    <h4>linkvine.com LINKVINE</h4>
+                    <p class="pt-2">
+                        This is a web application that allows you to create a personalised and easily-customizable page,
+                        that
+                        houses all the important links you want to share with your audience. It can be used on social
+                        platforms.
+                    </p>
+                    <p class="pb-4">Developed using python, frameworks and various libraries</p>
+
+                    <span class=" badge-secondary badge badge-pill my-1">Python</span>
+                    <span class=" badge-secondary badge badge-pill my-1">Flask</span>
+                    <span class=" badge-secondary badge badge-pill my-1">Bootstrap</span>
+                    <span class=" badge-secondary badge badge-pill my-1">Web App</span>
+
+                </div>
+                <div class="col-md-6 featured-padding">
+                    <img src="/img/featured-project-linkvine.PNG" alt="" class="img-fluid img-featured">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="skills">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="box-skills p-5 text-center">
+                        <img src="/img/ux-design.png" class="img-fluid" alt="" width=50>
+                        <h5 class="pt-3">UI / UX Design</h5>
+                        <p>I use popular tools such as AdobeXD, Figma for wireframing.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="box-skills p-5 text-center">
+                        <img src="/img/coding.png" class="img-fluid" alt="" width=50>
+                        <h5 class="pt-3">Full Stack Development</h5>
+                        <p>I am knowledgable in both front-end and back-end development.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="box-skills p-5 text-center">
+                        <img src="/img/automation.png" class="img-fluid" alt="" width=50>
+                        <h5 class="pt-3">Automation</h5>
+                        <p>I use Robotic Process Automation to handle repetitive business processes.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-
-
-    <div class="container full mt-5" id="project">
-
-        <div class="row mb-2 pb-5">
-            <div class="col-md-6">
-                <div class="sub-title">From automation to web application and <span
-                        class="underline-magical">more</span>.
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div style="font-size: 20px;">These are some of the projects that I worked on which
-                    includes school and personal projects. More projects will be coming in the future as I am
-                    continuously
-                    working on new projects.</div>
-            </div>
-        </div>
-
-
-        <div class="projects">
-
-            <div class="row  project-card">
-                <div class="col-md-6 p-3" style=" padding-top:2.2em !important;">
-                    <div class="frame bg-dark" style="border-radius: 15px 15px 0 0;">
-                        <span class="text-danger pl-2">•</span>
-                        <span class="text-warning">•</span>
-                        <span class="text-success">•</span>
-                    </div>
-                    <video controls class="embed-responsive embed-responsive-16by9 ">
-                        <source src="./img/FYPJ_2.mp4" type="video/mp4">
-                    </video>
-
-                </div>
-
-                <div class="col-md-6 p-4">
-                    <!-- <i class="far fa-star rgb"></i> -->
-
-                    <h3 style="color:#24292e!important;font-weight:600;font-size: 20px!important;">
-                        LMS Chatbot
-                        <button class="btn badge-blue-outline badge badge-pill float-right border" data-toggle="popover"
-                            title="Accomplishment" data-content="Awarded an 'A'" data-placement="top">Final Year
-                            Project</button>
-                        <hr>
-
-                    </h3>
-
-                    <p class="text-justify text-gray">
-                        This is a full stack web-based learning management system (LMS) chatbot that comes with full
-                        content
-                        management to train/retrain the bot, upload quiz. It also comes with quiz and ranking system.
-
-                        <!-- <a href="" data-toggle="modal"
-                            data-target=".bd-example-modal-lg">here</a>. -->
-                        <!-- 
-                        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog"
-                            aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-lg modal-dialog-centered">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">System Flow</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <img src="./img/workflow_textclassification.PNG" alt="" class="img-fluid">
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
-                    </p>
-
-                    <p class="mb-1 "> <i class="fas fa-check pr-1" style="color:#90EE90"></i>
-                        Content management for chatbot</p>
-
-                    <p class="mb-1"><i class="fas fa-check pr-1" style="color:#90EE90"></i>
-                        Content management for quiz</p>
-
-                    <p class=" mb-1"> <i class="fas fa-check pr-1" style="color:#90EE90"></i>
-                        Ranking system</p>
-
-                    <p class=" mb-1p"> <i class="fas fa-check pr-1" style="color:#90EE90"></i>
-                        Quiz system</p>
-
-
-                    <div style=" margin-top: 1.2em;">
-                        <span class=" badge-secondary badge badge-pill my-1">Python</span>
-                        <span class=" badge-secondary badge badge-pill my-1">Chatbot</span>
-                        <span class=" badge-secondary badge badge-pill my-1">Machine Learning</span>
-                        <span class=" badge-secondary badge badge-pill my-1">Flask</span>
-                        <span class=" badge-secondary badge badge-pill my-1">TensorFlow</span>
-
-                        <div class="default-p float-right roboto-font text-dark  mt-2">
-                            Private</div>
-                    </div>
-                    </p>
-                </div>
-            </div>
-
-            <div class="row roboto-font project-card mt-5">
-                <!-- background-color:#e2e3e5; -->
-                <div class="col-md-6 p-3" style=" padding-top:2.2em !important;">
-                    <div class="frame bg-dark" style="border-radius: 15px 15px 0 0;">
-                        <span class="text-danger pl-2">•</span>
-                        <span class="text-warning">•</span>
-                        <span class="text-success">•</span>
-                    </div>
-                    <video controls class="embed-responsive embed-responsive-16by9 ">
-                        <source src="./img/text_classification.mp4" type="video/mp4">
-                    </video>
-
-                </div>
-
-                <div class="col-md-6 p-4">
-
-                    <h3 style="color:#24292e!important;font-weight:600;font-size: 20px!important;">
-                        Classifier
-                        <button class="btn badge-blue-outline badge badge-pill float-right border" data-toggle="popover"
-                            title="Accomplishment" data-content="Awarded an 'A'" data-placement="top">Final Year
-                            Project</button>
-                        <!-- <span class="badge-blue-outline badge badge-pill float-right border">Final Year
-                            Project</span> -->
-                        <hr>
-
-                    </h3>
-
-                    <p class="text-justify text-gray">
-                        This program makes use Robotic Process Automation (RPA) and Machine Learning using Python.
-                        The objective is to automatically classify and sort email data in outlook mail into its own
-                        folder. You can view the system flow <a href="" class="text-peach-red" data-toggle="modal"
-                            data-target=".bd-example-modal-lg">here</a>.
-
-                        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog"
-                            aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-lg modal-dialog-centered">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">System Flow</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <img src="./img/workflow_textclassification.PNG" alt="" class="img-fluid">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </p>
+    <div class="projects" id="project">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <h6>final year project</h6>
+                    <h4>Email Text Classification</h4>
+                    <p class="pt-2">This program makes use Robotic Process Automation (RPA) and Machine Learning using
+                        Python. The objective is to automatically classify and sort email data in outlook mail into its
+                        own folder. You can view the system flow</p>
 
                     <p class="mb-1 "> <i class="fas fa-check pr-1" style="color:#90EE90"></i>
                         Automated email folder sorting</p>
@@ -263,49 +169,63 @@
                     <p class=" mb-1p"><i class="fas fa-check pr-1" style="color:#90EE90"></i>
                         An accuracy of 85%</p>
 
-
                     <div style=" margin-top: 1.3em;">
                         <span class=" badge-secondary badge badge-pill my-1">Python</span>
                         <span class=" badge-secondary badge badge-pill my-1">Ui Path</span>
                         <span class=" badge-secondary badge badge-pill my-1">Machine Learning</span>
                         <span class=" badge-secondary badge badge-pill my-1">Scikit-learn</span>
-                        <div class="default-p float-right roboto-font text-dark  mt-2">
-                            Private</div>
                     </div>
-                    </p>
+                </div>
+                <div class="col-md-7">
+                    <video controls class="embed-responsive embed-responsive-16by9 ">
+                        <source src="/img/FYPJ_text_clasification.mp4" type="video/mp4">
+                    </video>
                 </div>
             </div>
 
-            <div class="row roboto-font project-card mt-5">
-                <!-- background-color:#e2e3e5; -->
-                <div class="col-md-6 p-3" style=" padding-top:2.2em !important;">
-                    <div class="frame bg-dark" style="border-radius: 15px 15px 0 0;">
-                        <span class="text-danger pl-2">•</span>
-                        <span class="text-warning">•</span>
-                        <span class="text-success">•</span>
+            <div class="row" style="margin-top: 7rem;">
+                <div class="col-md-5">
+                    <h6>final year project</h6>
+                    <h4>Learning Management System & Chatbot</h4>
+                    <p class="pt-2">This is a full stack web-based learning management system (LMS) chatbot that comes
+                        with full content management to train/retrain the bot, upload quiz. It also comes with quiz and
+                        ranking system.</p>
+
+                    <p class="mb-1 "> <i class="fas fa-check pr-1" style="color:#90EE90"></i>
+                        Content management for chatbot</p>
+
+                    <p class="mb-1"><i class="fas fa-check pr-1" style="color:#90EE90"></i>
+                        Content management for quiz</p>
+
+                    <p class=" mb-1"> <i class="fas fa-check pr-1" style="color:#90EE90"></i>
+                        Ranking system</p>
+
+                    <p class=" mb-1p"> <i class="fas fa-check pr-1" style="color:#90EE90"></i>
+                        Quiz system</p>
+
+                    <div style=" margin-top: 1.2em;">
+                        <span class=" badge-secondary badge badge-pill my-1">Python</span>
+                        <span class=" badge-secondary badge badge-pill my-1">Chatbot</span>
+                        <span class=" badge-secondary badge badge-pill my-1">Machine Learning</span>
+                        <span class=" badge-secondary badge badge-pill my-1">Flask</span>
+                        <span class=" badge-secondary badge badge-pill my-1">TensorFlow</span>
                     </div>
-                    <video controls class="embed-responsive embed-responsive-16by9 ">
-                        <source src="./img/Ionic - Recipe.mp4" type="video/mp4">
-                    </video>
 
                 </div>
+                <div class="col-md-7">
+                    <video controls class="embed-responsive embed-responsive-16by9 ">
+                        <source src="/img/FYPJ_chatbot.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
 
-                <div class="col-md-6 p-4">
+            <div class="row" style="margin-top: 7rem;">
+                <div class="col-md-5">
 
-                    <h3 style="color:#24292e!important;font-weight:600;font-size: 20px!important;">
-                        Recipe Manager
-                        <img src="./img/ionic_logo.png" alt="" class="img-fluid float-right" width="100"
-                            style="margin-top:-0.8rem;">
-                        <!-- <span class="badge-berry badge badge-pill float-right">RPA</span> -->
-                        <hr>
-
-                    </h3>
-
-                    <p class="text-justify text-gray">
-                        This is a mobile application that helps you to manage your recipes. This app demonstrates basic
-                        CRUD operation using ionic, angular and firebase.
-                    </p>
-
+                    <img src="./img/ionic_logo.png" alt="ui path" width="90">
+                    <h4>Recipe Manager</h4>
+                    <p class="pt-2">This is a mobile application that helps you to manage your recipes. This app
+                        demonstrates basic CRUD operation using ionic, angular and firebase.</p>
                     <p class="mb-1"> <i class="fas fa-check pr-1" style="color:#90EE90"></i>
                         Beautiful minimalistic UI/UX</p>
 
@@ -315,48 +235,29 @@
                     <p class=" mb-1"><i class="fas fa-check pr-1" style="color:#90EE90"></i>
                         Easy to use</p>
 
-                    <div style=" margin-top: 4.3em;">
+                    <div style=" margin-top: 3.3em;">
                         <span class=" badge-secondary badge badge-pill my-1">Ionic</span>
                         <span class=" badge-secondary badge badge-pill my-1">Angular</span>
                         <span class=" badge-secondary badge badge-pill my-1">Firebase</span>
                         <span class=" badge-secondary badge badge-pill my-1">Mobile App</span>
-                        <div class="default-p float-right roboto-font text-dark  mt-2">
-                            Private</div>
                     </div>
 
+                </div>
+                <div class="col-md-7">
+                    <video controls class="embed-responsive embed-responsive-16by9 ">
+                        <source src="/img/Ionic - Recipe.mp4" type="video/mp4">
+                    </video>
                 </div>
             </div>
 
-            <div class="row roboto-font project-card mt-5">
-                <!-- background-color:#e2e3e5; -->
-                <div class="col-md-6 p-3" style=" padding-top:2.2em !important;">
-                    <div class="frame bg-dark" style="border-radius: 15px 15px 0 0;">
-                        <span class="text-danger pl-2">•</span>
-                        <span class="text-warning">•</span>
-                        <span class="text-success">•</span>
-                    </div>
-                    <video controls class="embed-responsive embed-responsive-16by9 ">
-                        <source src="./img/Google Automation.mp4" type="video/mp4">
-                    </video>
+            <div class="row" style="margin-top: 7rem;">
+                <div class="col-md-5">
 
-                </div>
-
-                <div class="col-md-6 p-4">
-
-                    <h3 style="color:#24292e!important;font-weight:600;font-size: 20px!important;">
-                        Google Form Automation
-                        <img src="./img/uipath.jpg" alt="" class="img-fluid float-right" width="75"
-                            style="margin-top:-0.5rem;">
-                        <!-- <span class="badge-berry badge badge-pill float-right">RPA</span> -->
-                        <hr>
-
-                    </h3>
-
-                    <p class="text-justify text-gray">
-                        This workflow automates and fill in google forms base on excel inputs. It enables enterprise to
-                        be effective and efficient by reducing human error and eliminating repetitive actions/tasks.
-                    </p>
-
+                    <img src="./img/uipath.jpg" alt="ui path" width="80">
+                    <h4>Google Form Automation</h4>
+                    <p class="pt-2">This workflow automates and fill in google forms base on excel inputs. It enables
+                        enterprise to be effective and efficient by reducing human error and eliminating repetitive
+                        actions/tasks.</p>
                     <p class="mb-1"> <i class="fas fa-check pr-1" style="color:#90EE90"></i>
                         Excel integration</p>
 
@@ -368,46 +269,27 @@
 
 
 
-                    <p class=" text-muted float-left" style="font-size: 15px;margin-top: 6rem;">Developed with <a
+                    <p class=" text-muted float-left" style="font-size: 15px;margin-top: 3.5rem;">Developed with <a
                             class="a-link underline text-peach-red" href="https://www.uipath.com/product/studio"
                             target="_blank"> Ui
                             Path Studio</a>
-
-                        <p class="default-p float-right roboto-font text-dark" style="margin-top: 6rem;">
-                            Private</p>
-                    </p>
+                </div>
+                <div class="col-md-7">
+                    <video controls class="embed-responsive embed-responsive-16by9 ">
+                        <source src="/img/Google Automation.mp4" type="video/mp4">
+                    </video>
                 </div>
             </div>
 
+            <div class="row" style="margin-top: 7rem;">
+                <div class="col-md-5">
 
-            <div class="row roboto-font project-card mt-5">
-                <div class="col-md-6 p-3" style=" padding-top:2.2em !important;">
-                    <div class="frame bg-dark" style="border-radius: 15px 15px 0 0;">
-                        <span class="text-danger pl-2">•</span>
-                        <span class="text-warning">•</span>
-                        <span class="text-success">•</span>
-                    </div>
-                    <video controls class="embed-responsive embed-responsive-16by9 ">
-                        <source src="/img/RPA_Applicants Tracking System.mp4" type="video/mp4">
-                    </video>
+                    <img src="./img/uipath.jpg" alt="ui path" width="80">
+                    <h4>Candidate Sourcing</h4>
+                    <p class="pt-2">This workflow automates and filters applicants' resume(.PDF) or any other
+                        documents(.PDF) based on "Key Words" from a specific folder and move successfully matched
+                        applicants' file over to a new folder.</p>
 
-                </div>
-
-                <div class="col-md-6 p-4">
-
-                    <h3 style="color:#24292e!important;font-weight:600;font-size: 20px!important;">
-                        Candidate Sourcing
-                        <img src="./img/uipath.jpg" alt="" class="img-fluid float-right" width="75"
-                            style="margin-top:-0.5rem;">
-                        <hr>
-
-                    </h3>
-
-                    <p class="text-justify text-gray">
-                        This workflow automates and filters applicants' resume(.PDF) or any other documents(.PDF)
-                        based on "Key Words"
-                        from a specific folder and move successfully matched applicants' file over to a new folder.
-                    </p>
 
                     <p class="mb-1"> <i class="fas fa-check pr-1" style="color:#90EE90"></i>
                         Filter seemlessly</p>
@@ -425,272 +307,63 @@
                             target="_blank"> Ui
                             Path Studio</a>
 
-                        <p class="default-p float-right roboto-font text-dark" style="margin-top: 3rem;">
-                            Private</p>
-                    </p>
+                </div>
+                <div class="col-md-7">
+                    <video controls class="embed-responsive embed-responsive-16by9 ">
+                        <source src="/img/RPA_Applicants Tracking System.mp4" type="video/mp4">
+                    </video>
                 </div>
             </div>
 
+            <div class="row" style="margin-top: 7rem;">
+                <div class="col-md-5">
 
-            <div class="row roboto-font project-card mt-5">
-                <div class="col-md-6 p-3" style=" padding-top:2.2em !important;">
-                    <div class="frame bg-dark" style="border-radius: 15px 15px 0 0;">
-                        <span class="text-danger pl-2">•</span>
-                        <span class="text-warning">•</span>
-                        <span class="text-success">•</span>
-                    </div>
-                    <video controls class="embed-responsive embed-responsive-16by9 ">
-                        <source src="./img/RPA_Email_Automation.mp4" type="video/mp4">
-                    </video>
+                    <img src="./img/uipath.jpg" alt="ui path" width="80">
+                    <h4>Email Automation</h4>
+                    <p class="pt-2">This work flow sends multiple SMTP emails at once based on excel input. User can
+                        choose different email accounts to send emails.</p>
 
-                </div>
-
-                <div class="col-md-6 p-4">
-
-                    <h3 style="color:#24292e!important;font-weight:600;font-size: 20px!important;">
-                        Email Automation
-                        <img src="./img/uipath.jpg" alt="" class="img-fluid float-right" width="75"
-                            style="margin-top:-0.5rem;">
-                        <hr>
-
-                    </h3>
-
-                    <p class="text-justify text-gray">
-                        This work flow sends multiple SMTP emails at once based on excel input. User can choose
-                        different email accounts to send emails.
-                    </p>
 
                     <p class="mb-1"> <i class="fas fa-check pr-1" style="color:#90EE90"></i>
                         Excel integration</p>
 
-                    <p class=" mb-1"><i class="fas fa-check pr-1" style="color:#90EE90"></i>
+                    <p class=" mb-1"> <i class="fas fa-check pr-1" style="color:#90EE90"></i>
                         Automated email</p>
 
-                    <p class=" mb-1"> <i class="fas fa-check pr-1" style="color:#90EE90"></i>
+                    <p class=" mb-1"><i class="fas fa-check pr-1" style="color:#90EE90"></i>
                         Custom email</p>
 
 
 
-                    <p class=" text-muted float-left" style="font-size: 15px;margin-top: 6rem;">Developed with <a
+                    <p class=" text-muted float-left" style="font-size: 15px;margin-top: 5rem;">Developed with <a
                             class="a-link underline text-peach-red" href="https://www.uipath.com/product/studio"
                             target="_blank"> Ui
                             Path Studio</a>
 
-                        <p class="default-p float-right roboto-font text-dark" style="margin-top: 6rem;">
-                            Private</p>
-                    </p>
+                </div>
+                <div class="col-md-7">
+                    <video controls class="embed-responsive embed-responsive-16by9 ">
+                        <source src="/img/RPA_Applicants Tracking System.mp4" type="video/mp4">
+                    </video>
                 </div>
             </div>
 
         </div>
+
+        <footer class="pt-5">
+            <div class="container">
+                <div class="text-center text-grey-black">
+                    <i class="fas fa-code text-grey-black"></i> with <i class="fas fa-heart text-gray rgb"></i> by
+                    <a href="https://www.linkedin.com/in/tjandra-putra/" target="_blank"
+                        class=" text-peach-red">Tjandra</a>
+                    <br>
+                    <!-- Copyright @ 2020 All Rights Reserved -->
+                </div>
+            </div>
+        </footer>
+
     </div>
 
-
-    <div class="container">
-        <div class="row mb-2 pb-5 mt-5">
-            <div class="col-md-12 text-center">
-                <div class="sub-title">Web Design
-                </div>
-                <div class="mt-2 text-gray-2" style="font-size: 20px;">
-                    Using popular tools and frameworks to create something out of nothing.
-                </div>
-            </div>
-
-            <div class="row mt-5">
-                <div class="col-md-4">
-                    <div class="container-card " style="border-radius: 10px;">
-                        <div class="img-overlay">
-                            <a href="https://vitrus.netlify.app/" target="_blank">
-                                <img src="./img/vitrus_1.png" alt="" class="img-fluid" style="border-radius: 10px;">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="mt-3">
-                        <h5><span class="text-peach-red">Vitrus </span> - Corona Virus Awareness</h5>
-                        <p class="text-gray-2" style="line-height: 1.7rem;">The objective is to educate and create
-                            awareness of the deadly virus, corona virus in this difficult time in hope to help people.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="container-card" style="border-radius: 10px;">
-                        <div class="img-overlay">
-                            <a href="https://bloodplus.netlify.app/" target="_blank">
-                                <img src="./img/bloodplus.PNG" alt="" class="img-fluid" style="border-radius: 10px;">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="mt-3">
-                        <h5><span class="text-peach-red">Blood Plus</span> - Blood Donation Drive</h5>
-                        <p class="text-gray-2" style="line-height: 1.7rem;">
-                            The objective is to spread awareness of the importance of blood donation and how it could
-                            make a huge difference.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="container-card" style="border-radius: 10px;">
-                        <div class="img-overlay">
-                            <a href="https://tjandra-putra-v1.netlify.app/" target="_blank">
-                                <img src="./img/portoflio_v1.PNG" alt="" class="img-fluid" style="border-radius: 10px;">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="mt-3">
-                        <h5><span class="text-peach-red">Portfolio </span> - Version 1</h5>
-
-                        <p class="text-gray-2" style="line-height: 1.7rem;">A first version of my portfolio. You're
-                            currently at version 3 :)
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container full" id="aboutme">
-        <div class="profile p-5 bg-dust">
-            <div class="text-center">
-                <img src="./img/heart.png" alt="heart" width="30" class="img-fluid">
-                <h3 class="mt-2 font-weight-bold">Enough of projects, lets get to know more about me :)</h3>
-            </div>
-
-            <div class="row pt-3">
-                <div class="col-md-4 journey">
-                    <h5 class="text-center pt-4 text-dark-blue ">My Exciting Journey</h5>
-                    <div style="height:4px;" class="bg-primary"></div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Nanyang Polytechnic<br></li>
-                        <li class="list-group-item">Beatty Secondary School <br> </li>
-                        <li class="list-group-item">Balestier Hill Primary School</li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <h5 class="text-center pt-4 text-dark-blue ">Skills</h5>
-                    <div style="height:4px;" class="bg-light-red"></div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Python - Flask, Django</li>
-                        <li class="list-group-item">C# - asp.net</li>
-                        <li class="list-group-item">SQL</li>
-                        <li class="list-group-item">HTML / CSS / Javascript</li>
-                        <li class="list-group-item">Bootstrap / Materialize</li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <h5 class="text-center pt-4 text-dark-blue ">Awards / Certificates / Grades</h5>
-                    <div style="height:4px;" class="bg-warning"></div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Admitted to Director's List</li>
-                        <li class="list-group-item">Robotic Process Automation (RPA) certificate</li>
-                        <li class="list-group-item">iCodeiTell Competition 2020</li>
-                        <li class="list-group-item">Nanyang Polytecnic - GPA present</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="mt-4">
-                        <h5 class="text-center text-dark-blue ">Hobbies</h5>
-                        <div style="height:4px;" class="bg-success"></div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Making Music - Jazz, Classical</li>
-                            <li class="list-group-item">Tasting & Exploring coffee</li>
-                            <li class="list-group-item">Badminton </li>
-                            <li class="list-group-item">Photography</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="mt-4">
-                        <h5 class="text-center text-dark-blue">Volunteer</h5>
-                        <div style="height:4px;" class="bg-info"></div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">
-                                Student Organiser , SIT Freshmen Orientation 2020
-                            </li>
-                            <li class="list-group-item">
-                                Student Organiser , SIT Freshmen Orientation 2019
-                            </li>
-                            <li class="list-group-item">
-                                NYP Tutoring Event - Signed up as a tutor for Maths
-                            </li>
-                            <li class="list-group-item">Student Volunteer at WillingHearts 2018</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row mt-4">
-                <div class="col-md-12">
-                    <div class="text-center">
-                        <a href="https://www.linkedin.com/in/tjandra-putra/" target="_blank" id="viewMore"
-                            class="text-peach-red font-weight-bold">View More
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    <div class="about-me mt-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 p-4">
-                    <div class="sub-title"><span class="text-primary">a</span><span class="text-danger">b</span><span
-                            class="text-warning">o</span><span class="text-success">u</span><span
-                            class="text-info">t</span> me</div>
-                    <div class="text-grey-black py-3 text-justify font-weight-bold font-caveat" style="font-size:25px;">
-                        A passionate
-                        individual who
-                        always thrive to
-                        work
-                        on end to end products which develop sustainable and scalable technical systems to create
-                        impact.
-                    </div>
-                    <p class="font-caveat" style="font-size:25px;font-weight: 300;">I enjoy solving complex problems and
-                        provide an
-                        effective &
-                        efficient
-                        solutions. I always think
-                        creatively and try to solve how some systems or features around the web work.</p>
-
-                    <p class="font-caveat" style="font-size:25px;">Nothing brings me more excitement and motivation
-                        than making
-                        something out
-                        of nothing. . . <i class="fas fa-feather-alt"></i></p>
-
-                    <!-- <p>
-                        <a href="https://github.com/Tjandra-Putra" target="_blank" class="text-peach-red">
-                            Github</a> | <a href="https://www.linkedin.com/in/tjandra-putra/" target="_blank"
-                            class="text-peach-red">LinkedIn</a> |<a href="./img/Resume V2.pdf" target="_blank"
-                            class="text-peach-red"> Resume</a>
-                    </p> -->
-                </div>
-                <div class="col-md-6 pl-5">
-                    <div class="pattern-dots-md d-none d-sm-block" style="color:#f8d7da;">
-                        <img src="./img/aboutme.gif" alt="" class="img-fluid" style="transform:translate(0px, 35px)">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <footer class="mt-5 pb-4 pt-5">
-        <div class="container">
-            <div class="text-center text-grey-black font-weight-bold">
-                <hr>
-                <i class="fas fa-code text-grey-black"></i> with <i class="fas fa-heart text-gray rgb"></i> by
-                <a href="https://www.linkedin.com/in/tjandra-putra/" target="_blank"
-                    class="font-weight-bold text-peach-red">Tjandra</a>
-                <br>
-                Copyright @ 2020 All Rights Reserved
-            </div>
-        </div>
-    </footer>
-
-    <script src="/js/index.js" type="text/javascript"></script>
 
     <!-- Bootstrap-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -703,11 +376,6 @@
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
     </script>
 
-    <script>
-        $(function () {
-            $('[data-toggle="popover"]').popover()
-        })
-    </script>
 </body>
 
 </html>
