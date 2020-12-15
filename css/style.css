@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 /* ============================ GLOBAL ============================ */
 html {
@@ -32,11 +33,15 @@ html {
 }
 
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .font-poppin {
     font-family: 'Poppins', sans-serif;
+}
+
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
 }
 
 .full-page {
@@ -124,7 +129,7 @@ html {
 }
 
 .featured h4 {
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .img-featured {
@@ -170,7 +175,7 @@ html {
 }
 
 .projects h4 {
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .badge-secondary {
@@ -194,6 +199,268 @@ video {
 .text-peach-red {
     color: rgb(255, 44, 90) !important;
 }
+
+/** MOUSE **/
+.mouse {
+    background: #4e5559 linear-gradient(transparent 0%, transparent 50%, #fff 50%, #fff 100%);
+    position: relative;
+    width: 40px;
+    height: 64px;
+    border-radius: 100px;
+    background-size: 100% 200%;
+    animation: colorSlide 5s linear infinite, nudgeMouse 5s ease-out infinite;
+}
+
+.mouse:before,
+.mouse:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.mouse:before {
+    width: 35px;
+    height: 60px;
+    background-color: #222a30;
+    border-radius: 100px;
+}
+
+.mouse:after {
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    animation: trackBallSlide 5s linear infinite;
+}
+
+@keyframes colorSlide {
+    0% {
+        background-position: 0% 100%;
+    }
+
+    20% {
+        background-position: 0% 0%;
+    }
+
+    21% {
+        background-color: #4e5559;
+    }
+
+    29.99% {
+        background-color: #fff;
+        background-position: 0% 0%;
+    }
+
+    30% {
+        background-color: #4e5559;
+        background-position: 0% 100%;
+    }
+
+    50% {
+        background-position: 0% 0%;
+    }
+
+    51% {
+        background-color: #4e5559;
+    }
+
+    59% {
+        background-color: #fff;
+        background-position: 0% 0%;
+    }
+
+    60% {
+        background-color: #4e5559;
+        background-position: 0% 100%;
+    }
+
+    80% {
+        background-position: 0% 0%;
+    }
+
+    81% {
+        background-color: #4e5559;
+    }
+
+    90%,
+    100% {
+        background-color: #fff;
+    }
+}
+
+@keyframes trackBallSlide {
+    0% {
+        opacity: 1;
+        transform: scale(1) translateY(-20px);
+    }
+
+    6% {
+        opacity: 1;
+        transform: scale(0.9) translateY(5px);
+    }
+
+    14% {
+        opacity: 0;
+        transform: scale(0.4) translateY(40px);
+    }
+
+    15%,
+    19% {
+        opacity: 0;
+        transform: scale(0.4) translateY(-20px);
+    }
+
+    28%,
+    29.99% {
+        opacity: 1;
+        transform: scale(1) translateY(-20px);
+    }
+
+    30% {
+        opacity: 1;
+        transform: scale(1) translateY(-20px);
+    }
+
+    36% {
+        opacity: 1;
+        transform: scale(0.9) translateY(5px);
+    }
+
+    44% {
+        opacity: 0;
+        transform: scale(0.4) translateY(40px);
+    }
+
+    45%,
+    49% {
+        opacity: 0;
+        transform: scale(0.4) translateY(-20px);
+    }
+
+    58%,
+    59.99% {
+        opacity: 1;
+        transform: scale(1) translateY(-20px);
+    }
+
+    60% {
+        opacity: 1;
+        transform: scale(1) translateY(-20px);
+    }
+
+    66% {
+        opacity: 1;
+        transform: scale(0.9) translateY(5px);
+    }
+
+    74% {
+        opacity: 0;
+        transform: scale(0.4) translateY(40px);
+    }
+
+    75%,
+    79% {
+        opacity: 0;
+        transform: scale(0.4) translateY(-20px);
+    }
+
+    88%,
+    100% {
+        opacity: 1;
+        transform: scale(1) translateY(-20px);
+    }
+}
+
+@keyframes nudgeMouse {
+    0% {
+        transform: translateY(0);
+    }
+
+    20% {
+        transform: translateY(8px);
+    }
+
+    30% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(8px);
+    }
+
+    60% {
+        transform: translateY(0);
+    }
+
+    80% {
+        transform: translateY(8px);
+    }
+
+    90% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes nudgeText {
+    0% {
+        transform: translateY(0);
+    }
+
+    20% {
+        transform: translateY(2px);
+    }
+
+    30% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(2px);
+    }
+
+    60% {
+        transform: translateY(0);
+    }
+
+    80% {
+        transform: translateY(2px);
+    }
+
+    90% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes colorText {
+    21% {
+        color: #4e5559;
+    }
+
+    30% {
+        color: #fff;
+    }
+
+    51% {
+        color: #4e5559;
+    }
+
+    60% {
+        color: #fff;
+    }
+
+    81% {
+        color: #4e5559;
+    }
+
+    90% {
+        color: #fff;
+    }
+}
+
 
 /** GALAXY S5 **/
 @media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
@@ -243,6 +510,10 @@ video {
 
     video {
         margin-top: 1rem;
+    }
+
+    .mouse {
+        margin: auto;
     }
 }
 
@@ -294,5 +565,9 @@ video {
 
     video {
         margin-top: 1rem;
+    }
+
+    .mouse {
+        margin: auto;
     }
 }
