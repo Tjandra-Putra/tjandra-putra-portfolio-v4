@@ -5,386 +5,553 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tjandra's Portfolio</title>
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- Animate on scroll CDN-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- Fontawsome CDN-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
-    <!-- custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <link href="https://unpkg.com/pattern.css" rel="stylesheet">
+    <!-- Custom CSS-->
+    <link rel="stylesheet" href="./css/style.css">
 
     <!-- Tab Icon -->
-    <link rel="shortcut icon" type="image/png" href="./img/logo.png" />
-
-    <!-- Animate.css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- <link rel="shortcut icon" type="image/png" href="./img/logo3.PNG" /> -->
 </head>
 
 <body>
-    <div class="introduction full-page" id="home">
-        <img src="./img/intro.png" alt="" id="intro-img">
+    <header>
+        <div class="introduction full-height" id="about">
 
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container">
-                <a class="navbar-brand" href="#">Tjandra <i class="fas fa-signature"></i></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav  py-3">
-                        <li class="nav-item" id="nav-left">
-                            <a class="nav-link px-4 text-white" href="#home" id="nav-left">home <span
-                                    class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-4 text-white" href="#project">project</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-4 text-white" href="#aboutme">featured</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-4 text-white" target="_blank"
-                                href="./img/Tjandra Putra's Resume.pdf">resume</a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav ml-auto py-3">
-                        <li class="nav-item" id="nav-right">
-                            <a class="nav-link px-4 text-dark" href="https://github.com/Tjandra-Putra" target="_blank">
-                                <i class="fab fa-github fa-2x"></i>
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                <div class="container">
+                    <a class="navbar-brand" href="#" id="brand">Tjandra</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <div class="mr-auto"></div>
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#experience">Experience</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#featured-projects">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://github.com/Tjandra-Putra" target="_blank">GitHub</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.linkedin.com/in/tjandra-putra/"
+                                    target="_blank">LinkedIn</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="introduction-message">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <p style="font-size: 0.9rem;margin-bottom:1rem;color:4C4747;">— Tjandra Putra
+                            </p>
+                            <div class="display-4" style="font-weight: 400;">
+                                <span class="text-dark">Hi</span>, my name is Tjandra,
+                            </div>
+
+                            <div class="display-4 text-dark">
+                                <p>I am a <span class="type"></span>
+                                </p>
+                            </div>
+
+                            <p id="personal-quality" class="text-justify">I enjoy solving complex problems and provide
+                                an
+                                effective & efficient
+                                solution. Nothing
+                                brings me more excitement and motivation than building something out of nothing.</p>
+
+                            <a href="mailto:tjandraputra2000z@gmail.com" class="btn btn-warning mt-3" id="email"
+                                target="_blank">
+                                <p style="padding-top:5px">
+                                    Get In Touch
+                                </p>
                             </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-4 text-dark"
-                                href="https://www.linkedin.com/in/tjandra-putra-49472917a/" target="_blank">
-                                <i class="fab fa-linkedin fa-2x"></i>
+
+                            <a href="./img/Tjandra Putra's Resume.pdf" class="btn btn-dark mt-3 ml-2" id="resume"
+                                target="_blank">
+                                <p style="padding-top:5px">
+                                    Resume
+                                </p>
                             </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-4 text-dark" href="mailto:tjandraputra2000z@gmail.com">
-                                <i class="fas fa-envelope fa-2x"></i>
-                            </a>
-                        </li>
-                    </ul>
+                        </div>
+
+                        <div class="col-md-5">
+                            <img src="./img/absurd_lightbuld.gif" alt="intro-img" width="350" class="img-fluid ml-5"
+                                id="introduction-img">
+                        </div>
+
+                        <!-- <div class="mouse mt-3"></div> -->
+                        <img src="./img/mouse.png" width="25" alt="" class="img-fluid mx-auto"
+                            style="margin-top: 3rem;">
+                    </div>
                 </div>
             </div>
-        </nav>
+        </div>
+        </div>
+    </header>
 
-        <div class="container">
-            <div class="introduction-title">
-                <h1>From automation to web application and more.</h1>
+    <content>
+        <div class="experience full-height" id="experience">
+            <div class="container">
+                <h2>Where I've Worked
+                    <span style="font-weight: 300 !important;">─────────────────</span>
+                </h2>
 
-                <h6 class="py-4">👋 Meet Tjandra Putra</h6>
+                <div class="row mt-5">
+                    <div class="col-md-6 text-center">
+                        <img src="./img/09.png" alt="" class="img-fluid" width=370">
+                    </div>
 
-                <div class="mouse"></div>
-
-                <!-- 
-                <svg class="scroll stagger1" width="40" height="47" viewBox="0 0 40 77">
-                    <g id="scroll" transform="translate(-253 -787)">
-                        <g id="Rectangle_12" data-name="Rectangle 12" transform="translate(253 787)" fill="none"
-                            stroke="#fff" stroke-width="4">
-                            <rect width="40" height="77" rx="20" stroke="none" />
-                            <rect x="2" y="2" width="36" height="73" rx="18" fill="none" />
-                        </g>
-                        <circle class="circle" id="Ellipse_1" data-name="Ellipse 1" cx="11" cy="11" r="11"
-                            transform="translate(262 798)" fill="#fff" />
-                    </g>
-                </svg> -->
+                    <div class="col-md-6">
+                        <h5>RPA Developer <span class="text-primary">@NYP</span></h5>
+                        <p>Mar 2020 – May 2020</p>
+                        <div class="d-flex flex-row text-justify">
+                            <div class="">
+                                <i class="fas fa-caret-right"></i>
+                            </div>
+                            <div class="pl-2">Developed and documented automation process with
+                                machine learning</div>
+                        </div>
+                        <div class="d-flex flex-row text-justify">
+                            <div class="">
+                                <i class="fas fa-caret-right"></i>
+                            </div>
+                            <div class="pl-2">Created and integrated a program that classifies
+                                and sort email data in
+                                outlook</div>
+                        </div>
+                        <div class="d-flex flex-row text-justify">
+                            <div class="">
+                                <i class="fas fa-caret-right"></i>
+                            </div>
+                            <div class="pl-2">Worked with UiPath (RPA) for automation process,
+                                Python for machine
+                                learning and
+                                various
+                                data science libraries</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="featured" id="aboutme">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 featured-padding">
-                    <h6>featured project</h6>
-                    <a href="https://linkvine.herokuapp.com/" target="_blank" class="text-dark">
-                        <h4>linkvine.herokuapp.com</h4>
+        <div class="projects full-height" id="featured-projects">
+            <div class="container">
+                <h2>Things I've Developed
+                    <span style="font-weight: 300 !important;">─────────────────</span>
+                </h2>
+
+                <div class="row mt-5">
+                    <div class="col-md-6">
+                        <a href="https://linkvine.herokuapp.com/" target="_blank">
+                            <img src="./img/linkvine.PNG" alt="linkvine" class="img-fluid img-shadow-success">
+                        </a>
+                    </div>
+                    <div class="col-md-6 pl-5">
+                        <h6>Featured Project</h6>
+                        <h3>Linkvine</h3>
+                        <p class="text-justify">
+                            This is a web application that allows you to create a personalised and easily-customizable
+                            page, that houses all the important links you want to share with your audience. It can be
+                            used on social platforms.
+                        </p>
+
+                        <div class="d-flex flex-row bd-highlight mb-1">
+                            <div class="bd-highlight">
+                                <i class="fas fa-caret-right"></i>
+                            </div>
+                            <div class=" pl-2 bd-highlight">
+                                Easily create & manage all your links in one place
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row bd-highlight mb-1">
+                            <div class="bd-highlight">
+                                <i class="fas fa-caret-right"></i>
+                            </div>
+                            <div class=" pl-2 bd-highlight">
+                                Share your link anywhere - Instagram, Facebook, Tiktok
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row bd-highlight mb-1">
+                            <div class="bd-highlight">
+                                <i class="fas fa-caret-right"></i>
+                            </div>
+                            <div class=" pl-2 bd-highlight">
+                                Create and manage multiple Biolink Pages from a single dashboard
+                            </div>
+                        </div>
+                        <a href="https://linkvine.herokuapp.com/" target="_blank">
+                            <i class="fas fa-external-link-alt mt-3 text-grey"
+                                style="font-size: 1.4rem !important;"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row" style="margin-top: 5rem;">
+                    <div class="col-md-6">
+                        <a href="https://linkvine.herokuapp.com/" target="_blank">
+                            <video controls="" class="embed-responsive embed-responsive-16by9 img-shadow-primary">
+                                <source src="/img/FYPJ_text_clasification.mp4" type="video/mp4">
+                            </video>
+                        </a>
+                    </div>
+                    <div class="col-md-6 pl-5">
+                        <h6>Featured Project</h6>
+                        <h3>Classification Automation</h3>
+                        <p class="text-justify">
+                            This program makes use Robotic Process Automation (RPA) and Machine Learning using Python.
+                            The objective is to automatically classify and sort email data in outlook mail into its own
+                            folder.
+                        </p>
+
+                        <div class="d-flex flex-row bd-highlight mb-1">
+                            <div class="bd-highlight">
+                                <i class="fas fa-caret-right"></i>
+                            </div>
+                            <div class=" pl-2 bd-highlight">
+                                Automated email extraction
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row bd-highlight mb-1">
+                            <div class="bd-highlight">
+                                <i class="fas fa-caret-right"></i>
+                            </div>
+                            <div class=" pl-2 bd-highlight">
+                                Automated email folder sorting
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row bd-highlight mb-1">
+                            <div class="bd-highlight">
+                                <i class="fas fa-caret-right"></i>
+                            </div>
+                            <div class=" pl-2 bd-highlight">
+                                Optimized execution timing
+                            </div>
+                        </div>
+                        <!-- <i class="fas fa-lock mt-3 text-grey" style="font-size: 1.4rem;"></i> -->
+                    </div>
+                </div>
+
+                <div class="row" style="margin-top: 5rem;">
+                    <div class="col-md-6">
+                        <a href="https://linkvine.herokuapp.com/" target="_blank">
+                            <video controls="" class="embed-responsive embed-responsive-16by9 img-shadow-danger">
+                                <source src="/img/FYPJ_chatbot.mp4" type="video/mp4">
+                            </video>
+                        </a>
+                    </div>
+                    <div class="col-md-6 pl-5">
+                        <h6>Featured Project</h6>
+                        <h3>LMS & Chatbot</h3>
+                        <p class="text-justify">
+                            This is a full stack web-based learning management system (LMS) chatbot that comes with full
+                            content management to train/retrain the bot, upload quiz. It also comes with quiz and
+                            ranking system.
+                        </p>
+
+                        <div class="d-flex flex-row bd-highlight mb-1">
+                            <div class="bd-highlight">
+                                <i class="fas fa-caret-right"></i>
+                            </div>
+                            <div class=" pl-2 bd-highlight">
+                                Content management for chatbot
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row bd-highlight mb-1">
+                            <div class="bd-highlight">
+                                <i class="fas fa-caret-right"></i>
+                            </div>
+                            <div class=" pl-2 bd-highlight">
+                                Content management for quiz
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row bd-highlight mb-1">
+                            <div class="bd-highlight">
+                                <i class="fas fa-caret-right"></i>
+                            </div>
+                            <div class=" pl-2 bd-highlight">
+                                Ranking and quiz System
+                            </div>
+                        </div>
+                        <!-- <i class="fas fa-lock mt-3 text-grey" style="font-size: 1.4rem;"></i> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="other-projects">
+            <div class="container">
+                <div class="text-center">
+                    <h2>Other Noteworthy Projects</h2>
+
+                    <div class="mt-5">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="other-projects-box">
+                                    <div class="d-flex flex-row justify-content-between">
+                                        <div>
+                                            <img src="./img/folder.png" alt="folder" width="34" class="img-fluid">
+                                        </div>
+                                        <div class="other-projects-title">
+                                            <a href="./img/sniffy_figma.pdf" target="_blank">
+                                                <i class="fas fa-external-link-alt text-grey"
+                                                    style="font-size: 1.2rem !important;margin-top: -12rem;"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <img src="./img/sniffy_figma_landing.png" alt="" class="img-fluid mt-2">
+                                    <div class="text-center">
+                                        <h6>sniffy</h6>
+                                    </div>
+                                    <p class="text-justify">
+                                        This is my final year project in school which I have created a prototype of a
+                                        grooming service enterprise website.
+                                    </p>
+
+                                    <span class=" badge-secondary badge badge-pill my-1">Figma</span>
+                                    <span class=" badge-secondary badge badge-pill my-1">Web Design</span>
+                                    <span class=" badge-secondary badge badge-pill my-1">UI/UX</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="other-projects-box">
+                                    <div class="d-flex flex-row justify-content-between">
+                                        <div>
+                                            <img src="./img/folder.png" alt="folder" width="34" class="img-fluid">
+                                        </div>
+                                        <div class="other-projects-title">
+                                            <a href="https://github.com/Tjandra-Putra/recipe-manager" target="_blank">
+                                                <i class="fab fa-github-alt text-grey"
+                                                    style="font-size: 1.4rem !important;"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <video controls="" class="embed-responsive embed-responsive-16by9 mt-2">
+                                        <source src="/img/Ionic - Recipe.mp4" type="video/mp4">
+                                    </video>
+                                    <div class="text-center mt-4">
+                                        <h6>Recipe Manager</h6>
+                                    </div>
+                                    <p class="text-justify">
+                                        This is a mobile application that helps you to manage your recipes. This app
+                                        demonstrates basic CRUD operation using ionic, angular and firebase.
+                                    </p>
+
+                                    <span class=" badge-secondary badge badge-pill my-1">Ionic</span>
+                                    <span class=" badge-secondary badge badge-pill my-1">Angular</span>
+                                    <span class=" badge-secondary badge badge-pill my-1">Firebase</span>
+                                    <span class=" badge-secondary badge badge-pill my-1">Mobile App</span>
+
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="other-projects-box">
+                                    <div class="d-flex flex-row justify-content-between">
+                                        <div>
+                                            <img src="./img/folder.png" alt="folder" width="34" class="img-fluid">
+                                        </div>
+                                        <div class="other-projects-title">
+                                            <a href="https://github.com/Tjandra-Putra/automation-project/tree/master/Google%20Form%20Automation"
+                                                target="_blank">
+                                                <i class="fab fa-github-alt text-grey"
+                                                    style="font-size: 1.4rem !important;"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <video controls="" class="embed-responsive embed-responsive-16by9 mt-2">
+                                        <source src="/img/Google Automation.mp4" type="video/mp4">
+                                    </video>
+                                    <div class="text-center mt-4">
+                                        <h6>Google Form Automation</h6>
+                                    </div>
+                                    <p class="text-justify">
+                                        This workflow automates and fill in google forms base on excel inputs. It
+                                        enables enterprise to be effective and efficient
+                                        eliminating repetitive process.
+                                    </p>
+
+                                    <span class=" badge-secondary badge badge-pill my-1">UiPath</span>
+                                    <span class=" badge-secondary badge badge-pill my-1">Automation</span>
+                                    <span class=" badge-secondary badge badge-pill my-1">RPA</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="other-projects-box">
+                                    <div class="d-flex flex-row justify-content-between">
+                                        <div>
+                                            <img src="./img/folder.png" alt="folder" width="34" class="img-fluid">
+                                        </div>
+                                        <div class="other-projects-title">
+                                            <a href="https://github.com/Tjandra-Putra/automation-project/tree/master/Applicant%20Tracking%20System"
+                                                target="_blank">
+                                                <i class="fab fa-github-alt text-grey"
+                                                    style="font-size: 1.4rem !important;"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <video controls="" class="embed-responsive embed-responsive-16by9 mt-2">
+                                        <source src="/img/Google Automation.mp4" type="video/mp4">
+                                    </video>
+                                    <div class="text-center mt-4">
+                                        <h6>Candidate Sourcing</h6>
+                                    </div>
+                                    <p class="text-justify">
+                                        This workflow automates and filters applicants' resume(.PDF) or any other
+                                        documents(.PDF) based on "Key Words".
+                                    </p>
+
+                                    <span class=" badge-secondary badge badge-pill my-1">Ionic</span>
+                                    <span class=" badge-secondary badge badge-pill my-1">Angular</span>
+                                    <span class=" badge-secondary badge badge-pill my-1">Firebase</span>
+                                    <span class=" badge-secondary badge badge-pill my-1">Mobile App</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="other-projects-box">
+                                    <div class="d-flex flex-row justify-content-between">
+                                        <div>
+                                            <img src="./img/folder.png" alt="folder" width="34" class="img-fluid">
+                                        </div>
+                                        <div class="other-projects-title">
+                                            <a href="https://github.com/Tjandra-Putra/automation-project/tree/master/Email%20Automation"
+                                                target="_blank">
+                                                <i class="fab fa-github-alt text-grey"
+                                                    style="font-size: 1.4rem !important;"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <video controls="" class="embed-responsive embed-responsive-16by9 mt-2">
+                                        <source src="/img/Google Automation.mp4" type="video/mp4">
+                                    </video>
+                                    <div class="text-center mt-4">
+                                        <h6>Email Automation</h6>
+                                    </div>
+                                    <p class="text-justify">
+                                        This work flow sends multiple SMTP emails at once based on excel input. User can
+                                        choose different email accounts to send emails.
+                                    </p>
+
+                                    <span class=" badge-secondary badge badge-pill my-1">Ionic</span>
+                                    <span class=" badge-secondary badge badge-pill my-1">Angular</span>
+                                    <span class=" badge-secondary badge badge-pill my-1">Firebase</span>
+                                    <span class=" badge-secondary badge badge-pill my-1">Mobile App</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="other-projects-box">
+                                    <div class="d-flex flex-row justify-content-between">
+                                        <div>
+                                            <img src="./img/folder.png" alt="folder" width="34" class="img-fluid">
+                                        </div>
+                                        <div class="other-projects-title">
+                                            <a href="https://github.com/Tjandra-Putra/" target="_blank">
+                                                <i class="fab fa-github-alt text-grey"
+                                                    style="font-size: 1.4rem !important;"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <img src="./img/07.png" width="178" alt="" class="img-fluid mt-2">
+
+
+                                    <div class="text-center mt-4">
+                                        <h6>Covid Analysis (work in progress)</h6>
+                                    </div>
+                                    <p class="text-justify">
+                                        This project analyses the airline industry performance due to global pandemic
+                                        2020 which includes data mining, cleaning and visualisation.
+                                    </p>
+
+                                    <span class=" badge-secondary badge badge-pill my-1">Data Science</span>
+                                    <span class=" badge-secondary badge badge-pill my-1">Jupyter</span>
+                                    <span class=" badge-secondary badge badge-pill my-1">Python</span>
+                                    <span class=" badge-secondary badge badge-pill my-1">Pandas</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </content>
+
+    <footer>
+        <div class="d-flex flex-row text-white justify-content-center">
+            <div class="p-1">
+                <div class="footer-box text-center">
+                    <a href="https://github.com/Tjandra-Putra" class="text-white" target="_blank">
+                        <i class="fab fa-github icon"></i>
                     </a>
-                    <p class="pt-2">
-                        This is a web application that allows you to create a personalised and easily-customizable page,
-                        that
-                        houses all the important links you want to share with your audience. It can be used on social
-                        platforms.
-                    </p>
-                    <p class="pb-4">Developed using python, frameworks and various libraries</p>
-
-                    <span class=" badge-secondary badge badge-pill my-1">Python</span>
-                    <span class=" badge-secondary badge badge-pill my-1">Flask</span>
-                    <span class=" badge-secondary badge badge-pill my-1">Bootstrap</span>
-                    <span class=" badge-secondary badge badge-pill my-1">Web App</span>
-
                 </div>
-                <div class="col-md-6 featured-padding">
-                    <img src="/img/featured-project-linkvine.PNG" alt="" class="img-fluid img-featured">
+            </div>
+            <div class="p-1">
+                <div class="footer-box text-center">
+                    <a href="https://www.linkedin.com/in/tjandra-putra-49472917a/" class="text-white" target="_blank">
+                        <i class="fab fa-linkedin icon"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="p-1">
+                <div class="footer-box text-center">
+                    <a href="mailto:tjandraputra2000z@gmail.com" class="text-white">
+                        <i class="far fa-paper-plane icon"></i>
+                    </a>
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="skills">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="box-skills p-5 text-center">
-                        <img src="/img/ux-design.png" class="img-fluid" alt="" width=50>
-                        <h5 class="pt-3">UI / UX Design</h5>
-                        <p>I use popular tools such as AdobeXD, Figma for wireframing.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="box-skills p-5 text-center">
-                        <img src="/img/coding.png" class="img-fluid" alt="" width=50>
-                        <h5 class="pt-3">Full Stack Development</h5>
-                        <p>I am knowledgable in both front-end and back-end development.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="box-skills p-5 text-center">
-                        <img src="/img/automation.png" class="img-fluid" alt="" width=50>
-                        <h5 class="pt-3">Automation</h5>
-                        <p>I use Robotic Process Automation to handle repetitive business processes.</p>
-                    </div>
-                </div>
+        <div class="text-center">
+            <a href="#about">
+                <img src="./img/rocket-launch.png" width="30" alt="" class="img-fluid mt-3">
+            </a>
+            <div class="text-white mt-3">
+                Made with <i class="far fa-heart"></i> by Tjandra
             </div>
         </div>
-    </div>
-
-    <div class="projects" id="project">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-5">
-                    <h6>final year project</h6>
-                    <h4>Email Text Classification</h4>
-                    <p class="pt-2">This program makes use Robotic Process Automation (RPA) and Machine Learning using
-                        Python. The objective is to automatically classify and sort email data in outlook mail into its
-                        own folder. You can view the system flow</p>
-
-                    <p class="mb-1 "> <i class="fas fa-check pr-1" style="color:#90EE90"></i>
-                        Automated email folder sorting</p>
-
-                    <p class="mb-1"> <i class="fas fa-check pr-1" style="color:#90EE90"></i>
-                        Automated email extraction</p>
-
-                    <p class=" mb-1"> <i class="fas fa-check pr-1" style="color:#90EE90"></i>
-                        Optimized execution timing</p>
-
-                    <p class=" mb-1p"><i class="fas fa-check pr-1" style="color:#90EE90"></i>
-                        An accuracy of 85%</p>
-
-                    <div style=" margin-top: 1.3em;">
-                        <span class=" badge-secondary badge badge-pill my-1">Python</span>
-                        <span class=" badge-secondary badge badge-pill my-1">Ui Path</span>
-                        <span class=" badge-secondary badge badge-pill my-1">Machine Learning</span>
-                        <span class=" badge-secondary badge badge-pill my-1">Scikit-learn</span>
-                    </div>
-                </div>
-                <div class="col-md-7">
-                    <video controls class="embed-responsive embed-responsive-16by9 ">
-                        <source src="/img/FYPJ_text_clasification.mp4" type="video/mp4">
-                    </video>
-                </div>
-            </div>
-
-            <div class="row" style="margin-top: 7rem;">
-                <div class="col-md-5">
-                    <h6>final year project</h6>
-                    <h4>Learning Management System & Chatbot</h4>
-                    <p class="pt-2">This is a full stack web-based learning management system (LMS) chatbot that comes
-                        with full content management to train/retrain the bot, upload quiz. It also comes with quiz and
-                        ranking system.</p>
-
-                    <p class="mb-1 "> <i class="fas fa-check pr-1" style="color:#90EE90"></i>
-                        Content management for chatbot</p>
-
-                    <p class="mb-1"><i class="fas fa-check pr-1" style="color:#90EE90"></i>
-                        Content management for quiz</p>
-
-                    <p class=" mb-1"> <i class="fas fa-check pr-1" style="color:#90EE90"></i>
-                        Ranking system</p>
-
-                    <p class=" mb-1p"> <i class="fas fa-check pr-1" style="color:#90EE90"></i>
-                        Quiz system</p>
-
-                    <div style=" margin-top: 1.2em;">
-                        <span class=" badge-secondary badge badge-pill my-1">Python</span>
-                        <span class=" badge-secondary badge badge-pill my-1">Chatbot</span>
-                        <span class=" badge-secondary badge badge-pill my-1">Machine Learning</span>
-                        <span class=" badge-secondary badge badge-pill my-1">Flask</span>
-                        <span class=" badge-secondary badge badge-pill my-1">TensorFlow</span>
-                    </div>
-
-                </div>
-                <div class="col-md-7">
-                    <video controls class="embed-responsive embed-responsive-16by9 ">
-                        <source src="/img/FYPJ_chatbot.mp4" type="video/mp4">
-                    </video>
-                </div>
-            </div>
-
-            <div class="row" style="margin-top: 7rem;">
-                <div class="col-md-5">
-
-                    <img src="./img/ionic_logo.png" alt="ui path" width="90">
-                    <h4>Recipe Manager</h4>
-                    <p class="pt-2">This is a mobile application that helps you to manage your recipes. This app
-                        demonstrates basic CRUD operation using ionic, angular and firebase.</p>
-                    <p class="mb-1"> <i class="fas fa-check pr-1" style="color:#90EE90"></i>
-                        Beautiful minimalistic UI/UX</p>
-
-                    <p class=" mb-1"> <i class="fas fa-check pr-1" style="color:#90EE90"></i>
-                        Effective & efficient</p>
-
-                    <p class=" mb-1"><i class="fas fa-check pr-1" style="color:#90EE90"></i>
-                        Easy to use</p>
-
-                    <div style=" margin-top: 3.3em;">
-                        <span class=" badge-secondary badge badge-pill my-1">Ionic</span>
-                        <span class=" badge-secondary badge badge-pill my-1">Angular</span>
-                        <span class=" badge-secondary badge badge-pill my-1">Firebase</span>
-                        <span class=" badge-secondary badge badge-pill my-1">Mobile App</span>
-                    </div>
-
-                </div>
-                <div class="col-md-7">
-                    <video controls class="embed-responsive embed-responsive-16by9 ">
-                        <source src="/img/Ionic - Recipe.mp4" type="video/mp4">
-                    </video>
-                </div>
-            </div>
-
-            <div class="row" style="margin-top: 7rem;">
-                <div class="col-md-5">
-
-                    <img src="./img/uipath.png" alt="ui path" width="80">
-                    <h4>Google Form Automation</h4>
-                    <p class="pt-2">This workflow automates and fill in google forms base on excel inputs. It enables
-                        enterprise to be effective and efficient by reducing human error and eliminating repetitive
-                        actions/tasks.</p>
-                    <p class="mb-1"> <i class="fas fa-check pr-1" style="color:#90EE90"></i>
-                        Excel integration</p>
-
-                    <p class=" mb-1"> <i class="fas fa-check pr-1" style="color:#90EE90"></i>
-                        Effective & efficient</p>
-
-                    <p class=" mb-1"><i class="fas fa-check pr-1" style="color:#90EE90"></i>
-                        Easy to use</p>
+    </footer>
 
 
 
-                    <p class=" text-muted float-left" style="font-size: 15px;margin-top: 3.5rem;">Developed with <a
-                            class="a-link underline text-peach-red" href="https://www.uipath.com/product/studio"
-                            target="_blank"> Ui
-                            Path Studio</a>
-                </div>
-                <div class="col-md-7">
-                    <video controls class="embed-responsive embed-responsive-16by9 ">
-                        <source src="/img/Google Automation.mp4" type="video/mp4">
-                    </video>
-                </div>
-            </div>
-
-            <div class="row" style="margin-top: 7rem;">
-                <div class="col-md-5">
-
-                    <img src="./img/uipath.png" alt="ui path" width="80">
-                    <h4>Candidate Sourcing</h4>
-                    <p class="pt-2">This workflow automates and filters applicants' resume(.PDF) or any other
-                        documents(.PDF) based on "Key Words" from a specific folder and move successfully matched
-                        applicants' file over to a new folder.</p>
-
-
-                    <p class="mb-1"> <i class="fas fa-check pr-1" style="color:#90EE90"></i>
-                        Filter seemlessly</p>
-
-                    <p class=" mb-1"> <i class="fas fa-check pr-1" style="color:#90EE90"></i>
-                        Full control of directory paths</p>
-
-                    <p class=" mb-1"><i class="fas fa-check pr-1" style="color:#90EE90"></i>
-                        Automated email</p>
 
 
 
-                    <p class=" text-muted float-left" style="font-size: 15px;margin-top: 3rem;">Developed with <a
-                            class="a-link underline text-peach-red" href="https://www.uipath.com/product/studio"
-                            target="_blank"> Ui
-                            Path Studio</a>
+    <!-- Type.js-->
+    <script src=" ./js/typed.js"> </script> <!-- Custom JS-->
+    <script src="./js/index.js"></script>
 
-                </div>
-                <div class="col-md-7">
-                    <video controls class="embed-responsive embed-responsive-16by9 ">
-                        <source src="/img/RPA_Applicants Tracking System.mp4" type="video/mp4">
-                    </video>
-                </div>
-            </div>
-
-            <div class="row" style="margin-top: 7rem;">
-                <div class="col-md-5">
-
-                    <img src="./img/uipath.png" alt="ui path" width="80">
-                    <h4>Email Automation</h4>
-                    <p class="pt-2">This work flow sends multiple SMTP emails at once based on excel input. User can
-                        choose different email accounts to send emails.</p>
-
-
-                    <p class="mb-1"> <i class="fas fa-check pr-1" style="color:#90EE90"></i>
-                        Excel integration</p>
-
-                    <p class=" mb-1"> <i class="fas fa-check pr-1" style="color:#90EE90"></i>
-                        Automated email</p>
-
-                    <p class=" mb-1"><i class="fas fa-check pr-1" style="color:#90EE90"></i>
-                        Custom email</p>
-
-
-
-                    <p class=" text-muted float-left" style="font-size: 15px;margin-top: 5rem;">Developed with <a
-                            class="a-link underline text-peach-red" href="https://www.uipath.com/product/studio"
-                            target="_blank"> Ui
-                            Path Studio</a>
-
-                </div>
-                <div class="col-md-7">
-                    <video controls class="embed-responsive embed-responsive-16by9 ">
-                        <source src="/img/RPA_Applicants Tracking System.mp4" type="video/mp4">
-                    </video>
-                </div>
-            </div>
-
-        </div>
-
-        <footer class="pt-5">
-            <div class="container">
-                <div class="text-center text-grey-black">
-                    <i class="fas fa-code text-grey-black"></i> with <i class="fas fa-heart text-gray rgb"></i> by
-                    <a href="https://www.linkedin.com/in/tjandra-putra/" target="_blank"
-                        class=" text-peach-red">Tjandra</a>
-                    <br>
-                    <!-- Copyright @ 2020 All Rights Reserved -->
-                </div>
-            </div>
-        </footer>
-
-    </div>
-
-
-    <!-- Bootstrap-->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
-
 </body>
 
 </html>
