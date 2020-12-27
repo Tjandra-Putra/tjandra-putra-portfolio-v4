@@ -580,9 +580,7 @@ footer {
     }
 
     .other-projects-box {
-        margin-left: 0.45rem;
-        width: 20rem;
-        height:30rem;
+        margin-left: -0.7rem;
     }
 
 }
@@ -599,7 +597,7 @@ footer {
     }
 
     .introduction-message .display-4 {
-        font-size: 1.75rem !important;
+        font-size: 1.8rem !important;
     }
 
     .introduction-message .col-md-7 {
@@ -657,31 +655,4 @@ footer {
         margin-left: 0.8rem;
     }
 
-}
-
-
-/** PIXEL 2 XL **/
-@media only screen and (min-device-width: 411px) and (max-device-width: 823px) {
-    .other-projects-box {
-        margin-left: unset;
-        width: unset;
-        height: unset;
-    }
-
-    .experience {
-        margin-top: 13rem;
-    }
-}
-
-/** PIXEL 2 XL **/
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
-    .other-projects-box {
-        margin-left: unset;
-        width: unset;
-        height: unset;
-    }
-
-    .experience {
-        margin-top: 11rem;
-    }
 }
