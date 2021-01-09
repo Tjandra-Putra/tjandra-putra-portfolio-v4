@@ -6,6 +6,32 @@ html {
     scroll-behavior: smooth;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgba(222, 222, 222, .75);
+    opacity: 0;
+    z-index: 1;
+    transition: opacity 0.5s 0.5s ease-out;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    /* background: #b9dabd !important; */
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 4px;
+    height: 10rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
 .navbar .navbar-toggler-icon {
     background-image: url("../img/menu.png") !important;
 }
@@ -76,6 +102,11 @@ html {
     font-size: 1rem;
     font-weight: 400;
     width: 87%;
+    color: #666;
+}
+
+.font-weight-bold {
+    font-weight: 600 !important;
 }
 
 .btn-light-blue {
@@ -148,7 +179,7 @@ html {
 
 .experience h1 {
     line-height: 55px;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 45px
 }
 
@@ -461,7 +492,7 @@ html {
 
 .projects h1 {
     line-height: 55px;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 45px
 }
 
@@ -485,6 +516,11 @@ footer {
     /* margin-top: 5rem; */
 }
 
+footer .text-footer {
+    box-shadow: rgba(0, 158, 253, 0.25) 0 20px 80px, rgba(42, 245, 152, 0.1) 0 20px 40px;
+    background-image: linear-gradient(135deg, rgba(42, 245, 152, 1), rgba(0, 158, 253, 1) 100%, rgba(42, 245, 152, 1));
+}
+
 .icon {
     font-size: 24px;
 }
@@ -502,6 +538,7 @@ footer {
     padding-bottom: 10%;
     padding-bottom: 6rem;
     background-color: #c4ac8c;
+    /* background-image: linear-gradient(114.9deg, rgba(34, 34, 34, 1) 8.3%, rgba(0, 40, 60, 1) 41.6%, rgba(0, 143, 213, 1) 93.4%); */
 }
 
 .other-projects-box {
@@ -509,10 +546,18 @@ footer {
     /* box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px; */
     height: 27.5rem;
     width: 22rem;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 1rem;
     margin-top: 1rem;
     background-color: #ffffff;
+}
+
+.other-projects-box h6 {
+    color: #4a90e2;
+}
+
+.other-projects h1 {
+    font-weight: 500 !important;
 }
 
 .other-projects-box:hover {
