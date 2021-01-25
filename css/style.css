@@ -74,7 +74,9 @@ html {
 }
 
 .navbar {
-    padding-top: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    z-index: 9999;
 }
 
 .nav-item {
@@ -94,11 +96,11 @@ html {
 }
 
 #introduction-img {
-    padding-top: 5rem;
+    padding-top: 35%;
 }
 
 .introduction-message .col-md-7 {
-    padding-top: 8.2rem;
+    padding-top: 17%;
 }
 
 /* .introduction {
@@ -563,6 +565,12 @@ footer .text-footer {
     font-size: 24px;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 .footer-box {
     background-color: #333;
     color: #ffffff;
@@ -648,7 +656,7 @@ footer .text-footer {
     }
 
     .introduction {
-        padding-bottom: 6rem;
+        padding-bottom: 16rem;
     }
 
     .introduction-message .btn-warning,
@@ -662,6 +670,10 @@ footer .text-footer {
 
     .introduction-message img {
         display: none;
+    }
+
+    .introduction-message {
+        padding-top: 5rem;
     }
 
     .experience {
@@ -727,7 +739,7 @@ footer .text-footer {
     }
 
     .introduction {
-        padding-bottom: 13rem;
+        padding-bottom: 17rem;
     }
 
     .nav-item {
@@ -744,6 +756,10 @@ footer .text-footer {
 
     .introduction-message img {
         display: none;
+    }
+
+    .introduction-message {
+        padding-top: 7rem;
     }
 
     .experience h1 {
