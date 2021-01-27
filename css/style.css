@@ -484,6 +484,11 @@ html {
     box-shadow: rgba(220, 53, 69, 0.4) 5px 5px, rgba(220, 53, 69, 0.3) 10px 10px, rgba(220, 53, 69, 0.2) 15px 15px, rgba(220, 53, 69, 0.1) 20px 20px, rgba(220, 53, 69, 0.05) 25px 25px;
 }
 
+.img-shadow-dark{ 
+    box-shadow: rgba(52, 58, 64, 0.4) 5px 5px, rgba(52, 58, 64, 0.3) 10px 10px, rgba(52, 58, 64, 0.2) 15px 15px, rgba(52, 58, 64, 0.1) 20px 20px, rgba(52, 58, 64, 0.05) 25px 25px;
+
+}
+
 .projects {
     background-color: #FBFBFB;
     padding-top: 10%;
