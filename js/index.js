@@ -1,6 +1,7 @@
 // Type.js
 var typed = new Typed(".type", {
     strings: [
+        "Data Analyst.",
         "Web Developer.",
         "Mobile Developer.",
         "RPA Developer.",
