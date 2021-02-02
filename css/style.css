@@ -525,10 +525,15 @@ html {
 }
 
 footer {
-	background-color: #222;
-	padding-top: 2rem;
-	padding-bottom: 2rem;
+	/* background-color: #222; */
+	padding-top: 4rem;
+	padding-bottom: 4rem;
 	/* margin-top: 5rem; */
+	font-weight: 300;
+}
+
+.footer-link:hover {
+	font-weight: 400;
 }
 
 footer .text-footer {
@@ -579,6 +584,11 @@ footer .text-footer {
 	width: 40px;
 	height: 40px;
 	line-height: 47px;
+	border-radius: 5px;
+}
+
+.line {
+	border-bottom: 1px solid #ddd;
 }
 
 .other-projects {
