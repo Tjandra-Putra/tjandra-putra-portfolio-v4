@@ -1,9 +1,9 @@
 // Type.js
 // strings: [ 'Data Analyst.', 'Web Developer.', 'Mobile Developer.', 'RPA Developer.', 'UI/UX Designer.' ]
 var typed = new Typed('.type', {
-	strings: [ 'Software Developer' ],
-	typeSpeed: 60,
-	backSpeed: 60,
+	strings: [ 'Software Developer.' ],
+	typeSpeed: 50,
+	backSpeed:50,
 	loop: true
 });
 

@@ -106,7 +106,7 @@ html {
 } */
 
 .display-4 {
-	font-size: 3.1rem !important;
+	font-size: 2.9rem !important;
 }
 
 #personal-quality {
@@ -671,8 +671,6 @@ footer .text-footer {
 	font-weight: 400;
 }
 
-
-
 /** GALAXY S5 **/
 @media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
 	.underline {
@@ -688,7 +686,7 @@ footer .text-footer {
 	}
 
 	.introduction-message .display-4 {
-		font-size: 1.5rem !important;
+		font-size: 1.4rem !important;
 	}
 
 	.introduction {
@@ -701,7 +699,7 @@ footer .text-footer {
 	}
 
 	.introduction-message .col-md-7 {
-		padding-left: 2.5rem;
+		padding-left: 2rem;
 	}
 
 	.introduction-message img {
@@ -788,7 +786,7 @@ footer .text-footer {
 	}
 
 	.introduction-message .display-4 {
-		font-size: 1.75rem !important;
+		font-size: 1.6rem !important;
 	}
 
 	.introduction-message .col-md-7 {
