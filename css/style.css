@@ -93,12 +93,16 @@ html {
 }
 
 #introduction-img {
-	padding-top: 32%;
+	/* padding-top: 32%; */
+	padding-top: 20vh;
 	/* border: 1px solid red; */
 }
 
 .introduction-message .col-md-7 {
-	padding-top: 18%;
+	padding-top: 27vh;
+	/* border: 1px solid red; */
+
+	/* padding-top: 18%; */
 }
 
 /* .introduction {
@@ -690,7 +694,7 @@ footer .text-footer {
 	}
 
 	.introduction {
-		padding-bottom: 16rem;
+		padding-bottom: 4rem;
 	}
 
 	.introduction-message .btn-warning,
@@ -707,7 +711,7 @@ footer .text-footer {
 	}
 
 	.introduction-message {
-		padding-top: 5rem;
+		padding-bottom: 5rem;
 	}
 
 	.experience {
@@ -762,9 +766,6 @@ footer .text-footer {
 	footer {
 		text-align: center !important;
 	}
-
-	.bd-highlight {
-	}
 }
 
 /** PIXEL 2 **/
@@ -778,7 +779,7 @@ footer .text-footer {
 	}
 
 	.introduction {
-		padding-bottom: 17rem;
+		padding-bottom: 10rem;
 	}
 
 	.nav-item {
@@ -795,10 +796,6 @@ footer .text-footer {
 
 	.introduction-message img {
 		display: none;
-	}
-
-	.introduction-message {
-		padding-top: 7rem;
 	}
 
 	.experience h1 {
@@ -853,6 +850,10 @@ footer .text-footer {
 @media only screen and (min-device-width: 411px) and (max-device-width: 823px) {
 	.underline {
 		display: none;
+	}
+
+	.introduction {
+		padding-bottom: 13.5rem;
 	}
 
 	.other-projects-box {
