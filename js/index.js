@@ -3,7 +3,7 @@
 var typed = new Typed('.type', {
 	strings: [ 'Software Developer.' ],
 	typeSpeed: 50,
-	backSpeed:50,
+	backSpeed: 50,
 	loop: true
 });
 
@@ -14,6 +14,7 @@ if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
 }
 
 window.addEventListener('scroll', (event) => {
+	// document.getElementById('navbar').style.background = 'rgb(245, 245, 245)';
 	let scroll = this.scrollY;
 	if (scroll > 700) {
 		document.getElementById('navbar').style.background = 'white';

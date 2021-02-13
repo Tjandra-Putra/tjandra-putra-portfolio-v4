@@ -84,6 +84,10 @@ html {
 	color: #000000 !important;
 }
 
+.navbar {
+	background-color: rgb(245, 245, 245);
+}
+
 .nav-link:hover {
 	font-weight: 600;
 }
@@ -121,7 +125,7 @@ html {
 }
 
 #scribble-arrow {
-	transform: translateY(9vh) rotate(-120deg);
+	transform: translateY(10vh) rotate(-120deg);
 	margin: auto;
 }
 
@@ -896,6 +900,7 @@ footer .text-footer {
 
 	.other-projects-box {
 		margin-left: 0.8rem;
+		height: 27rem !important;
 	}
 }
 
@@ -929,7 +934,7 @@ footer .text-footer {
 	.other-projects-box {
 		margin-left: unset;
 		width: unset;
-		height: unset;
+		height: 27rem !important;
 	}
 
 	.experience {
