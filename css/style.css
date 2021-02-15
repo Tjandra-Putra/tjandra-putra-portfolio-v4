@@ -125,7 +125,7 @@ html {
 }
 
 #scribble-arrow {
-	transform: translateY(10vh) rotate(-120deg);
+	transform: translateY(15vh) rotate(-120deg);
 	margin: auto;
 }
 
@@ -665,7 +665,7 @@ footer .text-footer {
 .other-projects-box {
 	/* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
 	/* box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px; */
-	height: 27rem;
+	height: 29.3rem;
 	width: 22rem;
 	border-radius: 20px;
 	/* padding: 1rem;
@@ -677,6 +677,7 @@ footer .text-footer {
 .other-projects-img {
 	border-radius: 20px;
 	height: 219px;
+	width: 100%;
 }
 
 .other-projects-box h6 {
@@ -700,7 +701,7 @@ footer .text-footer {
 }
 
 .other-projects-box p {
-	font-size: 12px;
+	font-size: 0.9em;
 }
 
 .other-projects-title {
@@ -708,14 +709,14 @@ footer .text-footer {
 	font-weight: 600;
 }
 
-.other-projects img {
-	box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+.other-projects .sniffy-img {
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	border-radius: 20px;
 }
 
 .other-projects video {
 	height: 13.7rem;
-	box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
-	/* box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px; */
+	/* box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px; */
 }
 
 .badge-secondary {
