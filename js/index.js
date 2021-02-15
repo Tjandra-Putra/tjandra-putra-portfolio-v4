@@ -27,3 +27,4 @@ window.addEventListener('scroll', (event) => {
 AOS.init({
 	once: true
 });
+
