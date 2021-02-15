@@ -814,7 +814,7 @@ footer .text-footer {
 	.other-projects-box {
 		margin-left: 0.45rem;
 		width: 20rem;
-		height: 30rem;
+		height: 31rem;
 	}
 
 	.connect .display-4 {
@@ -901,7 +901,7 @@ footer .text-footer {
 
 	.other-projects-box {
 		margin-left: 0.8rem;
-		height: 27rem !important;
+		height: 29.5rem;
 	}
 }
 
@@ -913,12 +913,6 @@ footer .text-footer {
 
 	.introduction {
 		padding-bottom: 13.5rem;
-	}
-
-	.other-projects-box {
-		margin-left: unset;
-		width: unset;
-		height: unset;
 	}
 
 	.experience {
@@ -935,7 +929,7 @@ footer .text-footer {
 	.other-projects-box {
 		margin-left: unset;
 		width: unset;
-		height: 27rem !important;
+		/* height: 27rem; */
 	}
 
 	.experience {
