@@ -714,6 +714,10 @@ footer .text-footer {
 	border-radius: 20px;
 }
 
+.other-projects-box:hover > .sniffy-img {
+	border-radius: 20px 20px 0 0 !important;
+}
+
 .other-projects video {
 	height: 13.7rem;
 	/* box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px; */
