@@ -82,18 +82,24 @@ html {
 
 .nav-link {
 	color: #000000 !important;
+	font-weight: 500;
+	border-bottom: 2px solid transparent;
+}
+
+.nav-link:hover {
+	border-bottom: 2px solid rgb(255, 44, 90);
+	transition: 0.4s ease-in-out;
 }
 
 .navbar {
 	background-color: rgb(245, 245, 245);
 }
 
-.nav-link:hover {
-	font-weight: 600;
-}
-
 #brand {
 	font-weight: 600 !important;
+	color: rgb(255, 44, 90);
+	font-size: 24px !important;
+	font-weight: 500 !important;
 }
 
 #introduction-img {
@@ -150,12 +156,35 @@ html {
 	color: white !important;
 	border: none;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	transition: 0.4s ease-in-out;
 }
 
 .btn-light-blue:hover {
 	font-weight: 700 !important;
 	color: #ffffff !important;
 	box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+	border: none;
+}
+
+.btn-blood {
+	background-color: rgb(255, 44, 90);
+	border-collapse: rgb(255, 44, 90);
+	width: 10rem;
+	height: 3rem;
+	font-weight: 400 !important;
+	border-radius: 22px;
+	color: white !important;
+	border: none;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	transition: 0.4s ease-in-out;
+}
+
+.btn-blood:hover {
+	font-weight: 700 !important;
+	color: #ffffff !important;
+	/* box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px; */
+	box-shadow: 0px 10px 30px rgba(255, 44, 90, 0.8);
+
 	border: none;
 }
 
@@ -166,6 +195,7 @@ html {
 	background-color: #000000 !important;
 	border-radius: 22px;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	transition: 0.4s ease-in-out;
 }
 
 .btn-dark:hover {
@@ -173,7 +203,8 @@ html {
 	font-weight: 700 !important;
 	color: #ffffff !important;
 	border-color: #000000 !important;
-	box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+	/* box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px; */
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.8);
 }
 
 .text-warning {
@@ -541,7 +572,13 @@ html {
 
 .projects video {
 	border-radius: 10px;
+	/* transition: 0.4s ease-in-out; */
 }
+
+/* .projects video:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+} */
 
 .connect {
 	margin-bottom: 14vh;
@@ -575,8 +612,20 @@ footer {
 	font-weight: 300;
 }
 
+.featured-title {
+	/* color: #4a90e2; */
+	color: rgb(255, 44, 90);
+}
+
 .footer-link:hover {
+	font-weight: 500;
+	color: rgb(255, 44, 90);
+}
+
+.footer-link {
+	color: rgb(255, 44, 90);
 	font-weight: 400;
+	transition: box-shadow .25s linear;
 }
 
 footer .text-footer {
