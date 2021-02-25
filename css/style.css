@@ -32,6 +32,10 @@ html {
 	background: #555;
 }
 
+.text-danger {
+	color: rgb(255, 44, 90) !important;
+}
+
 .navbar .navbar-toggler-icon {
 	background-image: url("../img/menu.png") !important;
 }
