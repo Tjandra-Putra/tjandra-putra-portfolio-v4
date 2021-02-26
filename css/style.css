@@ -6,6 +6,10 @@ html {
 	scroll-behavior: smooth;
 }
 
+.text-blood {
+	color: rgb(255, 44, 90);
+}
+
 /* width */
 ::-webkit-scrollbar {
 	width: 10px;
@@ -586,8 +590,21 @@ html {
 	cursor: pointer;
 } */
 
+.about-me {
+	padding-top: 10%;
+	padding-bottom: 10%;
+	background-color: #fbfbfb;
+}
+
+.about-me h1 {
+	line-height: 55px;
+	font-weight: 300;
+	font-size: 45px;
+}
+
 .connect {
-	margin-bottom: 14vh;
+	padding-bottom: 10%;
+	padding-top: 10%;
 }
 
 .btn-connect {
@@ -712,7 +729,6 @@ footer .text-footer {
 .other-projects {
 	padding-top: 10%;
 	padding-bottom: 10%;
-	padding-bottom: 6rem;
 	/* background-color: #c4ac8c; */
 	/* background-image: linear-gradient(114.9deg, rgba(34, 34, 34, 1) 8.3%, rgba(0, 40, 60, 1) 41.6%, rgba(0, 143, 213, 1) 93.4%); */
 }
@@ -874,6 +890,10 @@ footer .text-footer {
 		margin-left: 0.45rem;
 		width: 20rem;
 		height: 31rem;
+	}
+
+	.about-me h1 {
+		font-size: 1.3rem;
 	}
 
 	.connect .display-4 {

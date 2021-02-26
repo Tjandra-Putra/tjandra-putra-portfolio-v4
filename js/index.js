@@ -8,7 +8,7 @@ var typed = new Typed('.type', {
 });
 
 if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
-	document.getElementById('navbar').style.background = 'red';
+	// document.getElementById('navbar').style.background = 'red';
 	console.log(document.body.scrollHeight);
 } else {
 }
