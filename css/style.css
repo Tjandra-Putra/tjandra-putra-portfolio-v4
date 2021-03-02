@@ -98,7 +98,26 @@ html {
 .navbar {
 	padding-top: 1.5rem;
 	padding-bottom: 1.5rem;
-	z-index: 9999;
+	z-index: 10;
+}
+
+.modal-header {
+	border-bottom: 0 none;
+}
+
+.modal-footer {
+	border-top: 0 none;
+}
+
+.table {
+	border-bottom: 0px !important;
+}
+.table th,
+.table td {
+	border: 1px !important;
+}
+.fixed-table-container {
+	border: 0px !important;
 }
 
 .nav-item {
@@ -841,6 +860,11 @@ footer .text-footer {
 .other-projects-title {
 	padding-top: 0.5rem !important;
 	font-weight: 600;
+}
+
+.other-projects .archived-link:hover {
+	font-weight: 600;
+	cursor: pointer;
 }
 
 .other-projects .sniffy-img {
