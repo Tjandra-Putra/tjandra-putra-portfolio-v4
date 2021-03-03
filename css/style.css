@@ -855,6 +855,9 @@ footer .text-footer {
 
 .other-projects-box:hover {
 	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	transform: translateY(-10px);
+	transition: 0.5s;
+	/* transform: scale(1.05); */
 	/* transition: box-shadow 0.3s ease-in-out; */
 }
 
@@ -869,7 +872,7 @@ footer .text-footer {
 
 .other-projects .archived-link:hover {
 	font-weight: 600;
-	cursor: pointer;
+	cursor: pointer !important;
 }
 
 .other-projects .sniffy-img {
