@@ -631,7 +631,7 @@ html {
 }
 
 .projects {
-	background-color: #fbfbfb;
+	/* background-color: #fbfbfb; */
 	padding-top: 10%;
 	padding-bottom: 10%;
 }
@@ -677,7 +677,7 @@ html {
 .about-me {
 	padding-top: 10%;
 	padding-bottom: 10%;
-	background-color: #fbfbfb;
+	/* background-color: #fbfbfb; */
 }
 
 .about-me h1 {
@@ -724,7 +724,8 @@ footer {
 .featured-title {
 	/* color: #4a90e2; */
 	/* color: rgb(255, 44, 90); */
-	color: #ff5722;
+	/* color: #ff5722; */
+	color: black;
 }
 
 .footer-link:hover {
