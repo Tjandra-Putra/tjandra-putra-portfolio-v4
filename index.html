@@ -123,8 +123,11 @@
                         </div>
 
                         <!-- <div class="mouse mt-3"></div> -->
-                        <img src="./img/mouse.png" width="25" alt=""
+                        <!-- <img src="./img/mouse.png" width="25" alt=""
                             class="img-fluid mx-auto animate__animated animate__bounce animate__infinite infinite"
+                            style="margin-top: 3rem;"> -->
+
+                        <img src="./img/mouse.png" width="25" alt="" class="img-fluid mx-auto"
                             style="margin-top: 3rem;">
                     </div>
                 </div>
@@ -1058,9 +1061,20 @@
     <a href="#" class="scrollToTop d-none d-sm-block">
         <!-- <i class="fas fa-chevron-up  fa-1x p-1" aria-hidden="true"></i> -->
         <!-- <img src="./img/up-arrow.png" width="20" alt=""> -->
-        <img src="./img/rocket-launch.png" width="30" alt="" class="img-fluid mt-3" style="transform: rotate(-45deg);">
+        <!-- <img src="./img/rocket-launch.png" width="30" alt="" class="img-fluid mt-3" style="transform: rotate(-45deg);"> -->
 
     </a>
+
+    <div class="bg-music" onclick="musicHandler()">
+        <img src="./img/pause.png" width="30" alt="" class="img-fluid mt-3 bg-music" id="pause"
+            style="visibility: hidden;">
+
+        <img src="./img/sound.gif" width="30" alt="" class="img-fluid mt-3 bg-music" id="play"
+            style="visibility: visible;">
+        <audio src="./img/y2mate.com - Italico_KpGK4XTi5P0.mp3" id="myMusic" style="display: block;"></audio>
+    </div>
+
+
 
     <!-- Type.js-->
     <script src=" ./js/typed.js"> </script>

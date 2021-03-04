@@ -27,3 +27,21 @@ window.addEventListener('scroll', (event) => {
 AOS.init({
 	once: true
 });
+
+// Bg Music
+
+var audio = document.getElementById('myMusic');
+audio.volume = 0.2;
+audio.play();
+
+function musicHandler() {
+	var audio = document.getElementById('myMusic');
+
+	var iconPause = document.getElementById('pause');
+	var iconPlay = document.getElementById('play');
+	iconPlay.style.visibility = 'hidden';
+
+	iconPause.style.visibility = 'visible';
+
+	audio.pause();
+}
