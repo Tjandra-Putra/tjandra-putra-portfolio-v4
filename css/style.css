@@ -10,6 +10,10 @@ html {
 	color: rgb(255, 44, 90);
 }
 
+.text-dark-blue {
+	color: #161f38;
+}
+
 .text-blue {
 	color: #4a90e2;
 }
@@ -82,7 +86,7 @@ html {
 
 .visit-link:hover {
 	/* color: #000000 !important; */
-	font-weight: 600;
+	font-weight: 400 !important;
 	text-decoration: none !important;
 }
 
@@ -93,6 +97,7 @@ html {
 .visit-link,
 .d-flex a {
 	text-decoration: none !important;
+	font-weight: 300;
 }
 
 .navbar {
@@ -171,9 +176,12 @@ html {
 
 #personal-quality {
 	font-size: 1rem;
-	font-weight: 400;
+	font-weight: 300;
 	width: 87%;
 	color: #666;
+}
+.personal-quality-bold {
+	font-weight: 500;
 }
 
 #scribble-arrow {
@@ -726,6 +734,7 @@ footer {
 	/* color: rgb(255, 44, 90); */
 	/* color: #ff5722; */
 	color: black;
+	font-weight: 300 !important;
 }
 
 .footer-link:hover {
@@ -855,8 +864,12 @@ footer .text-footer {
 
 .other-projects-box h6 {
 	/* color: #4a90e2; */
-	font-weight: 500;
+	font-weight: 400;
 	font-size: 1.2rem;
+}
+
+.font-weight-300 {
+	font-weight: 300;
 }
 
 .other-projects h1 {
@@ -886,7 +899,7 @@ footer .text-footer {
 }
 
 .other-projects .archived-link:hover {
-	font-weight: 600;
+	font-weight: 400;
 	cursor: pointer !important;
 }
 
@@ -911,7 +924,16 @@ footer .text-footer {
 	margin: 0 2px;
 	border-radius: 3px !important;
 	color: rgba(0, 0, 0, 0.54);
-	font-weight: 400;
+	font-weight: 300;
+}
+
+th {
+	font-weight: 500;
+}
+
+.blurred-bg-modal {
+	background-color: rgba(0, 0, 0, .4) !important;
+	backdrop-filter: blur(10px);
 }
 
 /** GALAXY S5 **/
