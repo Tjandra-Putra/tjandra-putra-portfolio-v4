@@ -39,9 +39,10 @@ function musicHandler() {
 
 	var iconPause = document.getElementById('pause');
 	var iconPlay = document.getElementById('play');
-	iconPlay.style.visibility = 'hidden';
+	// iconPlay.style.visibility = 'hidden';
 
-	iconPause.style.visibility = 'visible';
+	// iconPause.style.visibility = 'visible';
 
-	audio.pause();
+	// audio.pause();
+	audio.play();
 }
