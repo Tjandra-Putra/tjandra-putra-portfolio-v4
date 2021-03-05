@@ -31,7 +31,7 @@ AOS.init({
 // Bg Music
 
 var audio = document.getElementById('myMusic');
-audio.volume = 0.2;
+// audio.volume = 0.2;
 audio.play();
 
 function musicHandler() {
