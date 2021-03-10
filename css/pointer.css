@@ -4,37 +4,37 @@
 */
 
 #pointer-dot {
-	left: 0;
-	top: 0;
-	width: 0;
-	height: 0;
-	/* border: 2.5px solid white; */
-	border: 2.5px solid black !important;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  /* border: 2.5px solid white; */
+  border: 3px solid black !important;
 
-	position: fixed;
-	border-radius: 4px;
-	z-index: 101;
-	pointer-events: none;
-	transition: border-color 0.5s;
+  position: fixed;
+  border-radius: 4px;
+  z-index: 101;
+  pointer-events: none;
+  transition: border-color 0.5s;
 }
 
 #pointer-ring {
-	left: 0;
-	top: 0;
-	width: 0;
-	height: 0;
-	padding: 15px;
-	border: 2px solid #750c7e;
-	position: fixed;
-	border-radius: 100px;
-	z-index: 102;
-	pointer-events: none;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  padding: 15px;
+  border: 2px solid black;
+  position: fixed;
+  border-radius: 100px;
+  z-index: 102;
+  pointer-events: none;
 }
 
 html {
-	cursor: none !important;
+  cursor: none !important;
 }
 
 a {
-	cursor: none !important;
+  cursor: none !important;
 }
