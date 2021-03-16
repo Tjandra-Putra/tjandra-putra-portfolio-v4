@@ -946,128 +946,10 @@ th {
 .blurred-bg-modal {
   background-color: rgba(0, 0, 0, 0.4) !important;
   backdrop-filter: blur(10px);
-<<<<<<< Updated upstream
-=======
-}
-
-#papiko {
-	height: 19em;
->>>>>>> Stashed changes
 }
 
 /** GALAXY S5 **/
 @media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-	#papiko {
-		height: unset;
-	}
-
-	.bg-music {
-		width: 25px;
-		height: auto;
-	}
-
-	.underline {
-		display: none;
-	}
-
-	.navbar-nav {
-		text-align: center !important;
-	}
-
-	.nav-item {
-		padding-left: unset;
-	}
-
-	.introduction-message .display-4 {
-		font-size: 1.4rem !important;
-	}
-
-	.introduction {
-		padding-bottom: 4rem;
-	}
-
-	.introduction-message .btn-warning,
-	.btn-dark {
-		width: 8rem !important;
-	}
-
-	.introduction-message .col-md-7 {
-		padding-left: 2rem;
-	}
-
-	.introduction-message img {
-		display: none;
-	}
-
-	.introduction-message {
-		padding-bottom: 5rem;
-	}
-
-	.experience {
-		padding-top: 7rem;
-	}
-
-	.experience h1 {
-		font-size: 1.3rem;
-		text-align: center !important;
-	}
-
-	.experience img {
-		display: none;
-	}
-
-	.full-height {
-		height: unset;
-		min-height: unset;
-	}
-
-	.projects {
-		margin-top: 9rem;
-	}
-
-	.projects h1 {
-		font-size: 1.3rem;
-		text-align: center;
-	}
-
-	.projects .col-md-6 h6 {
-		margin-top: 3rem;
-	}
-
-	.projects .col-md-6 {
-		padding-left: 1rem !important;
-	}
-
-	.projects .col-md-6 h3 {
-		font-size: 1.3rem;
-	}
-
-	.other-projects h1 {
-		font-size: 1.3rem !important;
-	}
-
-	.other-projects-box {
-		margin-left: 0.45rem;
-		width: 20rem;
-		height: 31rem;
-	}
-
-	.about-me h1 {
-		font-size: 1.3rem;
-	}
-
-	.connect .display-4 {
-		font-size: 2rem !important;
-	}
-
-	.connect .connect-title {
-		font-size: 1.5em !important;
-	}
-=======
->>>>>>> Stashed changes
   .bg-music {
     width: 25px;
     height: auto;
@@ -1170,10 +1052,6 @@ th {
   .connect .connect-title {
     font-size: 1.5em !important;
   }
-<<<<<<< Updated upstream
-=======
->>>>>>> b1ea75184841f68a9610da32245282e98afce511
->>>>>>> Stashed changes
 
   footer {
     text-align: center !important;
@@ -1182,7 +1060,6 @@ th {
 
 /** PIXEL 2 **/
 @media only screen and (min-device-width: 411px) and (max-device-width: 731px) {
-<<<<<<< Updated upstream
   .bg-music {
     width: 25px;
     height: auto;
@@ -1268,104 +1145,6 @@ th {
     display: none;
   }
 
-=======
-<<<<<<< HEAD
-	#papiko {
-		height: unset;
-	}
-
-	.bg-music {
-		width: 25px;
-		height: auto;
-	}
-=======
-  .bg-music {
-    width: 25px;
-    height: auto;
-  }
-
-  .underline {
-    display: none;
-  }
-
-  .navbar-nav {
-    text-align: center !important;
-  }
->>>>>>> b1ea75184841f68a9610da32245282e98afce511
-
-  .introduction {
-    padding-bottom: 10rem;
-  }
-
-  .nav-item {
-    padding-left: unset;
-  }
-
-  .introduction-message .display-4 {
-    font-size: 1.6rem !important;
-  }
-
-  .introduction-message .col-md-7 {
-    padding-left: 2.5rem;
-  }
-
-  .introduction-message img {
-    display: none;
-  }
-
-  .experience h1 {
-    font-size: 1.8rem;
-    text-align: center;
-  }
-
-  .experience {
-    margin-top: 1rem !important;
-  }
-
-  .experience img {
-    display: none;
-  }
-
-  .full-height {
-    height: unset;
-    min-height: unset;
-  }
-
-  .projects {
-    margin-top: 9rem;
-  }
-
-  .projects h1 {
-    font-size: 1.8rem;
-    text-align: center;
-  }
-
-  .projects .col-md-6 h6 {
-    margin-top: 3rem;
-  }
-
-  .projects .col-md-6 {
-    padding-left: 1rem !important;
-  }
-
-  .projects .col-md-6 h3 {
-    font-size: 1.3rem;
-  }
-
-  .other-projects h1 {
-    font-size: 1.8rem !important;
-  }
-
-  .other-projects-box {
-    margin-left: 0.8rem;
-    height: 29.5rem;
-  }
-
-  #pointer-dot {
-    display: none;
-  }
-
->>>>>>> Stashed changes
   #pointer-ring {
     display: none;
   }
