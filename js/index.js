@@ -30,24 +30,36 @@ AOS.init({
 });
 
 // Bg Music
+var isPlaying = false;
 
 var audio = document.getElementById('myMusic');
 // audio.volume = 0.03;
 audio.volume = 0.1;
 
-audio.play();
+// audio.play();
 
 function musicHandler() {
 	var audio = document.getElementById('myMusic');
 
-	var iconPause = document.getElementById('pause');
-	var iconPlay = document.getElementById('play');
-	// iconPlay.style.visibility = 'hidden';
+	if (isPlaying === false) {
+		isPlaying = true;
+		audio.play();
 
-	// iconPause.style.visibility = 'visible';
+		var iconPause = document.getElementById('pause');
+		var iconPlay = document.getElementById('play');
+		iconPlay.style.visibility = 'visible';
 
-	// audio.pause();
-	audio.play();
+		iconPause.style.visibility = 'hidden';
+	} else if (isPlaying === true) {
+		isPlaying = false;
+		audio.pause();
+
+		var iconPause = document.getElementById('pause');
+		var iconPlay = document.getElementById('play');
+		iconPlay.style.visibility = 'hidden';
+
+		iconPause.style.visibility = 'visible';
+	}
 }
 
 var prevScrollpos = window.pageYOffset;

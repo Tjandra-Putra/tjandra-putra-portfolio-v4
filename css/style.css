@@ -830,6 +830,10 @@ footer .text-footer {
 	/* background-color: rgb(0, 0, 0, 0.5); */
 }
 
+.bg-music:hover {
+	cursor: pointer;
+}
+
 .icon {
 	font-size: 24px;
 }
