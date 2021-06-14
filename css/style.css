@@ -942,7 +942,8 @@ footer .text-footer {
 	line-height: 22px;
 	padding: 5px 10px !important;
 	margin: 0 2px;
-	border-radius: 3px !important;
+	/* border-radius: 3px !important; */
+	border-radius: 36px !important;
 	background-color: rgba(0, 0, 0, 0.05);
 	color: #000000;
 	/* color: rgba(0, 0, 0, 0.54);
