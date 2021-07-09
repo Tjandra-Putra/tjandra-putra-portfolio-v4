@@ -962,6 +962,13 @@ th {
 }
 
 /** ANIME CSS **/
+.ml2 .letter {
+	display: inline-block;
+	line-height: 55px;
+	font-weight: 400;
+	font-size: 45px;
+}
+
 .ml7 .letter {
 	display: inline-block;
 	line-height: 1em;
@@ -970,13 +977,6 @@ th {
 .ml9 .letter {
 	transform-origin: 50% 100%;
 	display: inline-block;
-}
-
-.ml12 .letter {
-	display: inline-block;
-	font-size: 45px;
-	line-height: 55px;
-	font-weight: 400;
 }
 
 .ml15 .word {
