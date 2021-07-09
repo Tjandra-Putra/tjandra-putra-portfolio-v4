@@ -2,6 +2,7 @@
 var textWrapper = document.querySelector('.ml7 .letters');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
+// INFITE LOOP
 anime
 	.timeline({ loop: true })
 	.add({
@@ -16,9 +17,9 @@ anime
 	})
 	.add({
 		targets: '.ml7',
-		opacity: 0,
 		duration: 1000,
 		easing: 'easeOutExpo',
+		opacity: 0,
 		delay: 1000
 	});
 

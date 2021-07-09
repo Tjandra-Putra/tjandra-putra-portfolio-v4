@@ -657,7 +657,7 @@ video:hover {
 .projects {
 	/* background-color: #fbfbfb; */
 	padding-top: 10%;
-	padding-bottom: 10%;
+	padding-bottom: 5%;
 }
 
 .projects img {
@@ -697,6 +697,45 @@ video:hover {
 	transform: scale(1.1);
 	cursor: pointer;
 } */
+
+.product {
+	margin-top: 5rem;
+}
+
+.product .title {
+	font-weight: 600;
+	font-size: 45px;
+}
+
+.product .sub-title {
+	font-size: 1.8rem;
+	font-weight: 500;
+	margin-top: 2rem;
+}
+
+.product .description {
+	font-weight: 300;
+	font-size: 1.2rem;
+}
+
+.product-badge-wrapper {
+	margin-top: 1.5rem;
+}
+
+.product-badge {
+	display: inline-block;
+	margin-top: 0.6rem;
+	width: fit-content;
+	height: fit-content;
+	border: 1px solid rgb(23, 25, 35);
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-right: 1.2rem;
+	padding: 0.2rem 0.5rem;
+	color: rgb(74, 85, 104);
+	background-color: rgb(247, 250, 252);
+	font-size: 1.1rem;
+}
 
 .about-me {
 	padding-top: 10%;
@@ -961,6 +1000,48 @@ th {
 	background-color: rgba(0, 0, 0, 0.4) !important;
 }
 
+.wrapper-product {
+	overflow-x: hidden !important;
+	max-width: 99.8%;
+	margin: 0px auto;
+	border-top: 2px solid #000000;
+	border-bottom: 2px solid #000000;
+	white-space: nowrap;
+	display: block;
+	transform: rotate(1.5deg);
+}
+
+.marquee {
+	white-space: nowrap;
+	display: inline-block;
+	animation: marquee 3s linear infinite;
+}
+
+.marquee p {
+	text-indent: 0px;
+	display: inline-block;
+	font-size: 4.5rem;
+	font-weight: 600;
+	-webkit-text-fill-color: rgb(247, 250, 252);
+	-webkit-text-stroke: 1px rgb(23, 25, 35);
+	will-change: transform !important;
+}
+
+.marquee p:hover {
+	-webkit-text-fill-color: unset;
+	-webkit-text-stroke: unset;
+	color: tomato;
+}
+
+@keyframes marquee {
+	0% {
+		transform: translate3d(0, 0, 0);
+	}
+	100% {
+		transform: translate3d(-50%, 0, 0);
+	}
+}
+
 /** ANIME CSS **/
 .ml2 .letter {
 	display: inline-block;
@@ -1071,6 +1152,10 @@ th {
 		font-size: 1.3rem !important;
 	}
 
+	.ml2 .letter {
+		font-size: 1.3rem !important;
+	}
+
 	.other-projects-box {
 		margin-left: 0.45rem;
 		width: 20rem;
@@ -1099,6 +1184,14 @@ th {
 
 	#pointer-ring {
 		display: none;
+	}
+
+	.product .title {
+		font-size: 1.6rem;
+	}
+
+	.product-badge {
+		font-size: 1rem;
 	}
 }
 
@@ -1191,6 +1284,14 @@ th {
 
 	#pointer-ring {
 		display: none;
+	}
+
+	.product .title {
+		font-size: 1.6rem;
+	}
+
+	.product-badge {
+		font-size: 1rem;
 	}
 }
 
