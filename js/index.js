@@ -8,10 +8,11 @@ var typed = new Typed('.type', {
 });
 
 if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
-	// document.getElementById('navbar').style.background = 'red';
 	console.log(document.body.scrollHeight);
 } else {
 }
+
+document.getElementById('navbar').style.background = 'white';
 
 window.addEventListener('scroll', (event) => {
 	// document.getElementById('navbar').style.background = 'rgb(245, 245, 245)';
@@ -72,3 +73,12 @@ window.onscroll = function() {
 	}
 	prevScrollpos = currentScrollPos;
 };
+
+  // Look for .hamburger
+  var hamburger = document.querySelector(".hamburger");
+  // On click
+  hamburger.addEventListener("click", function() {
+    // Toggle class "is-active"
+    hamburger.classList.toggle("is-active");
+    // Do something else, like open/close menu
+  });
