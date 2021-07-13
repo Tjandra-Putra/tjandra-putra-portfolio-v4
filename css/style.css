@@ -1355,7 +1355,8 @@ th {
 	
 
 	.experience {
-		margin-top: 13rem;
+		padding-top:0rem;
+		margin-top: 0rem !important;
 	}
 
 	#pointer-dot {
