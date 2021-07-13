@@ -1088,6 +1088,23 @@ th {
 		padding-left: unset;
 	}
 
+	.introduction-img-wrapper {
+		display: unset;
+		justify-content: unset;
+		flex-direction: unset;
+		align-items: unset;
+		min-height: unset;
+	}
+	
+	.introduction-message .col-md-7 {
+		display: unset;
+		justify-content: unset;
+		flex-direction: unset;
+		align-items: unset;
+		min-height: unset;
+		padding-top: 27vh;
+	}
+
 	.introduction-message .display-4 {
 		font-size: 1.4rem !important;
 	}
@@ -1230,6 +1247,7 @@ th {
 		padding-left: 2.5rem;
 	}
 
+
 	.introduction-message img {
 		display: none;
 	}
@@ -1317,6 +1335,24 @@ th {
 	.introduction .btn-dark{
 		width: 9.5rem !important;
 	}
+
+	.introduction-img-wrapper {
+		display: unset;
+		justify-content: unset;
+		flex-direction: unset;
+		align-items: unset;
+		min-height: unset;
+	}
+	
+	.introduction-message .col-md-7 {
+		display: unset;
+		justify-content: unset;
+		flex-direction: unset;
+		align-items: unset;
+		min-height: unset;
+		padding-top: 27vh;
+	}
+	
 
 	.experience {
 		margin-top: 13rem;
