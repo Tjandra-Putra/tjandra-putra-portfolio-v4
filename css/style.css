@@ -1235,6 +1235,11 @@ th {
 	.product-badge {
 		font-size: 1rem;
 	}
+
+	.other-projects .modal-title{
+		font-size:2rem !important;
+		padding-top:0.7rem;
+	}
 }
 
 /** PIXEL 2 **/
@@ -1387,7 +1392,11 @@ th {
 	#pointer-ring {
 		display: none;
 	}
-	
+
+	.other-projects .modal-title{
+		font-size:2rem !important;
+		padding-top:0.7rem;
+	}
 }
 
 /** IPHONE X **/
@@ -1426,5 +1435,10 @@ th {
 
 	#pointer-ring {
 		display: none !important;
+	}
+
+	.other-projects .modal-title{
+		font-size:2rem !important;
+		padding-top:0.7rem;
 	}
 }
