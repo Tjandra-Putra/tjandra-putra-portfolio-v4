@@ -1,7 +1,7 @@
 // Type.js
 // strings: [ 'Data Analyst.', 'Web Developer.', 'Mobile Developer.', 'RPA Developer.', 'UI/UX Designer.' ]
 var typed = new Typed('.type', {
-	strings: [ 'Software Engineer.' ],
+	strings: ['Software Engineer.'],
 	typeSpeed: 50,
 	backSpeed: 50,
 	loop: true
@@ -9,8 +9,7 @@ var typed = new Typed('.type', {
 
 if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
 	console.log(document.body.scrollHeight);
-} else {
-}
+} else {}
 
 document.getElementById('navbar').style.background = 'white';
 
@@ -64,7 +63,7 @@ function musicHandler() {
 }
 
 var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
+window.onscroll = function () {
 	var currentScrollPos = window.pageYOffset;
 	if (prevScrollpos > currentScrollPos) {
 		document.getElementById('navbar').style.top = '0';
@@ -74,11 +73,11 @@ window.onscroll = function() {
 	prevScrollpos = currentScrollPos;
 };
 
-  // Look for .hamburger
-  var hamburger = document.querySelector(".hamburger");
-  // On click
-  hamburger.addEventListener("click", function() {
-    // Toggle class "is-active"
-    hamburger.classList.toggle("is-active");
-    // Do something else, like open/close menu
-  });
+// Look for .hamburger
+var hamburger = document.querySelector(".hamburger");
+// On click
+hamburger.addEventListener("click", function () {
+	// Toggle class "is-active"
+	hamburger.classList.toggle("is-active");
+	// Do something else, like open/close menu
+});

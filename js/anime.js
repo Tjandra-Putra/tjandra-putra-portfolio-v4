@@ -4,13 +4,15 @@ textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='let
 
 // INFITE LOOP
 anime
-	.timeline({ loop: true })
+	.timeline({
+		loop: true
+	})
 	.add({
 		targets: '.ml7 .letter',
-		translateY: [ '1.1em', 0 ],
-		translateX: [ '0.55em', 0 ],
+		translateY: ['1.1em', 0],
+		translateX: ['0.55em', 0],
 		translateZ: 0,
-		rotateZ: [ 180, 0 ],
+		rotateZ: [180, 0],
 		duration: 750,
 		easing: 'easeOutExpo',
 		delay: (el, i) => 50 * i
@@ -28,10 +30,12 @@ var textWrapper = document.querySelector('.ml9 .letters');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
 anime
-	.timeline({ loop: true })
+	.timeline({
+		loop: true
+	})
 	.add({
 		targets: '.ml9 .letter',
-		scale: [ 0, 1 ],
+		scale: [0, 1],
 		duration: 1500,
 		elasticity: 600,
 		delay: (el, i) => 45 * (i + 1)
@@ -49,11 +53,13 @@ var textWrapper = document.querySelector('.ml2');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
 anime
-	.timeline({ loop: true })
+	.timeline({
+		loop: true
+	})
 	.add({
 		targets: '.ml2 .letter',
-		scale: [ 4, 1 ],
-		opacity: [ 0, 1 ],
+		scale: [4, 1],
+		opacity: [0, 1],
 		translateZ: 0,
 		easing: 'easeOutExpo',
 		duration: 950,
