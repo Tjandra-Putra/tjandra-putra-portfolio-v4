@@ -1,4 +1,4 @@
-// Type.js
+// ========================== TYPE.JS ==========================
 // strings: [ 'Data Analyst.', 'Web Developer.', 'Mobile Developer.', 'RPA Developer.', 'UI/UX Designer.' ]
 var typed = new Typed('.type', {
 	strings: ['Software Engineer.'],
@@ -7,6 +7,7 @@ var typed = new Typed('.type', {
 	loop: true
 });
 
+// ========================== NAVIGATION BAR CUSTOM ==========================
 document.getElementById('navbar').style.background = 'white';
 
 window.addEventListener('scroll', (event) => {
@@ -19,10 +20,32 @@ window.addEventListener('scroll', (event) => {
 	console.log(scroll);
 });
 
+// Navbar sticky hidden when user scrolls up
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function () {
+	var currentScrollPos = window.pageYOffset;
+	if (prevScrollpos > currentScrollPos) {
+		document.getElementById('navbar').style.top = '0';
+	} else {
+		document.getElementById('navbar').style.top = '-100px';
+	}
+	prevScrollpos = currentScrollPos;
+};
+
+
+// ========================== ANIMATE ON SCROLL ==========================
 AOS.init({
 	once: true
 });
 
+// ========================== POINTER.JS CURSON ==========================
+init_pointer({
+	pointerColor: "#222",
+	ringSize: 15,
+	ringClickSize: 10,
+});
+
+// ========================== CUSTOM MUSIC PLAYER ==========================
 // Bg Music
 var isPlaying = false;
 
@@ -56,18 +79,7 @@ function musicHandler() {
 	}
 }
 
-
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function () {
-	var currentScrollPos = window.pageYOffset;
-	if (prevScrollpos > currentScrollPos) {
-		document.getElementById('navbar').style.top = '0';
-	} else {
-		document.getElementById('navbar').style.top = '-100px';
-	}
-	prevScrollpos = currentScrollPos;
-};
-
+// ========================== Hamburger Menu Animation ==========================
 // Look for .hamburger
 var hamburger = document.querySelector(".hamburger");
 // On click
@@ -75,4 +87,11 @@ hamburger.addEventListener("click", function () {
 	// Toggle class "is-active"
 	hamburger.classList.toggle("is-active");
 	// Do something else, like open/close menu
+});
+
+// ========================== TOOL TIP ==========================
+tippy('#nav-home-tab', {
+	content: 'Nanyang Polytechnic',
+	animation: 'scale',
+	duration: 500
 });

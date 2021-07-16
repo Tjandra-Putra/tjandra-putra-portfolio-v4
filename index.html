@@ -28,6 +28,9 @@
   <!-- Hamburger Icon Nav -->
   <link rel="stylesheet" href="./css/hamburger.css">
 
+  <!-- Tipsy ToolTip-->
+  <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css" />
+
   <!-- Tab Icon -->
   <link rel="shortcut icon" type="image/png" href="./img/logo.PNG" />
 </head>
@@ -152,7 +155,7 @@
               <!-- <img src="./img/mouse.png" width="25" alt=""
                 class="img-fluid mx-auto animate__animated animate__bounce animate__infinite infinite"
                 style="margin-top: -10rem;"> -->
-              <img src="./img/mouse.png" width="25" alt="" class="img-fluid mx-auto" style="margin-top: -10rem;">
+              <!-- <img src="./img/mouse.png" width="25" alt="" class="img-fluid mx-auto" style="margin-top: -10rem;"> -->
             </div>
 
             <!-- <img src="./img/mouse.png" width="25" alt="" class="img-fluid mx-auto" style="margin-top: 3rem" /> -->
@@ -167,9 +170,7 @@
       <div class="container">
         <div data-aos="zoom-in">
           <div class="ml7-paused">
-            <h1 class="letters-paused">Where I've <span style="color: transparent;
-            text-shadow: none;
-            -webkit-text-stroke: .8px #000 !important;">Worked</span></h1>
+            <h1 class="letters-paused">Where I've Worked</span> —</h1>
           </div>
         </div>
 
@@ -194,16 +195,8 @@
                 <!-- Content 1-->
                 <div class="my-3"></div>
 
-                <!-- <div data-aos="zoom-in">
-                                    <div class="company text-orange">
-                                        <h3> Nanyang Polytechnic</h3>
-                                    </div>
-                                </div> -->
-
-                <div class="my-3"></div>
-
                 <div data-aos="fade-left" data-aos-duration="1000">
-                  <h5 style="font-weight: 400" class="text-orange">Software Engineer</h5>
+                  <h5 style="font-weight: 500" class="">Software Engineer</h5>
                   <p style="font-weight: 300">Mar 2020 – May 2020</p>
                   <div class="d-flex flex-row text-justify">
                     <div class="">
@@ -239,8 +232,8 @@
                 <hr />
 
                 <div data-aos="fade-left" data-aos-duration="1000">
-                  <h5 style="font-weight: 400" class="mt-4 text-orange">
-                    Full Stack Engineer
+                  <h5 style="font-weight: 500" class="mt-4">
+                    Full Stack Engineer —
                   </h5>
                   <p style="font-weight: 300">Jul 2020 – Sept 2020</p>
                   <div class="d-flex flex-row text-justify">
@@ -355,9 +348,7 @@
         <div data-aos="zoom-in">
           <div class="ml9-paused">
             <h1 class="letters-paused">
-              Things I've <span style="color: transparent;
-            text-shadow: none;
-            -webkit-text-stroke: .8px #000;">Developed</span>
+              Things I've Developed —
               <!-- <span style="font-weight: 300 !important;" class="underline">───────────────</span> -->
             </h1>
           </div>
@@ -921,9 +912,7 @@
           <div data-aos="zoom-in">
             <div class="ml2-paused">
               <h1 class="text-white letters-paused" style="line-height: 55px; font-weight: 400; font-size: 45px">
-                Other Noteworthy <span style="color: transparent;
-              text-shadow: none;
-              -webkit-text-stroke: .8px #000;">Projects</span>
+                Other Noteworthy Projects
               </h1>
             </div>
 
@@ -1344,9 +1333,9 @@
     </div>
   </div>
 
-  <div class="container">
+  <!-- <div class="container">
     <div class="line"></div>
-  </div>
+  </div> -->
 
   <footer>
     <div class="container">
@@ -1380,56 +1369,6 @@
     </div>
   </footer>
 
-  <!-- <footer>
-        <div class="d-flex flex-row text-white justify-content-center">
-            <div class="p-1">
-                <div class="footer-box text-center">
-                    <a href="https://github.com/Tjandra-Putra" class="text-white" target="_blank">
-                        <i class="fab fa-github icon"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="p-1">
-                <div class="footer-box text-center">
-                    <a href="https://www.linkedin.com/in/tjandra-putra-49472917a/" class="text-white" target="_blank">
-                        <i class="fab fa-linkedin icon"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="p-1">
-                <div class="footer-box text-center">
-                    <a href="mailto:tjandraputra2000z@gmail.com" class="text-white">
-                        <i class="far fa-paper-plane icon"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="text-center">
-            <a href="#about">
-                <img src="./img/rocket-launch.png" width="30" alt="" class="img-fluid mt-3">
-            </a>
-            <div class="text-white mt-3">
-                Made with <i class="far fa-heart"></i> by Tjandra
-            </div>
-        </div>
-    </footer> -->
-
-  <!-- <div class="sci">
-        <li>
-            <a href="">
-                <i class="fab fa-github text-dark"></i>
-            </a>
-        </li>
-        <li>
-            <a href="">
-                <i class="fab fa-linkedin-in text-dark"></i>
-        <li>
-            <a href="">
-                <i class="fas fa-envelope text-dark"></i>
-        </li>
-
-    </div> -->
-
   <a href="#" class="scrollToTop d-none d-sm-block">
     <!-- <i class="fas fa-chevron-up  fa-1x p-1" aria-hidden="true"></i> -->
     <!-- <img src="./img/up-arrow.png" width="20" alt=""> -->
@@ -1446,6 +1385,10 @@
       style="display: block" loop></audio>
   </div>
 
+  <!-- Tipsy ToolTip-->
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
+  <script src="https://unpkg.com/tippy.js@6"></script>
+
   <!-- animate.js -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
@@ -1455,20 +1398,8 @@
   <!-- Animate on scroll Script-->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-  <script>
-    AOS.init();
-  </script>
-
   <!-- Pointer.js -->
   <script src="./js/pointer.js"></script>
-
-  <script>
-    init_pointer({
-      pointerColor: "#222",
-      ringSize: 15,
-      ringClickSize: 10,
-    });
-  </script>
 
   <!-- Custom JS -->
   <script src="./js/index.js"></script>
