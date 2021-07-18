@@ -95,3 +95,15 @@ tippy('#nav-home-tab', {
 	animation: 'scale',
 	duration: 500
 });
+
+tippy('#about-smu', {
+	content: 'Bachelor of Science Information Systems Major',
+	animation: 'scale',
+	duration: 500
+});
+
+tippy('#about-nyp', {
+	content: 'Diploma in Business Informatics',
+	animation: 'scale',
+	duration: 500
+});
