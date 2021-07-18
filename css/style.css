@@ -821,7 +821,7 @@ video:hover {
 
 .col-md-3 .about-me-box:hover>.information-title {
 	/* color: #ff5722; */
-	font-weight:500;
+	font-weight: 500;
 	transition: .5s ease;
 
 }

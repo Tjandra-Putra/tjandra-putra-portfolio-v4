@@ -107,3 +107,9 @@ tippy('#about-nyp', {
 	animation: 'scale',
 	duration: 500
 });
+
+tippy('#play', {
+	content: 'Playing: The Power of Balance Rearranged  An Avatar Orchestrations',
+	animation: 'scale',
+	duration: 500
+});
