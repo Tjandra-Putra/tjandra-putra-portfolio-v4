@@ -872,6 +872,18 @@ video:hover {
 	transition: .5s ease;
 }
 
+.about-me-second .box:hover>.img-wrapper {
+	transition: .5s ease;
+	/* border: 2px solid #ff5722; */
+	/* box-shadow: 0px 10px 20px rgb(255, 87, 34); */
+	box-shadow: rgb(255, 87, 34) 0px 5px 15px;
+
+}
+
+.about-me-second .box:hover>small {
+	color: #ff5722;
+}
+
 .about-me-second .title {
 	font-size: 1.5rem;
 }

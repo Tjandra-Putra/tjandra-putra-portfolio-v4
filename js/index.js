@@ -109,7 +109,7 @@ tippy('#about-nyp', {
 });
 
 tippy('#play', {
-	content: 'Playing: The Power of Balance Rearranged  An Avatar Orchestrations',
+	content: 'Currently Playing: \n The Power of Balance Rearranged  An Avatar Orchestrations',
 	animation: 'scale',
 	duration: 500
 });
