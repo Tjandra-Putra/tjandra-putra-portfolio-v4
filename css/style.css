@@ -820,13 +820,14 @@ video:hover {
 }
 
 .col-md-3 .about-me-box:hover>.information-title {
-	color: #ff5722;
+	/* color: #ff5722; */
+	font-weight:500;
 	transition: .5s ease;
 
 }
 
 .col-md-3 .about-me-box:hover>.information-title span {
-	color: #000000 !important;
+	/* color: #000000 !important; */
 	transition: .5s ease;
 
 }
