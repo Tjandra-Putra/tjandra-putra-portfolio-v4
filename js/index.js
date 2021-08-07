@@ -114,7 +114,7 @@ tippy("#about-nyp", {
 //     duration: 500,
 // });
 
-tippy("#play", {
+tippy("#pause", {
     content: "Currently Playing: \n Hanezeve Caradhina A Made In Abyss",
     animation: "scale",
     duration: 500,
