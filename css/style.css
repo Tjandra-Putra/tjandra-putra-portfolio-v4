@@ -835,7 +835,7 @@ video:hover {
 }
 
 .border-right {
-    border-right: 1px solid #000000 !important;
+    border-right: 2px solid #000000 !important;
     height: 15rem;
 }
 
