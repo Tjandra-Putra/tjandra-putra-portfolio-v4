@@ -1170,6 +1170,19 @@ th {
     transform: rotate(1.5deg);
 }
 
+.product-demo-text-wrapper {
+    animation: move 0.5s infinite ease alternate;
+}
+
+@keyframes move {
+    from {
+        transform: translateX(-5px);
+    }
+    to {
+        transform: translateX(5px);
+    }
+}
+
 .product-demo-text::before {
     transform: scaleX(0);
     transform-origin: bottom right;
