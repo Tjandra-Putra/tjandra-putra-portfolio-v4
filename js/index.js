@@ -107,9 +107,15 @@ tippy("#about-nyp", {
     duration: 500,
 });
 
+// tippy("#play", {
+//     content:
+//         "Currently Playing: \n The Power of Balance Rearranged  An Avatar Orchestrations",
+//     animation: "scale",
+//     duration: 500,
+// });
+
 tippy("#play", {
-    content:
-        "Currently Playing: \n The Power of Balance Rearranged  An Avatar Orchestrations",
+    content: "Currently Playing: \n Hanezeve Caradhina A Made In Abyss",
     animation: "scale",
     duration: 500,
 });
