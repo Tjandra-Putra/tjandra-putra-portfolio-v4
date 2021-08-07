@@ -198,13 +198,13 @@ video:hover {
 
 #personal-quality {
     font-size: 1rem;
-    font-weight: 300;
+    font-weight: 400;
     width: 87%;
-    color: #666;
+    /* color: #666; */
 }
 
 .personal-quality-bold {
-    font-weight: 500;
+    font-weight: 600;
 }
 
 #scribble-arrow {
@@ -347,8 +347,8 @@ video:hover {
 }
 
 .brands {
-    border-top: 2px solid #000000;
-    border-bottom: 2px solid #000000;
+    /* border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000; */
     height: 13rem;
 }
 
@@ -800,13 +800,13 @@ video:hover {
     margin-top: 0.6rem;
     width: fit-content;
     height: fit-content;
-    border: 1px solid rgb(23, 25, 35);
+    border: 2px solid #000000;
     text-transform: uppercase;
     font-weight: 600;
     margin-right: 1.2rem;
     padding: 0.2rem 0.5rem;
-    color: rgb(74, 85, 104);
-    background-color: rgb(247, 250, 252);
+    /* color: rgb(74, 85, 104); */
+    background-color: #ff562215;
     font-size: 1.1rem;
 }
 
@@ -1016,12 +1016,34 @@ footer .text-footer {
     padding: 10px !important;
 }
 
+.side-social-links {
+    position: fixed;
+    /* bottom: 191px; */
+    bottom: 55%;
+    right: 21px;
+    right: 23px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.side-social-link {
+    color: #000000;
+}
+
+.side-social-links .side-social-link:hover {
+    color: #ff5722;
+    transition: 0.5s;
+    transform: translateY(-4px) !important;
+}
+
 .bg-music {
     position: fixed;
     bottom: 56px;
     right: 20px;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     text-align: center;
     /* background: #58677c; */
     color: #fff;
