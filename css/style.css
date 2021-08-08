@@ -406,230 +406,7 @@ video:hover {
     border-radius: 100%;
     animation: trackBallSlide 5s linear infinite;
 }
-
-@keyframes colorSlide {
-    0% {
-        background-position: 0% 100%;
-    }
-
-    20% {
-        background-position: 0% 0%;
-    }
-
-    21% {
-        background-color: #4e5559;
-    }
-
-    29.99% {
-        background-color: #fff;
-        background-position: 0% 0%;
-    }
-
-    30% {
-        background-color: #4e5559;
-        background-position: 0% 100%;
-    }
-
-    50% {
-        background-position: 0% 0%;
-    }
-
-    51% {
-        background-color: #4e5559;
-    }
-
-    59% {
-        background-color: #fff;
-        background-position: 0% 0%;
-    }
-
-    60% {
-        background-color: #4e5559;
-        background-position: 0% 100%;
-    }
-
-    80% {
-        background-position: 0% 0%;
-    }
-
-    81% {
-        background-color: #4e5559;
-    }
-
-    90%,
-    100% {
-        background-color: #fff;
-    }
-}
-
-@keyframes trackBallSlide {
-    0% {
-        opacity: 1;
-        transform: scale(1) translateY(-20px);
-    }
-
-    6% {
-        opacity: 1;
-        transform: scale(0.9) translateY(5px);
-    }
-
-    14% {
-        opacity: 0;
-        transform: scale(0.4) translateY(40px);
-    }
-
-    15%,
-    19% {
-        opacity: 0;
-        transform: scale(0.4) translateY(-20px);
-    }
-
-    28%,
-    29.99% {
-        opacity: 1;
-        transform: scale(1) translateY(-20px);
-    }
-
-    30% {
-        opacity: 1;
-        transform: scale(1) translateY(-20px);
-    }
-
-    36% {
-        opacity: 1;
-        transform: scale(0.9) translateY(5px);
-    }
-
-    44% {
-        opacity: 0;
-        transform: scale(0.4) translateY(40px);
-    }
-
-    45%,
-    49% {
-        opacity: 0;
-        transform: scale(0.4) translateY(-20px);
-    }
-
-    58%,
-    59.99% {
-        opacity: 1;
-        transform: scale(1) translateY(-20px);
-    }
-
-    60% {
-        opacity: 1;
-        transform: scale(1) translateY(-20px);
-    }
-
-    66% {
-        opacity: 1;
-        transform: scale(0.9) translateY(5px);
-    }
-
-    74% {
-        opacity: 0;
-        transform: scale(0.4) translateY(40px);
-    }
-
-    75%,
-    79% {
-        opacity: 0;
-        transform: scale(0.4) translateY(-20px);
-    }
-
-    88%,
-    100% {
-        opacity: 1;
-        transform: scale(1) translateY(-20px);
-    }
-}
-
-@keyframes nudgeMouse {
-    0% {
-        transform: translateY(0);
-    }
-
-    20% {
-        transform: translateY(8px);
-    }
-
-    30% {
-        transform: translateY(0);
-    }
-
-    50% {
-        transform: translateY(8px);
-    }
-
-    60% {
-        transform: translateY(0);
-    }
-
-    80% {
-        transform: translateY(8px);
-    }
-
-    90% {
-        transform: translateY(0);
-    }
-}
-
-@keyframes nudgeText {
-    0% {
-        transform: translateY(0);
-    }
-
-    20% {
-        transform: translateY(2px);
-    }
-
-    30% {
-        transform: translateY(0);
-    }
-
-    50% {
-        transform: translateY(2px);
-    }
-
-    60% {
-        transform: translateY(0);
-    }
-
-    80% {
-        transform: translateY(2px);
-    }
-
-    90% {
-        transform: translateY(0);
-    }
-}
-
-@keyframes colorText {
-    21% {
-        color: #4e5559;
-    }
-
-    30% {
-        color: #fff;
-    }
-
-    51% {
-        color: #4e5559;
-    }
-
-    60% {
-        color: #fff;
-    }
-
-    81% {
-        color: #4e5559;
-    }
-
-    90% {
-        color: #fff;
-    }
-} */
+*/
 
 .experience h5 {
     font-weight: 600;
@@ -671,6 +448,100 @@ video:hover {
     box-shadow: rgba(52, 58, 64, 0.4) 5px 5px, rgba(52, 58, 64, 0.3) 10px 10px,
         rgba(52, 58, 64, 0.2) 15px 15px, rgba(52, 58, 64, 0.1) 20px 20px,
         rgba(52, 58, 64, 0.05) 25px 25px;
+}
+
+.project-type {
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.project-type .numbers {
+    margin: auto;
+    border-radius: 50px;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    font-weight: 600;
+    border: 2px solid #000000;
+    padding-top: 0.7rem;
+}
+
+.project-type .box-title {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 1.8rem;
+}
+
+.project-type .box-desc {
+    font-weight: 300;
+    margin-top: 1rem;
+}
+
+.project-type .col-md {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.project-type h1 {
+    line-height: 55px;
+    font-weight: 400;
+    font-size: 45px;
+    max-width: 50rem;
+    text-align: center;
+    margin: auto;
+}
+
+.project-type .box {
+    height: 18rem;
+    margin-top: 3.5rem;
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: left;
+}
+
+.project-type .box:hover {
+    transition: 0.2s ease-in;
+    /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+    transform: translateY(-1rem);
+}
+
+.project-type .box1 {
+    background-color: #eaefeb;
+}
+
+.project-type .box2 {
+    background-color: #f1f6e9;
+}
+
+.project-type .box3 {
+    background-color: #fdecdc;
+}
+
+.project-type .box4 {
+    background-color: #f6e4eb;
+}
+
+.project-type .box5 {
+    background-color: #e0f0f1;
+}
+
+.project-type .btn-learn-more {
+    border-radius: 0px;
+    margin-top: 3rem;
+    border: 2px solid #000000;
+}
+
+.project-type .btn-learn-more a {
+    color: #000000;
+}
+
+.project-type .btn-learn-more a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
 }
 
 .projects {
@@ -1418,6 +1289,17 @@ th {
         text-align: center !important;
     }
 
+    .project-type .col-md {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+    .project-type h1 {
+        font-size: 1.3rem;
+        text-align: center !important;
+        line-height: 2rem;
+    }
+
     .experience img {
         display: none;
     }
@@ -1428,7 +1310,7 @@ th {
     }
 
     .projects {
-        margin-top: 9rem;
+        margin-top: unset !important;
     }
 
     .projects h1 {
