@@ -49,8 +49,8 @@ init_pointer({
 var isPlaying = false;
 
 var audio = document.getElementById("myMusic");
-// audio.volume = 0.03;
-audio.volume = 0.1;
+audio.volume = 0.03;
+// audio.volume = 0.1;
 
 // audio.play();
 
