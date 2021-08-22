@@ -625,6 +625,8 @@ video:hover {
     height: 1.6rem;
     width: 100%;
     /* background-color: #2e3543; */
+    border-radius: 10px 10px 0px 0px;
+    background: rgba(248, 248, 248, 0.561);
     border-bottom: 1px solid #eaeaea;
 }
 
