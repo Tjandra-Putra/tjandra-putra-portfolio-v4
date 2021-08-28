@@ -570,7 +570,8 @@ video:hover {
 }
 
 .text-grey {
-    color: #757575;
+    /* color: #757575; */
+    color: rgba(0, 0, 0, 0.658);
 }
 
 .fa-external-link-alt:hover,
@@ -606,7 +607,7 @@ video:hover {
 }
 
 .product .title {
-    font-weight: 600;
+    font-weight: 400;
     font-size: 45px;
 }
 
@@ -685,6 +686,7 @@ video:hover {
 
 .about-me {
     color: #000000;
+    margin-bottom: 10rem;
 }
 
 .about-me-box {
@@ -692,7 +694,12 @@ video:hover {
 }
 
 .col-md-3 .about-me-box:hover {
-    border-right: 2px solid #ff5722 !important;
+    border-right: 1px solid #ff5722 !important;
+    transition: 0.5s ease;
+}
+
+.col-md-3 .about-me-box:hover .information-title span {
+    color: #ff5722;
     transition: 0.5s ease;
 }
 
@@ -708,19 +715,21 @@ video:hover {
 }
 
 .border-right {
-    border-right: 2px solid #000000 !important;
+    border-right: 1px solid #000000 !important;
     height: 15rem;
 }
 
 .about-me .title {
     font-size: 3rem;
     line-height: 3.3rem;
+    font-weight: 300;
 }
 
 .about-me-box .information-title {
     font-size: 1.7rem;
-    font-weight: 500;
+    font-weight: 400;
     padding-bottom: 1.2rem;
+    transition: 0.5s ease;
 }
 
 .about-me-box .information-description {
@@ -1009,10 +1018,6 @@ footer .text-footer {
     font-weight: 400;
 }
 
-/* .other-projects .archived-link-main {
-	color: #ff5722;
-} */
-
 .other-projects .archived-link-main:hover {
     cursor: pointer !important;
 }
@@ -1045,6 +1050,24 @@ footer .text-footer {
 	border-radius: 15px !important;
 	color: #ffffff; */
     font-weight: 500;
+}
+
+.blog {
+    margin-top: 5rem;
+}
+
+.blog .title {
+    line-height: 55px;
+    font-weight: 400;
+    font-size: 45px;
+    color: rgba(0, 0, 0, 0.658);
+}
+
+.blog .box {
+    height: 30rem;
+    width: 100%;
+    border: 1px solid #000000;
+    border-radius: 5px;
 }
 
 th {
@@ -1540,6 +1563,11 @@ th {
 
     .about-me-box .information-title,
     .about-me-box .information-description {
+        text-align: center;
+    }
+
+    .blog .title {
+        font-size: 1.8rem;
         text-align: center;
     }
 }
