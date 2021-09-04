@@ -705,7 +705,6 @@ video:hover {
 
 .col-md-3 .about-me-box:hover > .information-title {
     /* color: #ff5722; */
-    font-weight: 500;
     transition: 0.5s ease;
 }
 
@@ -1056,18 +1055,75 @@ footer .text-footer {
     margin-top: 5rem;
 }
 
-.blog .title {
+.blog .main-title {
     line-height: 55px;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 45px;
-    color: rgba(0, 0, 0, 0.658);
+    /* color: rgba(119, 65, 65, 0.658); */
 }
 
 .blog .box {
-    height: 30rem;
+    height: 27rem;
     width: 100%;
-    border: 1px solid #000000;
     border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+        rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.blog .box:hover {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+        rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    transition: 0.5s;
+    transform: translateY(-0.4rem);
+}
+
+.blog .box .date {
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.blog .box .direct {
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: right;
+}
+
+.blog .box .direct a:hover {
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.blog .box .row {
+    margin-top: 4rem;
+}
+
+.blog .box .btn {
+    border-radius: 50px;
+    float: right;
+}
+
+.blog .box .category {
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.blog .box .title {
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+}
+
+.blog .box img {
+    border-radius: 5px 5px 0 0;
 }
 
 th {
