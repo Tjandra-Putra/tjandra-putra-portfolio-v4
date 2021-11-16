@@ -142,12 +142,6 @@ video:hover {
   border: 0px !important;
 }
 
-.nav-tabs .nav-item.show .nav-link,
-.nav-tabs .nav-link.active {
-  margin-top: 0.5rem;
-  /* background-color: #f0f0f075; */
-}
-
 .nav-item {
   padding-left: 2rem;
 }
@@ -902,7 +896,7 @@ footer .text-footer {
 .side-social-links {
   position: fixed;
   /* bottom: 191px; */
-  bottom: 55%;
+  bottom: 57%;
   right: 21px;
   right: 23px;
   width: 30px;
