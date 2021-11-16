@@ -1380,9 +1380,9 @@ th {
     line-height: 2rem;
   }
 
-  .experience img {
+  /* .experience img {
     display: none;
-  }
+  } */
 
   .full-height {
     height: unset;
@@ -1553,9 +1553,9 @@ th {
     margin-top: 1rem !important;
   }
 
-  .experience img {
+  /* .experience img {
     display: none;
-  }
+  } */
 
   .full-height {
     height: unset;
