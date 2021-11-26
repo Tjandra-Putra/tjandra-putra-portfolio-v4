@@ -359,7 +359,6 @@ video:hover {
 
 .experience h1 {
   line-height: 55px;
-  /* font-weight: 300; */
   font-weight: 400;
   font-size: 45px;
 }
@@ -677,6 +676,80 @@ video:hover {
   /* color: rgb(74, 85, 104); */
   background-color: #ff562215;
   font-size: 1.1rem;
+}
+
+.testimonial {
+  padding-top: 10%;
+  padding-bottom: 5%;
+  line-height: 55px;
+  font-weight: 400;
+  font-size: 45px;
+}
+
+.testimonial h1 {
+  text-align: center;
+}
+
+.testimonial .carousel {
+  /* border: 1px solid black; */
+  height: 26rem;
+  margin-top: 2rem;
+}
+
+.testimonial .quote {
+  text-align: justify;
+  font-size: 1.3rem;
+  padding-left: 1.7rem;
+  line-height: 2rem;
+  margin-bottom: 3rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.testimonial .description {
+  font-size: 1rem;
+  padding-left: 1.7rem;
+  font-style: italic;
+  font-size: 300;
+}
+
+.testimonial .endorser,
+.occupation {
+  font-size: 1rem;
+  padding-left: 1.7rem;
+}
+
+.testimonial .endorser {
+  font-weight: 600;
+}
+
+.testimonial .occupation {
+  margin-top: -2rem;
+}
+
+.testimonial .carousel-indicators .active {
+  background-color: rgba(0, 0, 0, 0.212);
+  height: 4px;
+  transform: translateY(-1.9px);
+}
+
+.testimonial .carousel-indicators li {
+  background-color: rgba(0, 0, 0, 0.199);
+  width: 300px;
+  transition: 0.3s !important;
+  margin-left: 0;
+  margin-right: 0;
+  height: 2px;
+}
+
+.testimonial .indicator-paging {
+  color: rgba(0, 0, 0, 0.199);
+  font-size: 1.4rem;
+}
+
+.testimonial .fa-quote-right {
+  color: rgba(0, 0, 0, 0.144);
+  font-size: 1.6rem;
 }
 
 .about-me {
@@ -1507,6 +1580,14 @@ th {
     font-size: 1.4rem;
     text-align: center;
   }
+
+  .testimonial .second-carousel-wrapper {
+    margin-top: 2rem;
+  }
+
+  .testimonial .carousel-indicators {
+    transform: translateY(7.7rem);
+  }
 }
 
 /** PIXEL 2 **/
@@ -1803,5 +1884,13 @@ th {
   .blog .box .title {
     font-size: 1.4rem;
     text-align: center;
+  }
+
+  .testimonial .second-carousel-wrapper {
+    margin-top: 2rem;
+  }
+
+  .testimonial .carousel-indicators {
+    transform: translateY(7.7rem);
   }
 }
