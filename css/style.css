@@ -752,6 +752,10 @@ video:hover {
   font-size: 1.6rem;
 }
 
+.testimonial .img-endorser {
+  border-radius: 10px;
+}
+
 .about-me {
   color: #000000;
   padding-top: 10%;
