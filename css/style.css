@@ -529,10 +529,10 @@ video:hover {
 
 .project-type .btn-learn-more a {
   color: #000000;
+  text-decoration: none;
 }
 
-.project-type .btn-learn-more a:hover {
-  text-decoration: none;
+.project-type .btn-learn-more:hover > a {
   color: #ffffff;
   font-weight: 500;
 }
@@ -856,7 +856,7 @@ video:hover {
 }
 
 .connect {
-  padding-top: 10%;
+  padding-top: 5%;
   padding-bottom: 5%;
 }
 
