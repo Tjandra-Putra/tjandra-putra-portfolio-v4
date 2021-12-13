@@ -543,7 +543,9 @@ video:hover {
   padding-bottom: 5%;
 }
 
-.projects img {
+.projects-wrapper {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   border-radius: 10px;
 }
 
@@ -570,11 +572,6 @@ video:hover {
 .fa-external-link-alt:hover,
 .fa-lock:hover {
   color: #000000;
-}
-
-.projects video {
-  border-radius: 10px;
-  /* transition: 0.4s ease-in-out; */
 }
 
 /* .projects video:hover {
