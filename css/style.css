@@ -543,8 +543,9 @@ video:hover {
   padding-bottom: 5%;
 }
 
-.projects img {
-  border-radius: 10px;
+.projects .projects-wrapper {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  border-radius: 10px 10px 0 0;
 }
 
 .projects h6 {
@@ -573,7 +574,6 @@ video:hover {
 }
 
 .projects video {
-  border-radius: 10px;
   /* transition: 0.4s ease-in-out; */
 }
 
