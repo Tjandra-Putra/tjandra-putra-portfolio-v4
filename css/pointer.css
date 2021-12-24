@@ -3,12 +3,11 @@
      witch can be found on https://seattleowl.com. 
 */
 
-#pointer-dot {
+/* #pointer-dot {
   left: 0;
   top: 0;
   width: 0;
   height: 0;
-  /* border: 2.5px solid white; */
   border: 3px solid black !important;
   position: fixed;
   border-radius: 4px;
@@ -28,6 +27,36 @@
   border-radius: 100px;
   z-index: 102;
   pointer-events: none;
+} */
+
+#pointer-dot {
+  left: -15px;
+  top: -10px;
+  width: 0px;
+  height: 0;
+  border: 18px solid white !important;
+  transform: translate3d(0, 0, 0);
+  mix-blend-mode: difference;
+  position: fixed;
+  border-radius: 50%;
+  z-index: 101;
+  pointer-events: none;
+  transition: border-color 0.5s;
+}
+
+#pointer-ring {
+  z-index: 100 !important;
+  border-radius: 50%;
+  pointer-events: none;
+  overflow: hidden;
+  position: fixed;
+  background: white;
+  mix-blend-mode: difference;
+  transition: width 0.25s ease-in-out, height 0.25s ease-in-out;
+  width: 90px;
+  height: 90px;
+  left: -27px;
+  top: -20px;
 }
 
 html {
