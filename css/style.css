@@ -97,9 +97,32 @@ html {
   border: none;
 }
 
+.visit-link {
+  position: relative;
+}
+
 .visit-link:hover {
   font-weight: 400 !important;
   text-decoration: none !important;
+  color: #000000;
+}
+
+.visit-link:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #000000;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.visit-link:hover:after {
+  width: 100%;
+  left: 0;
 }
 
 .visit-link a {
@@ -122,6 +145,10 @@ html {
   width: 100%;
   display: block;
   transition: top 0.3s;
+}
+
+.modal-content {
+  border-radius: 5px;
 }
 
 .modal-header {
@@ -547,7 +574,7 @@ html {
 }
 
 .project-type .btn-learn-more {
-  border-radius: 0px;
+  border-radius: 3px;
   margin-top: 3rem;
   border: 2px solid #000000;
 }
@@ -786,7 +813,7 @@ html {
 }
 
 .col-md-3 .about-me-box:hover {
-  border-right: 1px solid #991b1b !important;
+  border-right: 2px solid #991b1b !important;
   transition: 0.5s ease;
 }
 
@@ -883,6 +910,12 @@ html {
   padding-top: 5%;
   padding-bottom: 5%;
   background-color: #000000;
+  background-image: url("../img/black.jpeg");
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .connect .title {
@@ -1174,18 +1207,6 @@ footer .text-footer {
   font-weight: 600;
 }
 
-.other-projects .archived-link {
-  font-weight: 500;
-}
-
-.other-projects .archived-link:hover {
-  font-weight: 400;
-}
-
-.other-projects .archived-link-main:hover {
-  cursor: pointer !important;
-}
-
 .other-projects .sniffy-img {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   border-radius: 20px;
@@ -1198,7 +1219,7 @@ footer .text-footer {
 .other-projects video {
   height: 13.7rem;
   /* box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px; */
-  cursor: none !important;
+  /* cursor: none !important; */
 }
 
 .badge-secondary {
@@ -1299,6 +1320,10 @@ th {
 
 .blurred-bg-modal {
   background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.archived-link-main {
+  cursor: pointer !important;
 }
 
 .wrapper-product {
@@ -1488,6 +1513,11 @@ th {
 
 /** GALAXY S5 **/
 @media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
+  .modal-content {
+    max-height: 80vh;
+    overflow-y: scroll;
+  }
+
   .bg-music {
     width: 25px;
     height: auto;
@@ -1849,6 +1879,11 @@ th {
 
 /** PIXEL 2 XL **/
 @media only screen and (min-device-width: 411px) and (max-device-width: 823px) {
+  .modal-content {
+    max-height: 80vh;
+    overflow-y: scroll;
+  }
+
   .underline {
     display: none;
   }
