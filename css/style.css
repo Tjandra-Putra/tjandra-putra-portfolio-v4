@@ -776,7 +776,7 @@ html {
 .about-me {
   color: #000000;
   padding-top: 10%;
-  padding-bottom: 5%;
+  padding-bottom: 15%;
 }
 
 .about-me-box {
@@ -823,6 +823,11 @@ html {
 
 .about-me-box .information-description {
   color: #000000;
+}
+
+.about-me-box .information-description a {
+  font-weight: 500;
+  text-transform: none;
 }
 
 .about-me .description {
@@ -1071,7 +1076,7 @@ footer .text-footer {
 }
 
 .side-social-links .side-social-link:hover {
-  color: #ff5722;
+  color: #991b1b;
   transition: 0.5s;
   transform: translateY(-4px) !important;
 }
@@ -1165,6 +1170,10 @@ footer .text-footer {
 .other-projects-title {
   padding-top: 0.5rem !important;
   font-weight: 600;
+}
+
+.other-projects .archived-link {
+  font-weight: 500;
 }
 
 .other-projects .archived-link:hover {
@@ -1402,7 +1411,7 @@ th {
 #pause {
   /* background: white; */
   box-shadow: 0 0 0 0 rgba(255, 255, 255, 1);
-  animation: pulse-orange 2s infinite;
+  animation: pulse-beet-red 2s infinite;
   /* bottom: 15%;
 	position: absolute;
 	-webkit-animation: linear infinite;
@@ -1431,6 +1440,23 @@ th {
   0% {
     transform: scale(0.95);
     box-shadow: 0 0 0 0 rgba(255, 121, 63, 0.7);
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(255, 121, 63, 0);
+  }
+
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(255, 121, 63, 0);
+  }
+}
+
+@keyframes pulse-beet-red {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 #991b1b;
   }
 
   70% {

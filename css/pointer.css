@@ -90,6 +90,10 @@
   top: -20px;
 }
 
+a:hover #pointer-ring {
+  width: 100px !important;
+}
+
 html {
   cursor: none !important;
 }
