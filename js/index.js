@@ -89,6 +89,27 @@ hamburger.addEventListener("click", function () {
 });
 
 // ========================== TOOL TIP ==========================
+tippy("#side-nav-email", {
+  content: "Email",
+  animation: "scale",
+  duration: 500,
+  placement: "left",
+});
+
+tippy("#side-nav-github", {
+  content: "Github",
+  animation: "scale",
+  duration: 500,
+  placement: "left",
+});
+
+tippy("#side-nav-linkedin", {
+  content: "LinkedIn",
+  animation: "scale",
+  duration: 500,
+  placement: "left",
+});
+
 tippy("#nav-home-tab", {
   content: "Nanyang Polytechnic",
   animation: "scale",
