@@ -198,13 +198,30 @@ html {
   font-weight: 500 !important;
 }
 
+.companies {
+  transform: translateY(-15vh);
+  padding-top: 2rem;
+}
+
+.companies p {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.companies-logo {
+  width: 12vw;
+  filter: grayscale(100%);
+}
+
 .introduction-img-wrapper {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: flex-start;
   min-height: 100vh;
-  /* padding-top: 20vh; */
 }
 
 .introduction-message .col-md-7 {
@@ -212,8 +229,6 @@ html {
   justify-content: center;
   flex-direction: column;
   align-items: flex-start;
-  min-height: 100vh;
-  /* padding-top: 27vh; */
 }
 
 .display-4 {
