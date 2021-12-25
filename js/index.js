@@ -17,7 +17,7 @@ window.addEventListener("scroll", (event) => {
   } else {
     document.getElementById("navbar").style.background = "white";
   }
-  console.log(scroll);
+  // console.log(scroll);
 });
 
 // Navbar sticky hidden when user scrolls up
@@ -118,4 +118,26 @@ tippy("#play", {
   content: "Currently Playing: \n Hanezeve Caradhina A Made In Abyss",
   animation: "scale",
   duration: 500,
+});
+
+new hoverEffect({
+  parent: document.querySelector(".img-effect"),
+  intensity1: 1,
+  intensity2: 2,
+  speedIn: 1,
+  speedOut: 1,
+  image1: "img/04.png",
+  image2: "img/03.png",
+  displacementImage: "img/4.jpg",
+});
+
+new hoverEffect({
+  parent: document.querySelector(".img-effect-2"),
+  intensity1: 1,
+  intensity2: 2,
+  speedIn: 1,
+  speedOut: 1,
+  image1: "img/university-analysis-figma.png",
+  image2: "img/university-analysis-figma.png",
+  displacementImage: "img/4.jpg",
 });
