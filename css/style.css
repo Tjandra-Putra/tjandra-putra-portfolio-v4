@@ -828,7 +828,7 @@ html {
 }
 
 .col-md-3 .about-me-box:hover {
-  border-right: 2px solid #991b1b !important;
+  border-right: 3px solid #991b1b !important;
   transition: 0.5s ease;
 }
 
@@ -848,7 +848,7 @@ html {
 }
 
 .border-right {
-  border-right: 2px solid #000000 !important;
+  border-right: 3px solid #000000 !important;
   height: 15rem;
 }
 
