@@ -17,7 +17,25 @@ window.addEventListener("scroll", (event) => {
   } else {
     document.getElementById("navbar").style.background = "white";
   }
-  // console.log(scroll);
+
+  // for icons
+  if (scroll > 9300) {
+    document.getElementById("side-nav-github").style.color = "white";
+    document.getElementById("side-nav-linkedin").style.color = "white";
+    document.getElementById("side-nav-email").style.color = "white";
+    document.getElementById("side-email").style.color = "white";
+    document.getElementById("pause").style.filter = "invert(100)";
+    document.getElementById("play").style.filter = "invert(100)";
+  } else {
+    document.getElementById("side-nav-github").style.color = "black";
+    document.getElementById("side-nav-linkedin").style.color = "black";
+    document.getElementById("side-nav-email").style.color = "black";
+    document.getElementById("side-email").style.color = "black";
+    document.getElementById("pause").style.filter = "none";
+    document.getElementById("play").style.filter = "none";
+  }
+
+  console.log(scroll);
 });
 
 // Navbar sticky hidden when user scrolls up

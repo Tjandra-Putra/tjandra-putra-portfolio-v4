@@ -1493,8 +1493,8 @@ th {
   writing-mode: vertical-lr;
   color: #000000;
   text-decoration: none;
-  letter-spacing: 1px;
-  font-weight: 600;
+  letter-spacing: 2px;
+  font-weight: 500;
 }
 
 .side-email .email:hover {
