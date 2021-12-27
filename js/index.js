@@ -26,8 +26,10 @@ window.onscroll = function () {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("navbar").style.top = "0";
+    // document.getElementById("nav-horizontal-line").style.top = "45px";
   } else {
     document.getElementById("navbar").style.top = "-100px";
+    // document.getElementById("nav-horizontal-line").style.top = "-100px";
   }
   prevScrollpos = currentScrollPos;
 };

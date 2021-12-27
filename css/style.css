@@ -97,6 +97,20 @@ html {
   border: none;
 }
 
+.navbar .nav-horizontal-line {
+  border-top: 3px solid black;
+  width: 100rem;
+  z-index: 999;
+  right: 0px;
+  /* position: fixed; */
+  z-index: 9999;
+  margin-right: -102rem;
+  transform: translateY(-0.9rem) translateX(7rem);
+  top: 45px;
+  box-sizing: border-box;
+  padding-left: 1rem;
+}
+
 .visit-link {
   position: relative;
 }
@@ -1113,12 +1127,12 @@ footer .text-footer {
   position: fixed;
   /* bottom: 191px; */
   bottom: 57%;
-  right: 21px;
-  right: 23px;
+  right: 30px;
   width: 30px;
   height: 30px;
   text-align: center;
   font-size: 1.5rem;
+  box-sizing: border-box;
 }
 
 .side-social-link {
@@ -1134,9 +1148,9 @@ footer .text-footer {
 .bg-music {
   position: fixed;
   bottom: 56px;
-  right: 20px;
-  width: 30px;
-  height: 30px;
+  right: 30px;
+  width: 28px;
+  height: 28px;
   text-align: center;
   color: #fff;
   border-radius: 50%;
@@ -1460,6 +1474,38 @@ th {
 	-webkit-animation-name: run;
 	-webkit-animation-duration: 1.5s; */
 }
+
+.side-email {
+  left: 30px;
+  right: auto;
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+  right: auto;
+  z-index: 10;
+}
+
+.side-email .email {
+  writing-mode: vertical-lr;
+  color: #000000;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.side-email .vertical-line {
+  border-left: 3px solid black;
+  height: 120px;
+  transform: translateX(40%);
+}
+
+/* .side-email .email-wrapper {
+  transform: rotate(-90deg);
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+} */
 
 @keyframes pulse-white {
   0% {
