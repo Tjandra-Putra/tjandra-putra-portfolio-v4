@@ -1492,6 +1492,11 @@ th {
   letter-spacing: 1px;
 }
 
+.side-email .email:hover {
+  transform: translateY(-0.5rem);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
 .side-email .vertical-line {
   border-left: 3px solid black;
   height: 120px;
