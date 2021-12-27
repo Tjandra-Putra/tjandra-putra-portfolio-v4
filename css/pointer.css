@@ -95,9 +95,9 @@ a:hover #pointer-ring {
 }
 
 html {
-  cursor: none !important;
+  cursor: none;
 }
 
 a {
-  cursor: none !important;
+  cursor: none;
 }

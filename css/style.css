@@ -5,7 +5,6 @@
 
 html {
   scroll-behavior: smooth;
-  cursor: none !important;
   height: 100%;
   width: 100%;
 }
@@ -631,6 +630,12 @@ html {
 .projects .projects-wrapper {
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
   border-radius: 10px 10px 0 0;
+  overflow: hidden;
+}
+
+.projects .projects-wrapper img:hover {
+  transform: scale(1.03);
+  transition: all 0.5s ease-out;
 }
 
 .projects h6 {
@@ -942,13 +947,7 @@ html {
 .connect {
   padding-top: 5%;
   padding-bottom: 5%;
-  background-color: #000000;
-  background-image: url("../img/black.jpeg");
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #121211;
 }
 
 .connect .title {
@@ -957,14 +956,15 @@ html {
   /* -webkit-text-fill-color: #070001;
   -webkit-text-stroke-color: #ffffff;
   -webkit-text-stroke-width: 1px; */
-  color: #ffffff;
-  font-weight: 700;
+  color: #e1dbd7;
+  font-weight: 600;
   letter-spacing: 2px;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
 }
 
 .connect .box {
-  background-color: #e5e7eb;
+  /* background-color: #e5e7eb; */
+  background-color: #e1dbd7;
   margin-top: 4rem;
   padding: 3rem;
   border-radius: 3px;
@@ -986,16 +986,17 @@ html {
 .connect .heading-question {
   font-weight: 600;
   font-size: 2.5rem;
-  color: #ffffffd8;
-  padding-top: 23vh;
-  line-height: 3.5rem;
+  color: #e1dbd7;
+  padding-top: 21vh;
+  line-height: 6.5vh;
   text-align: justify;
   letter-spacing: 0.1px;
 }
 
 .connect .description-right {
   font-size: 1.2rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
   text-align: justify;
   line-height: 2.3rem;
   color: rgba(255, 255, 255, 0.623);
@@ -1029,9 +1030,10 @@ html {
   text-decoration: none !important;
 }
 
-.contact-say-hello:hover {
-  letter-spacing: 5px;
-  transition: 0.8s ease-in-out;
+.contact-say-hello:hover .fas {
+  transform: rotate(-45deg);
+  /* letter-spacing: 5px; */
+  transition: 0.4s ease-in-out;
 }
 
 .btn-connect:hover {
@@ -1042,7 +1044,7 @@ html {
 }
 
 footer {
-  background-color: #000000;
+  background-color: #121211;
   padding-top: 0rem;
   /* padding-bottom: 4rem; */
   margin-top: 5rem;

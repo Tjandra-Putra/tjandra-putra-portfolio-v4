@@ -26,6 +26,7 @@ window.addEventListener("scroll", (event) => {
     document.getElementById("side-email").style.color = "white";
     document.getElementById("pause").style.filter = "invert(100)";
     document.getElementById("play").style.filter = "invert(100)";
+    document.getElementById("vertical-line").style.borderColor = "white";
   } else {
     document.getElementById("side-nav-github").style.color = "black";
     document.getElementById("side-nav-linkedin").style.color = "black";
@@ -33,6 +34,7 @@ window.addEventListener("scroll", (event) => {
     document.getElementById("side-email").style.color = "black";
     document.getElementById("pause").style.filter = "none";
     document.getElementById("play").style.filter = "none";
+    document.getElementById("vertical-line").style.borderColor = "black";
   }
 
   console.log(scroll);
