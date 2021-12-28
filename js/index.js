@@ -1,3 +1,8 @@
+// setTimeout(function () {
+//   // alert("Hello");
+//   $("#introduction-modal").modal("show");
+// }, 4000);
+
 // ========================== TYPE.JS ==========================
 // strings: [ 'Data Analyst.', 'Web Developer.', 'Mobile Developer.', 'RPA Developer.', 'UI/UX Designer.' ]
 var typed = new Typed(".type", {
