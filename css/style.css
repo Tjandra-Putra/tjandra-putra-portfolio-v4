@@ -212,7 +212,8 @@ html {
 }
 
 .companies {
-  transform: translateY(-15vh);
+  /* transform: translateY(-15vh); */
+  margin-top: -16vh;
   padding-top: 2rem;
 }
 
