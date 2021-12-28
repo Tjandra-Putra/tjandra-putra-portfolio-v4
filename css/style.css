@@ -582,23 +582,23 @@ html {
   background-color: #0000000a;
 }
 
-.project-type .box1:hover {
+.project-type .box1 {
   background-color: #eaefeb;
 }
 
-.project-type .box2:hover {
+.project-type .box2 {
   background-color: #f1f6e9;
 }
 
-.project-type .box3:hover {
+.project-type .box3 {
   background-color: #fdecdc;
 }
 
-.project-type .box4:hover {
+.project-type .box4 {
   background-color: #f6e4eb;
 }
 
-.project-type .box5:hover {
+.project-type .box5 {
   background-color: #e0f0f1;
 }
 
