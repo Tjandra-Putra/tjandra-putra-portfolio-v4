@@ -1,7 +1,24 @@
-// setTimeout(function () {
-//   // alert("Hello");
-//   $("#introduction-modal").modal("show");
-// }, 4000);
+// ======================= INTRODUCTION MODAL ======================
+// function resizeForm() {
+//   // only runs on desktop
+//   var width =
+//     window.innerWidth > 0
+//       ? window.innerWidth
+//       : document.documentElement.clientWidth;
+//   if (width > 1024) {
+//     setTimeout(function () {
+//       $("#introduction-modal").modal("show");
+//     }, 3700);
+//   } else {
+//   }
+// }
+
+// window.onresize = resizeForm;
+// resizeForm();
+
+setTimeout(function () {
+  $("#introduction-modal").modal("show");
+}, 3700);
 
 // ========================== TYPE.JS ==========================
 // strings: [ 'Data Analyst.', 'Web Developer.', 'Mobile Developer.', 'RPA Developer.', 'UI/UX Designer.' ]
@@ -102,6 +119,21 @@ function musicHandler() {
     iconPlay.style.visibility = "hidden";
 
     iconPause.style.visibility = "visible";
+  }
+}
+
+function navMusicHandler() {
+  var audio = document.getElementById("myMusic");
+
+  if (isPlaying === false) {
+    isPlaying = true;
+    audio.play();
+
+    var iconPause = document.getElementById("pause");
+    var iconPlay = document.getElementById("play");
+    iconPlay.style.visibility = "visible";
+
+    iconPause.style.visibility = "hidden";
   }
 }
 

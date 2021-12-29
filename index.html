@@ -53,10 +53,10 @@
           
           <div class="collapse navbar-collapse" id="navbarNav">
             <div class="mr-auto"></div>
-            <ul class="navbar-nav">
+            <ul class="navbar-nav" onclick="navMusicHandler()">
               <div data-aos="fade-down" data-aos-delay="200">
                 <li class="nav-item">
-                  <a class="nav-link href="#about">about</a>
+                  <a class="nav-link" href="#about">about</a>
                 </li>
               </div>
               <div data-aos="fade-down" data-aos-delay="300">
@@ -82,8 +82,8 @@
                   </a>
                 </li>
               </div>         
-             </div>
             </ul>
+             </div>
           </div>
       </nav>
 
@@ -135,7 +135,7 @@
                 <a href="./img/Tjandra Putra's Resume.pdf" class="btn btn-dark mt-3" id="resume" target="_blank">
                   <p style="padding-top: 5px">Resume</p>
                 </a>
-                <a href="#experience" class="btn btn-orange mt-3 ml-2">
+                <a href="#experience" class="btn btn-orange mt-3 ml-2" onclick="musicHandler()">
                   <p style="padding-top: 5px">Learn More</p>
                 </a>
               </div>
@@ -372,7 +372,7 @@
         </div>
         <div class="row">
           <div class="col-md col-6">
-            <div data-aos="zoom-out-up" data-aos-duration="1200">
+            <div data-aos="fade-up" data-aos-duration="1200">
               <div class="box box1">
                 <div class="numbers">
                   1
@@ -387,7 +387,7 @@
             </div>
           </div>
           <div class="col-md col-6">
-            <div data-aos="zoom-out-up" data-aos-duration="1400">
+            <div data-aos="fade-up" data-aos-duration="1400">
               <div class="box box2">
                 <div class="numbers">
                   2
@@ -402,7 +402,7 @@
             </div>
           </div>
           <div class="col-md col-6">
-            <div data-aos="zoom-out-up" data-aos-duration="1800">
+            <div data-aos="fade-up" data-aos-duration="1800">
               <div class="box box3">
                 <div class="numbers">
                   3
@@ -417,7 +417,7 @@
             </div>
           </div>
           <div class="col-md col-6">
-            <div data-aos="zoom-out-up" data-aos-duration="2200">
+            <div data-aos="fade-up" data-aos-duration="2200">
               <div class="box box4">
                 <div class="numbers">
                   4
@@ -432,7 +432,7 @@
             </div>
           </div>
           <div class="col-md col-6">
-            <div data-aos="zoom-out-up" data-aos-duration="2600">
+            <div data-aos="fade-up" data-aos-duration="2600">
               <div class="box box5">
                 <div class="numbers">
                   5
@@ -460,7 +460,7 @@
 
     <div class="testimonial full-height" id="testimonial">
       <div class="container">
-        <div data-aos="zoom-out-down" data-aos-duration="1000">
+        <div data-aos="zoom-in-down" data-aos-duration="1000">
           <h1>What Others Think About Me</h1>
         </div>
 
@@ -582,10 +582,10 @@
           </div>
 
           <div class="col-md-6 second-carousel-wrapper">
-            <div data-aos="zoom-out-up" data-aos-duration="1200">
+            <div data-aos="fade-up" data-aos-duration="1200">
 
               <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner" style="margin-top: 5.8rem;">
+                <div class="carousel-inner" style="margin-top: 4rem">
                   <div class="carousel-item active img-endorser">
                     <img class="d-block w-100 img-endorser" src="./img/Screenshot 2021-11-26 at 8.27.04 PM.png" alt="First slide" loading="lazy">
                   </div>
@@ -1522,7 +1522,7 @@
       <div class="container-fluid p-0">
           <div class="wrapper-product">
             <div class="marquee container">
-              <p class="font-montserrat">
+              <p>
                 Explore - Explore - Explore - Explore - Explore - Explore - Explore - Explore - Explore -&nbsp;
               </p>
             </div>
@@ -2070,26 +2070,44 @@
 </div>
 
 
-<!-- Introduction Modal
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" id="introduction-modal">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+<!-- Introduction Modal -->
+<div class="introduction-modal">
+  <div class="modal fade" id="introduction-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" id="introduction-modal" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog modal-dialog-centered modal-lg rounded-0" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 pt-4">
+          <h5 class="modal-title mx-auto" id="exampleModalLongTitle">
+            <i class="fas fa-headphones-alt"></i>
+          </h5>
+          <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button> -->
+        </div>
+        <div class="modal-body">
+         <div class="title">
+          this experience <br> is better with sound
+         </div>
+         <div class="description">adjust the volume of your speakers <br> or headphones accordingly</div>
+        </div>
+        <div class="modal-footer justify-content-center">
+          <!-- <a class="btn-enter" data-dismiss="modal" style="cursor: pointer;">
+            Enter
+          </a> -->
+          <div class="d-flex flex-row bd-highlight mb-3 justify-content-center">
+            <div class="p-2 bd-highlight">
+              <button class="btn btn-outline-light rounded-0 hvr-sweep-to-top" data-dismiss="modal" onclick="navMusicHandler()">Enable sound</button>
+            </div>
+            <div class="p-2 bd-highlight">
+              <button class="btn btn-outline-light rounded-0 hvr-sweep-to-top" data-dismiss="modal">Disable sound</button>
+            </div>
+          </div>
+          <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
       </div>
     </div>
   </div>
-</div> -->
+</div>
 
 <div class="side-email d-none d-sm-block">
   <div class="d-flex flex-column bd-highlight">
