@@ -1824,6 +1824,10 @@ th {
     line-height: 2.4rem;
   }
 
+  .carousel2 img {
+    margin-top: 2rem;
+  }
+
   .introduction-modal .modal .modal-body .description {
     font-size: 0.9rem;
     line-height: 1.3rem;
@@ -2285,6 +2289,10 @@ th {
 
   .connect .box .heading {
     font-size: 1.7rem;
+  }
+
+  .carousel2 img {
+    margin-top: 2rem;
   }
 
   footer {
