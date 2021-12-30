@@ -217,3 +217,8 @@ new hoverEffect({
   image2: "img/03.png",
   displacementImage: "img/4.jpg",
 });
+
+// ========================== GET CURRENT YEAR FOR COPYRIGHT ==========================
+document
+  .getElementById("copyright")
+  .appendChild(document.createTextNode(new Date().getFullYear()));
