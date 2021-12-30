@@ -18,7 +18,22 @@
 
 setTimeout(function () {
   $("#introduction-modal").modal("show");
-}, 3700);
+}, 3300);
+
+// Modal Animation on show
+$("#introduction-modal").on("show.bs.modal", function (e) {
+  $("#introduction-modal").attr(
+    "class",
+    "modal animate__animated animate__slideInDown"
+  );
+});
+
+$("#archive-modal").on("show.bs.modal", function (e) {
+  $("#archive-modal").attr(
+    "class",
+    "modal animate__animated animate__bounceInDown"
+  );
+});
 
 // ========================== TYPE.JS ==========================
 // strings: [ 'Data Analyst.', 'Web Developer.', 'Mobile Developer.', 'RPA Developer.', 'UI/UX Designer.' ]

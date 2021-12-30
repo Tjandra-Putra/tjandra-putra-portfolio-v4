@@ -1625,6 +1625,7 @@ th {
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
+
 .hvr-sweep-to-right:before {
   content: "";
   position: absolute;
@@ -1645,16 +1646,24 @@ th {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
+
 .hvr-sweep-to-right:hover,
 .hvr-sweep-to-right:focus,
 .hvr-sweep-to-right:active {
   color: white;
 }
+
 .hvr-sweep-to-right:hover:before,
 .hvr-sweep-to-right:focus:before,
 .hvr-sweep-to-right:active:before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
+}
+
+.modal.fade .modal-dialog {
+  -webkit-transform: translate(0);
+  -moz-transform: translate(0);
+  transform: translate(0);
 }
 
 /* Bob */
@@ -1819,6 +1828,15 @@ th {
 
 /** GALAXY S5 **/
 @media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
+  .other-projects .modal-content {
+    padding: 0 !important;
+  }
+
+  .other-projects .modal-title {
+    padding-top: 1.1rem;
+    font-size: 1.4rem !important;
+  }
+
   .introduction-modal .modal .modal-body .title {
     font-size: 2rem;
     line-height: 2.4rem;
@@ -1998,11 +2016,6 @@ th {
 
   .product-badge {
     font-size: 1rem;
-  }
-
-  .other-projects .modal-title {
-    font-size: 2rem !important;
-    padding-top: 0.7rem;
   }
 
   .about-me-box-mobile {
@@ -2199,6 +2212,10 @@ th {
 
 /** PIXEL 2 XL **/
 @media only screen and (min-device-width: 411px) and (max-device-width: 823px) {
+  .modal-content {
+    padding: 0 !important;
+  }
+
   .introduction-modal .modal .modal-body .title {
     font-size: 2rem;
     line-height: 2.4rem;
@@ -2302,6 +2319,11 @@ th {
 
 /** IPHONE X **/
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  .other-projects .modal-title {
+    padding-top: 1.1rem;
+    font-size: 1.4rem !important;
+  }
+
   .underline {
     display: none;
   }
@@ -2339,8 +2361,8 @@ th {
   }
 
   .other-projects .modal-title {
-    font-size: 2rem !important;
-    padding-top: 0.7rem;
+    font-size: 2rem;
+    padding-top: 1.2rem;
   }
 
   .about-me-box-mobile {
