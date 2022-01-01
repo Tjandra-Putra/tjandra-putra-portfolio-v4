@@ -16,9 +16,9 @@
 // window.onresize = resizeForm;
 // resizeForm();
 
-// setTimeout(function () {
-//   $("#introduction-modal").modal("show");
-// }, 3300);
+setTimeout(function () {
+  $("#introduction-modal").modal("show");
+}, 3300);
 
 // Modal Animation on show
 $("#introduction-modal").on("show.bs.modal", function (e) {
