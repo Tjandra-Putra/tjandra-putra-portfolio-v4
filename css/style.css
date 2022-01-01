@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Sriracha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Mitr:wght@200;300;400;500;600;700&family=Pacifico&family=Poiret+One&family=Righteous&family=Sen:wght@400;700;800&family=Spartan:wght@100;200;300;400;500;600;700;800;900&family=Sriracha&family=Varela+Round&family=ZCOOL+XiaoWei&display=swap");
 
 html {
   scroll-behavior: smooth;
@@ -33,6 +34,17 @@ html {
 .font-montserrat {
   font-family: "Montserrat", sans-serif;
 }
+/* 
+font-family: "Alata", sans-serif;
+font-family: "Mitr", sans-serif;
+font-family: "Pacifico", cursive;
+font-family: "Poiret One", cursive;
+font-family: "Righteous", cursive;
+font-family: "Sen", sans-serif;
+font-family: "Spartan", sans-serif;
+font-family: "Sriracha", cursive;
+font-family: "Varela Round", sans-serif;
+font-family: "ZCOOL XiaoWei", serif; */
 
 * {
   font-family: "Poppins", sans-serif;
@@ -229,7 +241,7 @@ html {
 .companies p {
   text-transform: uppercase;
   font-size: 0.8rem;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: 1px;
   font-family: "Montserrat", sans-serif !important;
 }
@@ -261,7 +273,9 @@ html {
 
 #personal-quality {
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 500;
+  line-height: 1.5rem;
+  letter-spacing: 0.2px;
   width: 87%;
   /* color: #666; */
 }
@@ -423,9 +437,9 @@ html {
 
 .experience {
   /* background-color: #f0f0f075; */
-  padding-top: 3.5%;
-  height: 100%;
-  min-height: 100vh;
+  padding-top: 13%;
+  height: 100% !important;
+  min-height: 100vh !important;
 }
 
 .experience h1 {
@@ -515,8 +529,8 @@ html {
 }
 
 .project-type {
-  padding-top: 10%;
-  padding-bottom: 5%;
+  padding-top: 5%;
+  padding-bottom: 10%;
 }
 
 .project-type .numbers {
@@ -699,8 +713,20 @@ html {
 }
 
 .product .title {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 45px;
+  letter-spacing: 0.5px;
+  /* font-family: "Varela Round", sans-serif; */
+  font-family: "Mitr", sans-serif;
+
+  /* 
+font-family: "Pacifico", cursive;
+font-family: "Poiret One", cursive;
+font-family: "Righteous", cursive;
+font-family: "Sen", sans-serif;
+font-family: "Spartan", sans-serif;
+font-family: "Sriracha", cursive;
+*/
 }
 
 .product .sub-title {
@@ -710,8 +736,9 @@ html {
 }
 
 .product .description {
-  font-weight: 300;
+  font-weight: 500;
   font-size: 1.2rem;
+  letter-spacing: 0.2px;
 }
 
 .browser-bar {
@@ -766,14 +793,15 @@ html {
   margin-top: 0.6rem;
   width: fit-content;
   height: fit-content;
-  border: 1px solid #000000;
+  border: 2px solid #000000;
+  border-radius: 20px;
   text-transform: uppercase;
   font-weight: 500;
   margin-right: 1.2rem;
   padding: 0.2rem 0.5rem;
-  --tw-text-opacity: 1;
-  color: rgba(55, 65, 81, var(--tw-text-opacity));
-  font-size: 1.1rem;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  font-family: "Mitr", sans-serif;
 }
 
 .testimonial {
@@ -852,6 +880,49 @@ html {
 
 .testimonial .img-endorser {
   border-radius: 3px;
+}
+
+.about-me-2 {
+  padding-top: 20%;
+  padding-bottom: 30%;
+}
+
+.about-me-2 .wrapper {
+  background-color: #f6f6f6;
+  height: 50vh;
+}
+
+.about-me-2 .title {
+  font-size: 3.4rem;
+  font-weight: 500;
+  line-height: 3.8rem;
+  letter-spacing: 0.6px;
+  transform: translateY(14vh);
+}
+
+.about-me-2 .boxes-wrapper {
+  transform: translateY(-30vh);
+}
+
+.about-me-2 .box {
+  min-height: 30vh;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  /* border: 1px solid #0000001c; */
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 2rem;
+  margin-top: 1.5rem;
+}
+
+.about-me-2 .box .box-title {
+  font-weight: 600;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+
+.about-me-box .box .box-description br {
+  line-height: 10rem !important;
 }
 
 .about-me {
@@ -1389,6 +1460,7 @@ th {
   white-space: nowrap;
   display: block;
   transform: rotate(1.5deg);
+  background-color: #000000;
 }
 
 .product-demo-text-wrapper {
@@ -1437,7 +1509,7 @@ th {
 .marquee {
   white-space: nowrap;
   display: inline-block;
-  animation: marquee 5s linear infinite;
+  animation: marquee 20s linear infinite;
 }
 
 .marquee p {
@@ -1446,10 +1518,15 @@ th {
   font-size: 4.5rem;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 3px;
-  font-family: "Montserrat", sans-serif;
-  -webkit-text-fill-color: rgb(247, 250, 252);
-  -webkit-text-stroke: 1px rgb(23, 25, 35);
+  letter-spacing: 5px;
+  color: white;
+  padding-top: 15px;
+  font-family: "Varela Round", sans-serif;
+
+  /* font-family: "Montserrat", sans-serif; */
+
+  /* -webkit-text-fill-color: rgb(247, 250, 252);
+  -webkit-text-stroke: 1px rgb(23, 25, 35); */
   will-change: transform !important;
 }
 
@@ -2072,6 +2149,47 @@ th {
   .testimonial .carousel-indicators {
     transform: translateY(7.7rem);
   }
+
+  .about-me-2 {
+    padding-top: 20%;
+    padding-bottom: 20%;
+  }
+
+  .about-me-2 .wrapper {
+    background-color: #ffffff !important;
+    height: unset;
+    display: block;
+  }
+
+  .about-me-2 .title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2.3rem;
+    letter-spacing: 1px;
+    transform: unset;
+    text-align: left;
+    padding-top: 2rem;
+  }
+
+  .about-me-2 .boxes-wrapper {
+    transform: unset;
+  }
+
+  .about-me-2 .box {
+    min-height: unset;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 2rem;
+    margin-top: 2rem !important;
+  }
+
+  .about-me-2 .box .box-title {
+    font-weight: 600;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+  }
 }
 
 /** PIXEL 2 **/
@@ -2314,6 +2432,47 @@ th {
 
   footer {
     padding-top: 2rem;
+  }
+
+  .about-me-2 {
+    padding-top: 20%;
+    padding-bottom: 30%;
+  }
+
+  .about-me-2 .wrapper {
+    background-color: #ffffff !important;
+    height: unset;
+    display: block;
+  }
+
+  .about-me-2 .title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2.3rem;
+    letter-spacing: 1px;
+    transform: unset;
+    text-align: left;
+    padding-top: 2rem;
+  }
+
+  .about-me-2 .boxes-wrapper {
+    transform: unset;
+  }
+
+  .about-me-2 .box {
+    min-height: unset;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 2rem;
+    margin-top: 2rem !important;
+  }
+
+  .about-me-2 .box .box-title {
+    font-weight: 600;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
   }
 }
 
