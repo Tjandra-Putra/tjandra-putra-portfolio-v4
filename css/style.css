@@ -253,7 +253,7 @@ font-family: "ZCOOL XiaoWei", serif; */
 
 .companies-logo:hover {
   filter: none;
-  transition: 0.5s all ease-in-out;
+  transition: all 0.5s ease-in-out 0s;
 }
 
 .introduction-img-wrapper {
@@ -580,6 +580,7 @@ font-family: "ZCOOL XiaoWei", serif; */
   border-radius: 5px;
   padding: 1rem;
   text-align: left;
+  filter: grayscale(100);
 }
 
 .project-type .box:hover {
@@ -611,24 +612,29 @@ font-family: "ZCOOL XiaoWei", serif; */
   background-color: #0000000a;
 }
 
-.project-type .box1 {
+.project-type .box1:hover {
   background-color: #eaefeb;
+  filter: none;
 }
 
-.project-type .box2 {
+.project-type .box2:hover {
   background-color: #f1f6e9;
+  filter: none;
 }
 
-.project-type .box3 {
+.project-type .box3:hover {
   background-color: #fdecdc;
+  filter: none;
 }
 
-.project-type .box4 {
+.project-type .box4:hover {
   background-color: #f6e4eb;
+  filter: none;
 }
 
-.project-type .box5 {
+.project-type .box5:hover {
   background-color: #e0f0f1;
+  filter: none;
 }
 
 .project-type .btn-learn-more {
@@ -678,6 +684,13 @@ font-family: "ZCOOL XiaoWei", serif; */
 
 .projects h3 {
   font-weight: 500;
+  font-size: 2rem;
+  font-family: "Mitr", sans-serif;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+  /* 
+font-family: "Varela Round", sans-serif;
+font-family: "ZCOOL XiaoWei", serif; */
 }
 
 .projects h1 {
@@ -828,6 +841,7 @@ font-family: "Sriracha", cursive;
 }
 
 .testimonial .quote {
+  margin-top: 3px;
   text-align: justify;
   font-size: 1.3rem;
   padding-left: 1.7rem;
@@ -835,6 +849,10 @@ font-family: "Sriracha", cursive;
   margin-bottom: 3rem;
   font-weight: 400;
   letter-spacing: 1px;
+  /* font-family: "Mitr", sans-serif; */
+  /* font-family: "Varela Round", sans-serif; */
+
+  font-family: "Sriracha", cursive;
 }
 
 .testimonial .description {
@@ -885,6 +903,15 @@ font-family: "Sriracha", cursive;
 
 .testimonial .img-endorser {
   border-radius: 3px;
+}
+
+.testimonial .second-carousel-wrapper img {
+  filter: grayscale(100%);
+}
+
+.testimonial .second-carousel-wrapper img:hover {
+  filter: unset;
+  transition: all 0.5s ease-in-out 0s;
 }
 
 .about-me-2 {
