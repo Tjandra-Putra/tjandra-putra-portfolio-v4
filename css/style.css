@@ -251,6 +251,11 @@ font-family: "ZCOOL XiaoWei", serif; */
   filter: grayscale(100%);
 }
 
+.companies-logo:hover {
+  filter: none;
+  transition: 0.5s all ease-in-out;
+}
+
 .introduction-img-wrapper {
   display: flex;
   justify-content: center;
