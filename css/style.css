@@ -830,6 +830,13 @@ font-family: "Sriracha", cursive;
   font-size: 45px;
 }
 
+.testimonial .btn-learn-more {
+  border-radius: 3px;
+  margin-top: 3rem;
+  border: 2px solid #000000;
+  margin-top: -5rem;
+}
+
 .testimonial h1 {
   text-align: center;
 }
