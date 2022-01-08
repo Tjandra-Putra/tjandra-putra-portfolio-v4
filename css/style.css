@@ -687,13 +687,13 @@ font-family: "ZCOOL XiaoWei", serif; */
 }
 
 .projects h3 {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 2rem;
-  font-family: "Mitr", sans-serif;
+  /* font-family: "Mitr", sans-serif; */
   text-transform: lowercase;
   letter-spacing: 1px;
+  font-family: "Varela Round", sans-serif;
   /* 
-font-family: "Varela Round", sans-serif;
 font-family: "ZCOOL XiaoWei", serif; */
 }
 
