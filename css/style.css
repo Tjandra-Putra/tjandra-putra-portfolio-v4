@@ -958,9 +958,9 @@ font-family: "Sriracha", cursive;
 }
 
 .about-me-2 .box .box-title {
-  font-weight: 600;
+  font-weight: 400;
   font-size: 1.3rem;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   margin-bottom: 1rem;
 }
 
