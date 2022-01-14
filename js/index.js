@@ -16,9 +16,9 @@
 // window.onresize = resizeForm;
 // resizeForm();
 
-// setTimeout(function () {
-//   $("#introduction-modal").modal("show");
-// }, 3300);
+setTimeout(function () {
+  $("#introduction-modal").modal("show");
+}, 3300);
 
 // Modal Animation on show
 $("#introduction-modal").on("show.bs.modal", function (e) {
@@ -209,17 +209,17 @@ tippy("#about-nyp", {
 //     duration: 500,
 // });
 
-// tippy("#play", {
-//   content: "Currently Playing: \n Hanezeve Caradhina A Made In Abyss",
-//   animation: "scale",
-//   duration: 500,
-// });
-
 tippy("#play", {
-  content: "Currently Playing: \n Kazukii - Time We Lost",
+  content: "Currently Playing: \n Hanezeve Caradhina A Made In Abyss",
   animation: "scale",
   duration: 500,
 });
+
+// tippy("#play", {
+//   content: "Currently Playing: \n Kazukii - Time We Lost",
+//   animation: "scale",
+//   duration: 500,
+// });
 
 // ========================== IMAGE HOVER EFFECT DISTORTION ==========================
 new hoverEffect({
