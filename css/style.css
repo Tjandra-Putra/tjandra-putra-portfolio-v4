@@ -11,6 +11,10 @@ html {
   width: 100%;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .font-open-sans {
   font-family: "Open Sans", sans-serif !important;
 }
@@ -73,6 +77,7 @@ font-family: "ZCOOL XiaoWei", serif; */
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
+  /* width: 0px; */
 }
 
 ::-webkit-scrollbar:hover {
@@ -843,6 +848,7 @@ font-family: "Sriracha", cursive;
   margin-top: 3rem;
   border: 2px solid #000000;
   margin-top: -5rem;
+  background-color: white;
 }
 
 .testimonial h1 {

@@ -209,8 +209,14 @@ tippy("#about-nyp", {
 //     duration: 500,
 // });
 
+// tippy("#play", {
+//   content: "Currently Playing: \n Hanezeve Caradhina A Made In Abyss",
+//   animation: "scale",
+//   duration: 500,
+// });
+
 tippy("#play", {
-  content: "Currently Playing: \n Hanezeve Caradhina A Made In Abyss",
+  content: "Currently Playing: \n Falling Through the Hourglass",
   animation: "scale",
   duration: 500,
 });
