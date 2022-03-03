@@ -97,6 +97,9 @@ a:hover #pointer-ring {
 html {
   cursor: none;
 }
+video {
+  cursor: default;
+}
 
 a {
   cursor: none;
